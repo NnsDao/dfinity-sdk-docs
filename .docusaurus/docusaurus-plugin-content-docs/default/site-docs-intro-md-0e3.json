@@ -2,13 +2,13 @@
   "unversionedId": "intro",
   "id": "intro",
   "isDocsHomePage": false,
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "ICP文档介绍",
+  "description": "本文档包括ICP开发的基础知识、共识、Candid、Motoko入门、Rust、应用demo等。",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/intro.md",
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Create a Page",
+    "title": "本地开发",
     "permalink": "/docs/tutorial-basics/create-a-page"
   }
 }

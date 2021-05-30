@@ -16,16 +16,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "tutorial-basics/create-a-document",
               "path": "/docs/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
@@ -36,18 +26,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
+              "id": "tutorial-extras/canisters-code",
+              "path": "/docs/tutorial-extras/canisters-code",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
+              "id": "tutorial-extras/data-centers",
+              "path": "/docs/tutorial-extras/data-centers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/governance",
+              "path": "/docs/tutorial-extras/governance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
               "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/tokens-cycles",
+              "path": "/docs/tutorial-extras/tokens-cycles",
               "sidebar": "tutorialSidebar"
             },
             {

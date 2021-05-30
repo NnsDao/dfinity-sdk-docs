@@ -8,7 +8,7 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/markdown-features",
   "permalink": "/docs/tutorial-basics/markdown-features",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/markdown-features.mdx",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-basics/markdown-features.mdx",
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Blog Post",
-    "permalink": "/docs/tutorial-basics/create-a-blog-post"
+    "title": "网络部署",
+    "permalink": "/docs/tutorial-basics/create-a-document"
   },
   "next": {
-    "title": "Deploy your site",
-    "permalink": "/docs/tutorial-basics/deploy-your-site"
+    "title": "什么是互联网计算机（ICP）",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
   }
 }

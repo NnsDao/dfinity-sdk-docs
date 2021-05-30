@@ -2,42 +2,199 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# 本地开发
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+此快速入门文档是假设您第一次安装 DFINITY Canister SDK，并且正在运行“互联网计算机（ Internet Computer）”作为本地开发环境的一部分。
 
-## Create your first React Page
+首先，让我们构建和部署一个简单的 Hello 应用程序，该应用程序只有一个函数 — 称为greet. 该greet函数接受一个文本参数，并返回类似于问候语的结果，大家好！运行结果可以在终端窗口或浏览器输出。
 
-Create a file at `src/pages/my-react-page.js`:
+## 准备工作
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
++ 在您下载和安装当前版本的DFINITY Canister SDK之前，请确认以下几点。
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+  + 您的本地macOS或Linux终端上有正常的网络链接和访问shell终端的权限。
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+  + 目前，DFINITY Canister SDK只能在装有macOS或Linux操作系统的电脑上运行。
 
-## Create your first Markdown Page
+  + 如果你想在你的项目中包含用于前端开发的默认模板文件，要确保你已经安装了node.js。
 
-Create a file at `src/pages/my-markdown-page.md`:
+  + 本教程假定你知道如何在电脑上执行常见的任务--如打开终端（Terminal）和运行命令(基础的Linux命令)。如果你不确定如何在你的本地计算机上打开一个新的终端外壳，或如何安装node.js，请[参阅新人的初步步骤](https://sdk.dfinity.org/docs/quickstart/newcomers.html)。如果你可以在没有指示的情况下满足先决条件，请继续下载和安装。
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
 
-This is a Markdown page
-```
 
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+# 下载和安装
+
+您可以在本地计算机的终端窗口中直接下载最新版本的DFINITY Canister软件开发工具包（SDK）。
+
+如果要下载和安装：
+
+1.在您的本地计算机上打开一个终端窗口（操作键盘上 ⌘+spacebar ，搜索terminal/iterm2，回车打开）
+
+2.通过运行以下命令下载并安装DFINITY Canister SDK开发包。
+
+`sudo sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"`:
+
+该命令提示您在本地计算机上安装DFINITY执行命令行界面（CLI）及其依赖项之前，请阅读并接受许可协议。（会有一堆提示，下一步直接输入y，回车即可）
+
+
+# 验证SDK是否可以使用
+
+1.如果安装脚本运行没有任何错误，那么您在本地开发环境上就可以开始开发在互联网计算机平台上运行的程序了。
+
+2.要验证SDK是否可以使用：
+  - 在您的本地计算机上打开一个终端外壳，如果您还没有打开的话。
+  - 通过运行以下命令检查您是否安装了DFINITY执行命令行界面（CLI），以及dfx可执行文件在您的环境路径是否正确。
+  - 输入  `sudo dfx --version`
+  - 输出： dfx 0.7.0 就算安装成功了
+
+3.运行以下命令可以预览其他dfx命令行子命令的使用信息。
+
+`sudo dfx --help` 会有一些帮助信息输出
+
+![dfx help](https://gateway.pinata.cloud/ipfs/QmZUub8vpme3LE2pVwzxJTeAY1Q6pSmATie5N5buyfQBkC)
+
+
+
+# 创建一个新项目
+
+互联网计算机的应用程序以项目的形式开始。你使用dfx父命令和它的子命令来创建项目。
+
+在本教程中，我们将从默认的示例应用程序开始，说明使用项目中的启动文件创建一个应用程序。当你创建一个新项目时，dfx命令行界面会给你的工作区添加一个默认的项目目录结构。我们在探索默认项目的教程中介绍了组成项目目录的模板文件。
+
++ 开始创建您的第一个ICP应用程序：
+
+  + 如果未开启终端窗口，请在你的本地计算机上打开一个终端。
+
+  + 通过运行以下命令创建一个名为hello的新项目。
+
+输入：`sudo dfx new hello`
+
+dfx new hello 命令为你创建了一个新的 hello 项目目录、模板文件和一个新的 hello Git 仓库。
+
+![dfx hello](https://gateway.pinata.cloud/ipfs/QmWHFfGdgAEDG7xJ2U7i6V2bPi4K4CZESoVBEiA5Hmhjoc)
+
+根据网络和带宽不同可能每个人时间不同，大概需要1-5分钟。
+
+如果你使用不同的项目名称而不是hello，请记下你使用的名称。你将需要在这些说明中使用该项目名称来代替 hello 项目名称。
+
+通过运行以下命令切换到你的项目目录：`cd hello`
+
+# 启动本地网络
+
+在你建立你的第一个项目之前，你需要连接到互联网计算机网络，要么在你的开发环境中本地运行，要么在一个你可以访问的子网络上远程运行。
+
+这些说明假定你在本地运行因特网计算机。如果你连接到一个外部的互联网计算机网络，你可以跳过这一节。
+
+作为一个最佳实践，这一步需要你打开两个终端窗口，这样你可以在一个终端中启动和查看网络操作，在另一个终端中管理你的项目。
+
++ 要在本地启动网络：
+
+  + 在你的本地计算机上打开第二个新的终端窗口。
+
+  + 如果有必要，导航到你项目的根目录。
+
+  + 你现在应该有两个终端打开，你的项目目录在两个终端中都是你的当前工作目录。
+
+  + 在第二个终端中启动本地计算机上的互联网计算机网络，运行以下命令：`sudo dfx start`
+
+  + 根据你的平台和本地启用了安全设置，你可能会看到显示一个警告。如果提示你允许或拒绝传入的网络连接，点击允许。
+
++ 让显示网络操作的终端窗口保持开放，将焦点切换到你创建新项目的第一个终端窗口。在另一个窗口继续下面的教程。
+
+
+# 注册、构建、并部署应用
+
+1.在你的开发环境中连接到本地运行的互联网计算机网络后，你可以在本地注册、构建和部署你的应用程序。
+
+2.要在本地部署你的第一个应用程序：
+如果需要的话，检查你是否还在你的项目的根目录中。
+如果需要的话，确保你的项目目录中的节点模块是可用的，通过运行以下命令：`sudo npm install`,(关于这一步的更多信息，请看确保node在项目中是可用的。)
+
+3.通过运行以下命令来注册、构建和部署你的第一个应用程序:`sudo dfx deploy`
+
+dfx deploy命令的输出显示它所执行的操作的信息。例如，该步骤注册了两个网络专用标识符--一个用于hello主程序，一个用于hello_assets前端用户界面--以及类似于以下的安装信息。
+
+![dfx deploy](https://gateway.pinata.cloud/ipfs/QmdXd4TYx52xvNpv7LidSXHqJx3zdBvNvJzqcwDxyxxXGs)
+
+
+然而，如果你创建了一个不同名称的项目，你的程序罐ID名称将与你的项目名称一致，而不是hello和hello_assets。
+
+你还应该注意，在你第一次部署时，dfx会创建一个默认身份和一个由你的默认身份控制的本地循环钱包。cycles钱包是一种特殊类型的程序罐，使你能够将cycles转移到其他程序罐。
+
+要在本地部署这个示例应用程序，你不需要知道任何关于你的默认开发者身份、使用cycles钱包或管理cycles钱包的信息。我们将在后面讨论这些话题，但现在，只需注意这些都是自动为你创建的。
+
+通过运行以下命令，调用hello程序罐和预定义的greet函数： `sudo dfx canister call hello greet everyone` 
+
+
++ 让我们仔细看一下这个命令的例子:
+
+  + dfx canister call命令要求你指定一个canister名称和一个方法--或者函数--来调用。
+
+  + hello指定了你要调用的罐子的名字。
+
+  + greet指定你想在hello罐中调用的函数的名称。
+
+  + everyone是你要传递给greet函数的文本数据类型参数。
+
+然而，请记住，如果你用不同的名字创建了一个项目，程序罐的名字将与你的项目名称相匹配，你需要修改命令行以匹配你使用的名字而不是hello。
+
+验证命令是否显示greet函数的返回值。
+
+比如说:("Hello, everyone!")
+
+# 测试应用程序的前端
+
+现在你已经验证了你的应用程序已经被部署，并使用命令行测试了它的操作，让我们来验证你是否可以使用你的网络浏览器访问前端。
+
+打开一个浏览器。
+
+导航到默认地址和端口号127.0.0.1:9999
+
+在URL中添加/?canisterId=和hello_assets标识符。
+
+如果你没有记下罐子的标识符，你可以通过运行以下命令来查找它： `sudo dfx canister id hello_assets`
+
+
+使用以下语法将返回的程序罐子标识符添加到URL中。
+
+?canisterId=<你的程序标识符>?
+
+最后完整的URL应该看起来类似于以下写法（如果你运行了多个程序，端口可能不是8000，而是dfx.json里面定义的端口号）：
+
+http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai
+
+打开页面之后，输入你想输入的内容，然后点击 Click Me 即可看到 Hello xxxx 
+
+![hello chuhemiao](https://gateway.pinata.cloud/ipfs/QmYuCzHEmhCuvZDp1uG7vgP9AteFWUiHamc82W1PCkyKx9)
+
+# 停止本地网络
+
+在浏览器中测试完应用程序后，你可以停止本地互联网计算机网络，这样它就不会在后台继续运行。
+
+要停止本地网络
+
+在显示网络操作的终端，按Control-C中断本地网络进程。
+
+通过运行以下命令 `sudo dfx stop`，停止本地计算机上运行的本地互联网计算机网络。
+
+# 接下来的步骤
+
+这个快速入门只涉及了几个关键步骤，介绍了开发自己的程序的基本工作流程。你可以在文档中找到更详细的例子和教程，帮助你了解如何使用Motoko语言，以及如何开发在互联网计算机上运行的应用程序。
+
+下面是一些关于下一步的建议：
+
++ 探索使用本地开发环境建立简单应用程序的教程。
+
++ 将ICP令牌转换为cycles，如果你有ICP令牌，你想将其转换为cycles，使你能够将应用程序部署到ICP主网上。
+
++ 网络部署，如果你有cycles，并准备将应用程序部署到互联网计算机网络上。
+
++ 了解Candid接口描述语言如何实现服务的互操作性和可组合性。
+
++ Motoko at-a-glance，以了解使用Motoko的功能和语法。
+
+
+# 终端工具
+
+macOS终端工具：https://iterm2.com/

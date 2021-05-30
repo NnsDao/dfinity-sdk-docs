@@ -2,13 +2,13 @@
   "unversionedId": "tutorial-extras/manage-docs-versions",
   "id": "tutorial-extras/manage-docs-versions",
   "isDocsHomePage": false,
-  "title": "Manage Docs Versions",
-  "description": "Docusaurus can manage multiple versions of your docs.",
+  "title": "什么是互联网计算机（ICP）",
+  "description": "概览",
   "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/manage-docs-versions",
   "permalink": "/docs/tutorial-extras/manage-docs-versions",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/tutorial-basics/congratulations"
+    "title": "网络部署",
+    "permalink": "/docs/tutorial-basics/create-a-document"
   },
   "next": {
-    "title": "Translate your site",
+    "title": "节点和子网",
     "permalink": "/docs/tutorial-extras/translate-your-site"
   }
 }

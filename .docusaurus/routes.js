@@ -44,47 +44,62 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','ba7'),
+  component: ComponentCreator('/blog','278'),
   exact: true,
 },
 {
-  path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','578'),
+  path: '/blog/dfinity-Canistore',
+  component: ComponentCreator('/blog/dfinity-Canistore','c26'),
   exact: true,
 },
 {
-  path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','339'),
+  path: '/blog/dfinity-SailFash',
+  component: ComponentCreator('/blog/dfinity-SailFash','507'),
+  exact: true,
+},
+{
+  path: '/blog/icp-intro',
+  component: ComponentCreator('/blog/icp-intro','417'),
+  exact: true,
+},
+{
+  path: '/blog/icp-intro-Ecology',
+  component: ComponentCreator('/blog/icp-intro-Ecology','4af'),
+  exact: true,
+},
+{
+  path: '/blog/okex-icp-fund',
+  component: ComponentCreator('/blog/okex-icp-fund','d78'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','31c'),
+  component: ComponentCreator('/blog/tags','abc'),
   exact: true,
 },
 {
-  path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','f88'),
+  path: '/blog/tags/canistore',
+  component: ComponentCreator('/blog/tags/canistore','ef4'),
   exact: true,
 },
 {
-  path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','b54'),
+  path: '/blog/tags/dfinity',
+  component: ComponentCreator('/blog/tags/dfinity','4ba'),
   exact: true,
 },
 {
-  path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','263'),
+  path: '/blog/tags/icp',
+  component: ComponentCreator('/blog/tags/icp','b07'),
   exact: true,
 },
 {
-  path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','44d'),
+  path: '/blog/tags/nnsdao',
+  component: ComponentCreator('/blog/tags/nnsdao','93f'),
   exact: true,
 },
 {
-  path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','4d7'),
+  path: '/blog/tags/sail-fash',
+  component: ComponentCreator('/blog/tags/sail-fash','e85'),
   exact: true,
 },
 {
@@ -94,22 +109,12 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','18a'),
+  component: ComponentCreator('/docs','44f'),
   
   routes: [
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-basics/congratulations',
-  component: ComponentCreator('/docs/tutorial-basics/congratulations','7ef'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-basics/create-a-blog-post',
-  component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','2c8'),
   exact: true,
 },
 {
@@ -123,18 +128,28 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/deploy-your-site',
-  component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','508'),
+  path: '/docs/tutorial-extras/canisters-code',
+  component: ComponentCreator('/docs/tutorial-extras/canisters-code','4b0'),
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/markdown-features',
-  component: ComponentCreator('/docs/tutorial-basics/markdown-features','f90'),
+  path: '/docs/tutorial-extras/data-centers',
+  component: ComponentCreator('/docs/tutorial-extras/data-centers','527'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-extras/governance',
+  component: ComponentCreator('/docs/tutorial-extras/governance','9f7'),
   exact: true,
 },
 {
   path: '/docs/tutorial-extras/manage-docs-versions',
   component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','d64'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-extras/tokens-cycles',
+  component: ComponentCreator('/docs/tutorial-extras/tokens-cycles','881'),
   exact: true,
 },
 {

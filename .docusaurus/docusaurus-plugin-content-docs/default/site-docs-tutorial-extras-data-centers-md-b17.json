@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-extras/data-centers",
+  "id": "tutorial-extras/data-centers",
+  "isDocsHomePage": false,
+  "title": "去中心化数据中心",
+  "description": "TODO TODO TODO",
+  "source": "@site/docs/tutorial-extras/data-centers.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/data-centers",
+  "permalink": "/docs/tutorial-extras/data-centers",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/data-centers.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "节点和子网",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "罐和代码",
+    "permalink": "/docs/tutorial-extras/canisters-code"
+  }
+}

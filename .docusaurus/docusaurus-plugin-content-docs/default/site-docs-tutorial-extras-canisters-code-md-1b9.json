@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-extras/canisters-code",
+  "id": "tutorial-extras/canisters-code",
+  "isDocsHomePage": false,
+  "title": "罐和代码",
+  "description": "TODO TODO TODO",
+  "source": "@site/docs/tutorial-extras/canisters-code.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/canisters-code",
+  "permalink": "/docs/tutorial-extras/canisters-code",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/canisters-code.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "去中心化数据中心",
+    "permalink": "/docs/tutorial-extras/data-centers"
+  },
+  "next": {
+    "title": "通证和cycles燃气",
+    "permalink": "/docs/tutorial-extras/tokens-cycles"
+  }
+}

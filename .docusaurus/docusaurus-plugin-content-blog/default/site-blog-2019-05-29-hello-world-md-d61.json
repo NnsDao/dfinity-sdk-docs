@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/hello-world",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2019-05-29-hello-world.md",
   "source": "@site/blog/2019-05-29-hello-world.md",
   "title": "Hello",
   "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
@@ -19,11 +19,7 @@
   "readingTime": 0.12,
   "truncated": true,
   "prevItem": {
-    "title": "Welcome",
-    "permalink": "/blog/welcome"
-  },
-  "nextItem": {
-    "title": "Hola",
-    "permalink": "/blog/hola"
+    "title": "不一样的「DFINITY」词贴 | SailFash是什么？",
+    "permalink": "/blog/dfinity-SailFash"
   }
 }

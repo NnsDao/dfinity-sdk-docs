@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/welcome",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2019-05-30-welcome.md",
   "source": "@site/blog/2019-05-30-welcome.md",
   "title": "Welcome",
   "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
@@ -22,6 +22,10 @@
   ],
   "readingTime": 0.175,
   "truncated": false,
+  "prevItem": {
+    "title": "sailfash",
+    "permalink": "/blog/2021/05/30/sailfash"
+  },
   "nextItem": {
     "title": "Hello",
     "permalink": "/blog/hello-world"

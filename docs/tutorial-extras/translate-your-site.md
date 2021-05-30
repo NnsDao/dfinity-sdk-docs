@@ -2,87 +2,26 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# 节点和子网
 
-Let's translate `docs/intro.md` to French.
+互联网计算机子网络提供物理硬件和资源，如CPU和内存，以执行软件操作。每个子网络由一些单独的机器组成--连接的对等计算机称为节点--运行互联网计算机协议的软件组件。
 
-## Configure i18n
+在每个节点上运行的互联网计算机软件组件被称为副本，因为它们在一个子网络的所有节点上同步状态和计算数据。
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
++ 核心组件被组织成以下逻辑层：
 
-```js title="docusaurus.config.js"
-module.exports = {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
+  + 一个点对点（P2P）网络层，收集并公布来自用户、其子网络中的其他节点以及其他子网络的消息。由点对点层收到的信息被复制到子网络中的所有节点，以确保平台的安全性、可靠性和弹性。
 
-## Translate a doc
+  + 一个共识层，对从用户和不同子网收到的消息进行选择和排序，以创建输入块，在交付给消息路由层之前可以进行公证和最终确定。
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+  + 一个消息路由层，在子网之间路由用户和系统生成的消息，管理应用程序的输入和输出队列，并安排消息的执行。
 
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+  + 一个执行环境，计算执行程序所涉及的确定性计算，并处理它从消息路由层收到的消息。
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+下图提供了互联网计算机协议组件的简化概述，这些组件作为本地副本部署在开发环境中。
 
-## Start your localized site
+![互联网计算机协议组件运行架构](https://sdk.dfinity.org/docs/developers-guide/_images/SDK-protocol-local-overview.svg)
 
-Start your site on the French locale:
 
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at `http://localhost:3000/fr/` and the `Getting Started` page is translated.
-
-:::caution
-
-In development, you can only use one locale at a same time.
-
-:::
-
-## Add a Locale Dropdown
-
-To navigate seamlessly across languages, add a locale dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](/img/tutorial/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
+作为一个开发者，没有必要知道你的应用程序和用户与你的应用程序的交互是如何通过互联网计算机架构进行路由或在网络上同步的细节。然而，对关键组件的一般理解可能是有用的，因为开发环境包括组件复用，为部署提供一个本地测试网络，并对生产部署的工作流程有一个真实的感觉。

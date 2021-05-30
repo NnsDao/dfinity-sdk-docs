@@ -2,13 +2,13 @@
   "unversionedId": "tutorial-extras/translate-your-site",
   "id": "tutorial-extras/translate-your-site",
   "isDocsHomePage": false,
-  "title": "Translate your site",
-  "description": "Let's translate docs/intro.md to French.",
+  "title": "节点和子网",
+  "description": "互联网计算机子网络提供物理硬件和资源，如CPU和内存，以执行软件操作。每个子网络由一些单独的机器组成--连接的对等计算机称为节点--运行互联网计算机协议的软件组件。",
   "source": "@site/docs/tutorial-extras/translate-your-site.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/translate-your-site",
   "permalink": "/docs/tutorial-extras/translate-your-site",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/translate-your-site.md",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/translate-your-site.md",
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
@@ -16,7 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Manage Docs Versions",
+    "title": "什么是互联网计算机（ICP）",
     "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "去中心化数据中心",
+    "permalink": "/docs/tutorial-extras/data-centers"
   }
 }

@@ -106,15 +106,15 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "sidebarPath": "/Users/chuhemiao/Documents/GitHub/nnsdao/dfinity-sdk-docs/sidebars.js",
+          "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/src/css/custom.css"
+          "customCss": "/Users/chuhemiao/Documents/GitHub/nnsdao/dfinity-sdk-docs/src/css/custom.css"
         }
       }
     ]

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Deploy your site",
-    "permalink": "/docs/tutorial-basics/deploy-your-site"
+    "title": "Markdown Features",
+    "permalink": "/docs/tutorial-basics/markdown-features"
   },
   "next": {
     "title": "Manage Docs Versions",

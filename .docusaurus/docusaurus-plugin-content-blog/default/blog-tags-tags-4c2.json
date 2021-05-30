@@ -1,30 +1,37 @@
 {
-  "facebook": {
+  "icp": {
     "allTagsPath": "/blog/tags",
-    "slug": "facebook",
-    "name": "facebook",
-    "count": 1,
-    "permalink": "/blog/tags/facebook"
+    "slug": "icp",
+    "name": "icp",
+    "count": 5,
+    "permalink": "/blog/tags/icp"
   },
-  "hello": {
+  "sail-fash": {
     "allTagsPath": "/blog/tags",
-    "slug": "hello",
-    "name": "hello",
-    "count": 2,
-    "permalink": "/blog/tags/hello"
-  },
-  "docusaurus": {
-    "allTagsPath": "/blog/tags",
-    "slug": "docusaurus",
-    "name": "docusaurus",
+    "slug": "sail-fash",
+    "name": "sailfash",
     "count": 3,
-    "permalink": "/blog/tags/docusaurus"
+    "permalink": "/blog/tags/sail-fash"
   },
-  "hola": {
+  "dfinity": {
     "allTagsPath": "/blog/tags",
-    "slug": "hola",
-    "name": "hola",
+    "slug": "dfinity",
+    "name": "dfinity",
+    "count": 5,
+    "permalink": "/blog/tags/dfinity"
+  },
+  "nnsdao": {
+    "allTagsPath": "/blog/tags",
+    "slug": "nnsdao",
+    "name": "nnsdao",
+    "count": 5,
+    "permalink": "/blog/tags/nnsdao"
+  },
+  "canistore": {
+    "allTagsPath": "/blog/tags",
+    "slug": "canistore",
+    "name": "canistore",
     "count": 1,
-    "permalink": "/blog/tags/hola"
+    "permalink": "/blog/tags/canistore"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "permalink": "/blog/dfinity-Canistore",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-Canistor.md",
+  "source": "@site/blog/2021-05-30-Canistor.md",
+  "title": "不一样的「DFINITY」词贴 | Canistore是什么？",
+  "description": "一种新的社交方式，盈利和成长，就是Canistore。",
+  "date": "2021-05-30T00:00:00.000Z",
+  "formattedDate": "May 30, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "Canistore",
+      "permalink": "/blog/tags/canistore"
+    }
+  ],
+  "readingTime": 0.155,
+  "truncated": true,
+  "nextItem": {
+    "title": "ICP - Dfinity简介和基础科普",
+    "permalink": "/blog/icp-intro"
+  }
+}

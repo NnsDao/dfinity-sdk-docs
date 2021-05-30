@@ -7,59 +7,59 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "ICP文档介绍",
         "href": "/docs/intro"
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "快速开始",
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
+            "label": "本地开发",
             "href": "/docs/tutorial-basics/create-a-page"
           },
           {
             "type": "link",
-            "label": "Create a Document",
+            "label": "网络部署",
             "href": "/docs/tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations"
           }
         ],
         "collapsed": true
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "ICP概念科普",
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
+            "label": "什么是互联网计算机（ICP）",
             "href": "/docs/tutorial-extras/manage-docs-versions"
           },
           {
             "type": "link",
-            "label": "Translate your site",
+            "label": "节点和子网",
             "href": "/docs/tutorial-extras/translate-your-site"
+          },
+          {
+            "type": "link",
+            "label": "去中心化数据中心",
+            "href": "/docs/tutorial-extras/data-centers"
+          },
+          {
+            "type": "link",
+            "label": "罐和代码",
+            "href": "/docs/tutorial-extras/canisters-code"
+          },
+          {
+            "type": "link",
+            "label": "通证和cycles燃气",
+            "href": "/docs/tutorial-extras/tokens-cycles"
+          },
+          {
+            "type": "link",
+            "label": "神经元和治理",
+            "href": "/docs/tutorial-extras/governance"
           }
         ],
         "collapsed": true
@@ -68,13 +68,13 @@
   },
   "permalinkToSidebar": {
     "/docs/intro": "tutorialSidebar",
-    "/docs/tutorial-basics/congratulations": "tutorialSidebar",
-    "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
-    "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
-    "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
+    "/docs/tutorial-extras/canisters-code": "tutorialSidebar",
+    "/docs/tutorial-extras/data-centers": "tutorialSidebar",
+    "/docs/tutorial-extras/governance": "tutorialSidebar",
     "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
+    "/docs/tutorial-extras/tokens-cycles": "tutorialSidebar",
     "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
   }
 }

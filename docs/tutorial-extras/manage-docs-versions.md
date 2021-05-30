@@ -2,54 +2,26 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# 什么是互联网计算机（ICP）
 
-Docusaurus can manage multiple versions of your docs.
+概览
 
-## Create a docs version
+你不需要对互联网计算机平台的内部工作有太多的了解，就可以编写出在其上成功运行的程序。然而，学习一些关键的概念将有助于你最大限度地利用互联网计算机提供的独特功能。
 
-Release a version 1.0 of your project:
+对互联网计算机平台的设计和结构有一点了解，可以使你更容易实现与你的目标一致的好处，并告知你开发的应用程序的类型。
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+本节的主题介绍了关键组件和术语，以帮助你了解互联网计算机的结构和操作。
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+如果你想直接开发代码，你可以跳过这些介绍性材料--关键概念和术语--当你以后需要它们时，可以在本节或[词汇表](https://sdk.dfinity.org/docs/developers-guide/glossary.html)中查找。
 
-Your docs now have 2 versions:
+如果你正在寻找更多的介绍性信息，请查看以下相关资源：
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+[Internet 计算机概述（视频）](https://www.youtube.com/watch?v=XgsOKP224Zw)
 
-## Add a Version Dropdown
+[在 Internet 上构建计算机：基础知识（视频）](https://www.youtube.com/watch?v=jduSMHxdYD8)
 
-To navigate seamlessly across versions, add a version dropdown.
+[介绍程序罐（容器罐） - 智能合约的演变（视频）](https://www.youtube.com/watch?v=LKpGuBOXxtQ)
 
-Modify the `docusaurus.config.js` file:
+[常见问题（视频和简短介绍）](https://dfinity.org/faq/)
 
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](/img/tutorial/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+[【ICP科普】ICP如何质押参与NNS 治理并获得奖励](https://www.youtube.com/watch?v=9arl2HADtK0&t=4s)

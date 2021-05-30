@@ -1,0 +1,33 @@
+{
+  "permalink": "/blog/icp-intro",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-basic.md",
+  "source": "@site/blog/2021-05-30-icp-basic.md",
+  "title": "ICP - Dfinity简介和基础科普",
+  "description": "Dfinity是一个去中心化的网络设计项目。",
+  "date": "2021-05-30T00:00:00.000Z",
+  "formattedDate": "May 30, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "dfinity",
+      "permalink": "/blog/tags/dfinity"
+    }
+  ],
+  "readingTime": 1.1,
+  "truncated": true,
+  "prevItem": {
+    "title": "不一样的「DFINITY」词贴 | Canistore是什么？",
+    "permalink": "/blog/dfinity-Canistore"
+  },
+  "nextItem": {
+    "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
+    "permalink": "/blog/okex-icp-fund"
+  }
+}
