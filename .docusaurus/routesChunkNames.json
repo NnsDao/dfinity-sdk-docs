@@ -25,61 +25,61 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-278": {
+  "/blog-af1": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
         "content": "content---blogdfd-8e7"
       },
       {
-        "content": "content---blog-274-55a"
-      },
-      {
         "content": "content---blog-4-bb-33c"
       },
       {
-        "content": "content---blog-80-e-c42"
+        "content": "content---blogb-0-b-f78"
       },
       {
-        "content": "content---blogb-0-b-f78"
+        "content": "content---blog-274-55a"
+      },
+      {
+        "content": "content---blog-80-e-c42"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/dfinity-Canistore-c26": {
+  "/blog/dfinity-Canistore-b64": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-dfinity-canistore-343-0a5"
   },
-  "/blog/dfinity-SailFash-507": {
+  "/blog/dfinity-SailFash-4fe": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-dfinity-sail-fashf-64-ad7"
   },
-  "/blog/icp-intro-417": {
+  "/blog/icp-intro-068": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-icp-intro-7-d-0-ac6"
   },
-  "/blog/icp-intro-Ecology-4af": {
+  "/blog/icp-intro-Ecology-3a5": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-icp-intro-ecologyaf-4-22f"
   },
-  "/blog/okex-icp-fund-d78": {
+  "/blog/okex-icp-fund-d7a": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-okex-icp-fund-948-86d"
   },
-  "/blog/tags-abc": {
+  "/blog/tags-31c": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/canistore-ef4": {
+  "/blog/tags/canistore-abb": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
         "content": "content---blogdfd-8e7"
@@ -87,75 +87,75 @@
     ],
     "metadata": "metadata---blog-tags-canistore-813-5f3"
   },
-  "/blog/tags/dfinity-4ba": {
+  "/blog/tags/dfinity-ef8": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
         "content": "content---blogdfd-8e7"
       },
       {
-        "content": "content---blog-274-55a"
-      },
-      {
         "content": "content---blog-4-bb-33c"
       },
       {
-        "content": "content---blog-80-e-c42"
+        "content": "content---blogb-0-b-f78"
       },
       {
-        "content": "content---blogb-0-b-f78"
+        "content": "content---blog-274-55a"
+      },
+      {
+        "content": "content---blog-80-e-c42"
       }
     ],
     "metadata": "metadata---blog-tags-dfinity-77-a-333"
   },
-  "/blog/tags/icp-b07": {
+  "/blog/tags/icp-6ba": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
         "content": "content---blogdfd-8e7"
       },
       {
-        "content": "content---blog-274-55a"
-      },
-      {
         "content": "content---blog-4-bb-33c"
       },
       {
-        "content": "content---blog-80-e-c42"
+        "content": "content---blogb-0-b-f78"
       },
       {
-        "content": "content---blogb-0-b-f78"
+        "content": "content---blog-274-55a"
+      },
+      {
+        "content": "content---blog-80-e-c42"
       }
     ],
     "metadata": "metadata---blog-tags-icp-17-f-334"
   },
-  "/blog/tags/nnsdao-93f": {
+  "/blog/tags/nnsdao-0b4": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
         "content": "content---blogdfd-8e7"
       },
       {
-        "content": "content---blog-274-55a"
-      },
-      {
         "content": "content---blog-4-bb-33c"
       },
       {
-        "content": "content---blog-80-e-c42"
+        "content": "content---blogb-0-b-f78"
       },
       {
-        "content": "content---blogb-0-b-f78"
+        "content": "content---blog-274-55a"
+      },
+      {
+        "content": "content---blog-80-e-c42"
       }
     ],
     "metadata": "metadata---blog-tags-nnsdaoa-1-c-a9a"
   },
-  "/blog/tags/sail-fash-e85": {
+  "/blog/tags/sail-fash-41f": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogadd-7c3",
+    "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
         "content": "content---blogdfd-8e7"
@@ -173,13 +173,17 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-44f": {
+  "/docs-a40": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/intro-e84": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/language-guide/motoko-7a6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-language-guide-motoko-23-f-a42"
   },
   "/docs/tutorial-basics/create-a-document-f0d": {
     "component": "component---theme-doc-item-178-a40",
@@ -212,5 +216,17 @@
   "/docs/tutorial-extras/translate-your-site-16a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+  },
+  "/docs/tutorial-how/install-upgrade-remove-fe4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-how-install-upgrade-removef-27-89f"
+  },
+  "/docs/tutorial-how/sdk-guide-2e7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-how-sdk-guide-252-e8a"
+  },
+  "/docs/tutorial-wasms/wasm-intro-310": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-wasms-wasm-introeb-7-f80"
   }
 }

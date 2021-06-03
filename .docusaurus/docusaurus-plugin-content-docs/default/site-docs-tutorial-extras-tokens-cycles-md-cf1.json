@@ -2,13 +2,13 @@
   "unversionedId": "tutorial-extras/tokens-cycles",
   "id": "tutorial-extras/tokens-cycles",
   "isDocsHomePage": false,
-  "title": "通证和cycles燃气",
-  "description": "TODO TODO TODO",
+  "title": "tokens-cycles",
+  "description": "通证和cycles燃气",
   "source": "@site/docs/tutorial-extras/tokens-cycles.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/tokens-cycles",
   "permalink": "/docs/tutorial-extras/tokens-cycles",
-  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/tokens-cycles.md",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/tokens-cycles.md",
   "version": "current",
   "sidebarPosition": 5,
   "frontMatter": {
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "罐和代码",
+    "title": "canisters-code",
     "permalink": "/docs/tutorial-extras/canisters-code"
   },
   "next": {

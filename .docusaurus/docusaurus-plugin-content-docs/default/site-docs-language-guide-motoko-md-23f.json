@@ -1,0 +1,26 @@
+{
+  "unversionedId": "language-guide/motoko",
+  "id": "language-guide/motoko",
+  "isDocsHomePage": false,
+  "title": "Motoko 编程语言",
+  "description": "TODOTODO",
+  "source": "@site/docs/language-guide/motoko.md",
+  "sourceDirName": "language-guide",
+  "slug": "/language-guide/motoko",
+  "permalink": "/docs/language-guide/motoko",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/language-guide/motoko.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "安装、升级或删除软件",
+    "permalink": "/docs/tutorial-how/install-upgrade-remove"
+  },
+  "next": {
+    "title": "WebAssembly是什么",
+    "permalink": "/docs/tutorial-wasms/wasm-intro"
+  }
+}

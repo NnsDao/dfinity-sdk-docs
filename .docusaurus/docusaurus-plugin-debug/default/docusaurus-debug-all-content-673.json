@@ -6,13 +6,13 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs",
+          "versionEditUrlLocalized": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/chuhemiao/Documents/GitHub/nnsdao/dfinity-sdk-docs/sidebars.js",
-          "contentPath": "/Users/chuhemiao/Documents/GitHub/nnsdao/dfinity-sdk-docs/docs",
-          "contentPathLocalized": "/Users/chuhemiao/Documents/GitHub/nnsdao/dfinity-sdk-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/sidebars.js",
+          "contentPath": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/docs",
+          "contentPathLocalized": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "intro",
           "sidebars": {
             "tutorialSidebar": [
@@ -65,11 +65,49 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "如何集成",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-how/sdk-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-how/install-upgrade-remove"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "语言指南",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "language-guide/motoko"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "WASM指南",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-wasms/wasm-intro"
+                  }
+                ],
+                "collapsed": true
               }
             ]
           },
           "permalinkToSidebar": {
             "/docs/intro": "tutorialSidebar",
+            "/docs/language-guide/motoko": "tutorialSidebar",
             "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
             "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
             "/docs/tutorial-extras/canisters-code": "tutorialSidebar",
@@ -77,7 +115,10 @@
             "/docs/tutorial-extras/governance": "tutorialSidebar",
             "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
             "/docs/tutorial-extras/tokens-cycles": "tutorialSidebar",
-            "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+            "/docs/tutorial-extras/translate-your-site": "tutorialSidebar",
+            "/docs/tutorial-how/install-upgrade-remove": "tutorialSidebar",
+            "/docs/tutorial-how/sdk-guide": "tutorialSidebar",
+            "/docs/tutorial-wasms/wasm-intro": "tutorialSidebar"
           },
           "docs": [
             {
@@ -90,7 +131,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/intro.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -103,6 +144,32 @@
               }
             },
             {
+              "unversionedId": "language-guide/motoko",
+              "id": "language-guide/motoko",
+              "isDocsHomePage": false,
+              "title": "Motoko 编程语言",
+              "description": "TODOTODO",
+              "source": "@site/docs/language-guide/motoko.md",
+              "sourceDirName": "language-guide",
+              "slug": "/language-guide/motoko",
+              "permalink": "/docs/language-guide/motoko",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/language-guide/motoko.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "安装、升级或删除软件",
+                "permalink": "/docs/tutorial-how/install-upgrade-remove"
+              },
+              "next": {
+                "title": "WebAssembly是什么",
+                "permalink": "/docs/tutorial-wasms/wasm-intro"
+              }
+            },
+            {
               "unversionedId": "tutorial-basics/create-a-document",
               "id": "tutorial-basics/create-a-document",
               "isDocsHomePage": false,
@@ -112,7 +179,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-basics/create-a-document.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -138,7 +205,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-basics/create-a-page.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -158,13 +225,13 @@
               "unversionedId": "tutorial-extras/canisters-code",
               "id": "tutorial-extras/canisters-code",
               "isDocsHomePage": false,
-              "title": "罐和代码",
-              "description": "TODO TODO TODO",
+              "title": "canisters-code",
+              "description": "程序罐(容器)和代码",
               "source": "@site/docs/tutorial-extras/canisters-code.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/canisters-code",
               "permalink": "/docs/tutorial-extras/canisters-code",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/canisters-code.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/canisters-code.md",
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
@@ -176,7 +243,7 @@
                 "permalink": "/docs/tutorial-extras/data-centers"
               },
               "next": {
-                "title": "通证和cycles燃气",
+                "title": "tokens-cycles",
                 "permalink": "/docs/tutorial-extras/tokens-cycles"
               }
             },
@@ -185,12 +252,12 @@
               "id": "tutorial-extras/data-centers",
               "isDocsHomePage": false,
               "title": "去中心化数据中心",
-              "description": "TODO TODO TODO",
+              "description": "互联网计算机不是存在于任何物理位置的物理硬件。相反，互联网计算机结合了世界各地独立运营的数据中心所提供的计算资源。",
               "source": "@site/docs/tutorial-extras/data-centers.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/data-centers",
               "permalink": "/docs/tutorial-extras/data-centers",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/data-centers.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/data-centers.md",
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
@@ -202,7 +269,7 @@
                 "permalink": "/docs/tutorial-extras/translate-your-site"
               },
               "next": {
-                "title": "罐和代码",
+                "title": "canisters-code",
                 "permalink": "/docs/tutorial-extras/canisters-code"
               }
             },
@@ -216,7 +283,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/governance",
               "permalink": "/docs/tutorial-extras/governance",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/governance.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/governance.md",
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
@@ -224,8 +291,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "通证和cycles燃气",
+                "title": "tokens-cycles",
                 "permalink": "/docs/tutorial-extras/tokens-cycles"
+              },
+              "next": {
+                "title": "容器 SDK - 开发者工具",
+                "permalink": "/docs/tutorial-how/sdk-guide"
               }
             },
             {
@@ -238,7 +309,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/manage-docs-versions.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -258,13 +329,13 @@
               "unversionedId": "tutorial-extras/tokens-cycles",
               "id": "tutorial-extras/tokens-cycles",
               "isDocsHomePage": false,
-              "title": "通证和cycles燃气",
-              "description": "TODO TODO TODO",
+              "title": "tokens-cycles",
+              "description": "通证和cycles燃气",
               "source": "@site/docs/tutorial-extras/tokens-cycles.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/tokens-cycles",
               "permalink": "/docs/tutorial-extras/tokens-cycles",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/tokens-cycles.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/tokens-cycles.md",
               "version": "current",
               "sidebarPosition": 5,
               "frontMatter": {
@@ -272,7 +343,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "罐和代码",
+                "title": "canisters-code",
                 "permalink": "/docs/tutorial-extras/canisters-code"
               },
               "next": {
@@ -290,7 +361,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/translate-your-site.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -304,6 +375,80 @@
               "next": {
                 "title": "去中心化数据中心",
                 "permalink": "/docs/tutorial-extras/data-centers"
+              }
+            },
+            {
+              "unversionedId": "tutorial-how/install-upgrade-remove",
+              "id": "tutorial-how/install-upgrade-remove",
+              "isDocsHomePage": false,
+              "title": "安装、升级或删除软件",
+              "description": "正如快速入门中所述，您可以通过在终端外壳中运行命令来下载和安装最新版本的DFINITY Canister SDK包。本节中的主题提供了有关安装、升级和删除DFINITY Canister SDK的其他信息。",
+              "source": "@site/docs/tutorial-how/install-upgrade-remove.md",
+              "sourceDirName": "tutorial-how",
+              "slug": "/tutorial-how/install-upgrade-remove",
+              "permalink": "/docs/tutorial-how/install-upgrade-remove",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/install-upgrade-remove.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "容器 SDK - 开发者工具",
+                "permalink": "/docs/tutorial-how/sdk-guide"
+              },
+              "next": {
+                "title": "Motoko 编程语言",
+                "permalink": "/docs/language-guide/motoko"
+              }
+            },
+            {
+              "unversionedId": "tutorial-how/sdk-guide",
+              "id": "tutorial-how/sdk-guide",
+              "isDocsHomePage": false,
+              "title": "容器 SDK - 开发者工具",
+              "description": "互联网计算机平台准备以一种新的方式来设计、构建和发布软件，帮助你开始一场区块链革命。",
+              "source": "@site/docs/tutorial-how/sdk-guide.md",
+              "sourceDirName": "tutorial-how",
+              "slug": "/tutorial-how/sdk-guide",
+              "permalink": "/docs/tutorial-how/sdk-guide",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/sdk-guide.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "神经元和治理",
+                "permalink": "/docs/tutorial-extras/governance"
+              },
+              "next": {
+                "title": "安装、升级或删除软件",
+                "permalink": "/docs/tutorial-how/install-upgrade-remove"
+              }
+            },
+            {
+              "unversionedId": "tutorial-wasms/wasm-intro",
+              "id": "tutorial-wasms/wasm-intro",
+              "isDocsHomePage": false,
+              "title": "WebAssembly是什么",
+              "description": "WebAssembly是什么",
+              "source": "@site/docs/tutorial-wasms/wasm-intro.md",
+              "sourceDirName": "tutorial-wasms",
+              "slug": "/tutorial-wasms/wasm-intro",
+              "permalink": "/docs/tutorial-wasms/wasm-intro",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-wasms/wasm-intro.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Motoko 编程语言",
+                "permalink": "/docs/language-guide/motoko"
               }
             }
           ]
@@ -349,42 +494,6 @@
             "readingTime": 0.155,
             "truncated": true,
             "nextItem": {
-              "title": "ICP - Dfinity简介和基础科普",
-              "permalink": "/blog/icp-intro"
-            }
-          }
-        },
-        {
-          "id": "icp-intro",
-          "metadata": {
-            "permalink": "/blog/icp-intro",
-            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-basic.md",
-            "source": "@site/blog/2021-05-30-icp-basic.md",
-            "title": "ICP - Dfinity简介和基础科普",
-            "description": "Dfinity是一个去中心化的网络设计项目。",
-            "date": "2021-05-30T00:00:00.000Z",
-            "formattedDate": "May 30, 2021",
-            "tags": [
-              {
-                "label": "icp",
-                "permalink": "/blog/tags/icp"
-              },
-              {
-                "label": "nnsdao",
-                "permalink": "/blog/tags/nnsdao"
-              },
-              {
-                "label": "dfinity",
-                "permalink": "/blog/tags/dfinity"
-              }
-            ],
-            "readingTime": 1.1,
-            "truncated": true,
-            "prevItem": {
-              "title": "不一样的「DFINITY」词贴 | Canistore是什么？",
-              "permalink": "/blog/dfinity-Canistore"
-            },
-            "nextItem": {
               "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
               "permalink": "/blog/okex-icp-fund"
             }
@@ -421,44 +530,8 @@
             "readingTime": 0.565,
             "truncated": true,
             "prevItem": {
-              "title": "ICP - Dfinity简介和基础科普",
-              "permalink": "/blog/icp-intro"
-            },
-            "nextItem": {
-              "title": "ICP科普系列:DFINITY生态项目概览",
-              "permalink": "/blog/icp-intro-Ecology"
-            }
-          }
-        },
-        {
-          "id": "icp-intro-Ecology",
-          "metadata": {
-            "permalink": "/blog/icp-intro-Ecology",
-            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-system-eco.md",
-            "source": "@site/blog/2021-05-30-icp-system-eco.md",
-            "title": "ICP科普系列:DFINITY生态项目概览",
-            "description": "互联网计算机与一些知名创业者和在此网络上构建的应用程序同时发布。",
-            "date": "2021-05-30T00:00:00.000Z",
-            "formattedDate": "May 30, 2021",
-            "tags": [
-              {
-                "label": "icp",
-                "permalink": "/blog/tags/icp"
-              },
-              {
-                "label": "nnsdao",
-                "permalink": "/blog/tags/nnsdao"
-              },
-              {
-                "label": "dfinity",
-                "permalink": "/blog/tags/dfinity"
-              }
-            ],
-            "readingTime": 0.5,
-            "truncated": true,
-            "prevItem": {
-              "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
-              "permalink": "/blog/okex-icp-fund"
+              "title": "不一样的「DFINITY」词贴 | Canistore是什么？",
+              "permalink": "/blog/dfinity-Canistore"
             },
             "nextItem": {
               "title": "不一样的「DFINITY」词贴 | SailFash是什么？",
@@ -497,8 +570,80 @@
             "readingTime": 0.145,
             "truncated": true,
             "prevItem": {
+              "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
+              "permalink": "/blog/okex-icp-fund"
+            },
+            "nextItem": {
+              "title": "ICP - Dfinity简介和基础科普",
+              "permalink": "/blog/icp-intro"
+            }
+          }
+        },
+        {
+          "id": "icp-intro",
+          "metadata": {
+            "permalink": "/blog/icp-intro",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-basic.md",
+            "source": "@site/blog/2021-05-30-icp-basic.md",
+            "title": "ICP - Dfinity简介和基础科普",
+            "description": "Dfinity是一个去中心化的网络设计项目。",
+            "date": "2021-05-30T00:00:00.000Z",
+            "formattedDate": "May 30, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "dfinity",
+                "permalink": "/blog/tags/dfinity"
+              }
+            ],
+            "readingTime": 1.1,
+            "truncated": true,
+            "prevItem": {
+              "title": "不一样的「DFINITY」词贴 | SailFash是什么？",
+              "permalink": "/blog/dfinity-SailFash"
+            },
+            "nextItem": {
               "title": "ICP科普系列:DFINITY生态项目概览",
               "permalink": "/blog/icp-intro-Ecology"
+            }
+          }
+        },
+        {
+          "id": "icp-intro-Ecology",
+          "metadata": {
+            "permalink": "/blog/icp-intro-Ecology",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-system-eco.md",
+            "source": "@site/blog/2021-05-30-icp-system-eco.md",
+            "title": "ICP科普系列:DFINITY生态项目概览",
+            "description": "互联网计算机与一些知名创业者和在此网络上构建的应用程序同时发布。",
+            "date": "2021-05-30T00:00:00.000Z",
+            "formattedDate": "May 30, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "dfinity",
+                "permalink": "/blog/tags/dfinity"
+              }
+            ],
+            "readingTime": 0.5,
+            "truncated": true,
+            "prevItem": {
+              "title": "ICP - Dfinity简介和基础科普",
+              "permalink": "/blog/icp-intro"
             }
           }
         }
@@ -518,10 +663,10 @@
           },
           "items": [
             "dfinity-Canistore",
-            "icp-intro",
             "okex-icp-fund",
-            "icp-intro-Ecology",
-            "dfinity-SailFash"
+            "dfinity-SailFash",
+            "icp-intro",
+            "icp-intro-Ecology"
           ]
         }
       ],
@@ -530,10 +675,10 @@
           "name": "icp",
           "items": [
             "dfinity-Canistore",
-            "icp-intro",
             "okex-icp-fund",
-            "icp-intro-Ecology",
-            "dfinity-SailFash"
+            "dfinity-SailFash",
+            "icp-intro",
+            "icp-intro-Ecology"
           ],
           "permalink": "/blog/tags/icp"
         },
@@ -550,10 +695,10 @@
           "name": "dfinity",
           "items": [
             "dfinity-Canistore",
-            "icp-intro",
             "okex-icp-fund",
-            "icp-intro-Ecology",
-            "dfinity-SailFash"
+            "dfinity-SailFash",
+            "icp-intro",
+            "icp-intro-Ecology"
           ],
           "permalink": "/blog/tags/dfinity"
         },
@@ -561,10 +706,10 @@
           "name": "nnsdao",
           "items": [
             "dfinity-Canistore",
-            "icp-intro",
             "okex-icp-fund",
-            "icp-intro-Ecology",
-            "dfinity-SailFash"
+            "dfinity-SailFash",
+            "icp-intro",
+            "icp-intro-Ecology"
           ],
           "permalink": "/blog/tags/nnsdao"
         },

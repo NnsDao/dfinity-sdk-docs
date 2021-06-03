@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "language-guide/motoko",
+              "path": "/docs/language-guide/motoko",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/create-a-document",
               "path": "/docs/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
@@ -53,6 +58,21 @@
             {
               "id": "tutorial-extras/translate-your-site",
               "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-how/install-upgrade-remove",
+              "path": "/docs/tutorial-how/install-upgrade-remove",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-how/sdk-guide",
+              "path": "/docs/tutorial-how/sdk-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-wasms/wasm-intro",
+              "path": "/docs/tutorial-wasms/wasm-intro",
               "sidebar": "tutorialSidebar"
             }
           ]

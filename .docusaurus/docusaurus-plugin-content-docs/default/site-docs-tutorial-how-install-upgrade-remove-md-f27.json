@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/install-upgrade-remove",
+  "id": "tutorial-how/install-upgrade-remove",
+  "isDocsHomePage": false,
+  "title": "安装、升级或删除软件",
+  "description": "正如快速入门中所述，您可以通过在终端外壳中运行命令来下载和安装最新版本的DFINITY Canister SDK包。本节中的主题提供了有关安装、升级和删除DFINITY Canister SDK的其他信息。",
+  "source": "@site/docs/tutorial-how/install-upgrade-remove.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/install-upgrade-remove",
+  "permalink": "/docs/tutorial-how/install-upgrade-remove",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/install-upgrade-remove.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "容器 SDK - 开发者工具",
+    "permalink": "/docs/tutorial-how/sdk-guide"
+  },
+  "next": {
+    "title": "Motoko 编程语言",
+    "permalink": "/docs/language-guide/motoko"
+  }
+}

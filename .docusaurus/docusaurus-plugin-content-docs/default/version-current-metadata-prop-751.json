@@ -48,12 +48,12 @@
           },
           {
             "type": "link",
-            "label": "罐和代码",
+            "label": "canisters-code",
             "href": "/docs/tutorial-extras/canisters-code"
           },
           {
             "type": "link",
-            "label": "通证和cycles燃气",
+            "label": "tokens-cycles",
             "href": "/docs/tutorial-extras/tokens-cycles"
           },
           {
@@ -63,11 +63,53 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "如何集成",
+        "items": [
+          {
+            "type": "link",
+            "label": "容器 SDK - 开发者工具",
+            "href": "/docs/tutorial-how/sdk-guide"
+          },
+          {
+            "type": "link",
+            "label": "安装、升级或删除软件",
+            "href": "/docs/tutorial-how/install-upgrade-remove"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "语言指南",
+        "items": [
+          {
+            "type": "link",
+            "label": "Motoko 编程语言",
+            "href": "/docs/language-guide/motoko"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "WASM指南",
+        "items": [
+          {
+            "type": "link",
+            "label": "WebAssembly是什么",
+            "href": "/docs/tutorial-wasms/wasm-intro"
+          }
+        ],
+        "collapsed": true
       }
     ]
   },
   "permalinkToSidebar": {
     "/docs/intro": "tutorialSidebar",
+    "/docs/language-guide/motoko": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
     "/docs/tutorial-extras/canisters-code": "tutorialSidebar",
@@ -75,6 +117,9 @@
     "/docs/tutorial-extras/governance": "tutorialSidebar",
     "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
     "/docs/tutorial-extras/tokens-cycles": "tutorialSidebar",
-    "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+    "/docs/tutorial-extras/translate-your-site": "tutorialSidebar",
+    "/docs/tutorial-how/install-upgrade-remove": "tutorialSidebar",
+    "/docs/tutorial-how/sdk-guide": "tutorialSidebar",
+    "/docs/tutorial-wasms/wasm-intro": "tutorialSidebar"
   }
 }

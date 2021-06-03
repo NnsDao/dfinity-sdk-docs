@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/motoko",
+  "id": "tutorial-how/motoko",
+  "isDocsHomePage": false,
+  "title": "Motoko 编程语言",
+  "description": "TODOTODO",
+  "source": "@site/docs/tutorial-how/motoko.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/motoko",
+  "permalink": "/docs/tutorial-how/motoko",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/motoko.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Motoko 编程语言",
+    "permalink": "/docs/language-guide/motoko"
+  },
+  "next": {
+    "title": "WebAssembly是什么",
+    "permalink": "/docs/tutorial-wasms/wasm-intro"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/sdk-guide",
+  "id": "tutorial-how/sdk-guide",
+  "isDocsHomePage": false,
+  "title": "容器 SDK - 开发者工具",
+  "description": "互联网计算机平台准备以一种新的方式来设计、构建和发布软件，帮助你开始一场区块链革命。",
+  "source": "@site/docs/tutorial-how/sdk-guide.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/sdk-guide",
+  "permalink": "/docs/tutorial-how/sdk-guide",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/sdk-guide.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "神经元和治理",
+    "permalink": "/docs/tutorial-extras/governance"
+  },
+  "next": {
+    "title": "安装、升级或删除软件",
+    "permalink": "/docs/tutorial-how/install-upgrade-remove"
+  }
+}

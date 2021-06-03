@@ -3,12 +3,12 @@
   "id": "tutorial-extras/data-centers",
   "isDocsHomePage": false,
   "title": "去中心化数据中心",
-  "description": "TODO TODO TODO",
+  "description": "互联网计算机不是存在于任何物理位置的物理硬件。相反，互联网计算机结合了世界各地独立运营的数据中心所提供的计算资源。",
   "source": "@site/docs/tutorial-extras/data-centers.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/data-centers",
   "permalink": "/docs/tutorial-extras/data-centers",
-  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/docs/tutorial-extras/data-centers.md",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/data-centers.md",
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-extras/translate-your-site"
   },
   "next": {
-    "title": "罐和代码",
+    "title": "canisters-code",
     "permalink": "/docs/tutorial-extras/canisters-code"
   }
 }

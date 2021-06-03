@@ -44,62 +44,62 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','278'),
+  component: ComponentCreator('/blog','af1'),
   exact: true,
 },
 {
   path: '/blog/dfinity-Canistore',
-  component: ComponentCreator('/blog/dfinity-Canistore','c26'),
+  component: ComponentCreator('/blog/dfinity-Canistore','b64'),
   exact: true,
 },
 {
   path: '/blog/dfinity-SailFash',
-  component: ComponentCreator('/blog/dfinity-SailFash','507'),
+  component: ComponentCreator('/blog/dfinity-SailFash','4fe'),
   exact: true,
 },
 {
   path: '/blog/icp-intro',
-  component: ComponentCreator('/blog/icp-intro','417'),
+  component: ComponentCreator('/blog/icp-intro','068'),
   exact: true,
 },
 {
   path: '/blog/icp-intro-Ecology',
-  component: ComponentCreator('/blog/icp-intro-Ecology','4af'),
+  component: ComponentCreator('/blog/icp-intro-Ecology','3a5'),
   exact: true,
 },
 {
   path: '/blog/okex-icp-fund',
-  component: ComponentCreator('/blog/okex-icp-fund','d78'),
+  component: ComponentCreator('/blog/okex-icp-fund','d7a'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','abc'),
+  component: ComponentCreator('/blog/tags','31c'),
   exact: true,
 },
 {
   path: '/blog/tags/canistore',
-  component: ComponentCreator('/blog/tags/canistore','ef4'),
+  component: ComponentCreator('/blog/tags/canistore','abb'),
   exact: true,
 },
 {
   path: '/blog/tags/dfinity',
-  component: ComponentCreator('/blog/tags/dfinity','4ba'),
+  component: ComponentCreator('/blog/tags/dfinity','ef8'),
   exact: true,
 },
 {
   path: '/blog/tags/icp',
-  component: ComponentCreator('/blog/tags/icp','b07'),
+  component: ComponentCreator('/blog/tags/icp','6ba'),
   exact: true,
 },
 {
   path: '/blog/tags/nnsdao',
-  component: ComponentCreator('/blog/tags/nnsdao','93f'),
+  component: ComponentCreator('/blog/tags/nnsdao','0b4'),
   exact: true,
 },
 {
   path: '/blog/tags/sail-fash',
-  component: ComponentCreator('/blog/tags/sail-fash','e85'),
+  component: ComponentCreator('/blog/tags/sail-fash','41f'),
   exact: true,
 },
 {
@@ -109,12 +109,17 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','44f'),
+  component: ComponentCreator('/docs','a40'),
   
   routes: [
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
+  exact: true,
+},
+{
+  path: '/docs/language-guide/motoko',
+  component: ComponentCreator('/docs/language-guide/motoko','7a6'),
   exact: true,
 },
 {
@@ -155,6 +160,21 @@ export default [
 {
   path: '/docs/tutorial-extras/translate-your-site',
   component: ComponentCreator('/docs/tutorial-extras/translate-your-site','16a'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-how/install-upgrade-remove',
+  component: ComponentCreator('/docs/tutorial-how/install-upgrade-remove','fe4'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-how/sdk-guide',
+  component: ComponentCreator('/docs/tutorial-how/sdk-guide','2e7'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-wasms/wasm-intro',
+  component: ComponentCreator('/docs/tutorial-wasms/wasm-intro','310'),
   exact: true,
 },
 ]
