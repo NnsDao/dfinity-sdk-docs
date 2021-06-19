@@ -1,0 +1,26 @@
+{
+  "unversionedId": "quick-start/ic",
+  "id": "quick-start/ic",
+  "isDocsHomePage": false,
+  "title": "[ICP开发]:IC学习心得",
+  "description": "本文所讲内容基于DFINITY Canister SDK，区别于NNS系统，他们的账户系统不一样。",
+  "source": "@site/docs/quick-start/ic.md",
+  "sourceDirName": "quick-start",
+  "slug": "/quick-start/ic",
+  "permalink": "/docs/quick-start/ic",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/quick-start/ic.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "WebAssembly是什么",
+    "permalink": "/docs/tutorial-wasms/wasm-intro"
+  },
+  "next": {
+    "title": "[ICP开发]:DFX命令最全指南学习心得和实践",
+    "permalink": "/docs/quick-start/dfx-guide"
+  }
+}

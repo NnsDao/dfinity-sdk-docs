@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/design-apps",
+  "id": "tutorial-how/design-apps",
+  "isDocsHomePage": false,
+  "title": "设计应用",
+  "description": "当你想出如何创造应用程序时，你要做出许多关于如何构建和组织项目而做出一些设计决策。这些决策中的大多数与你是在传统的云服务上部署还是在ICP部署与你的应用程序相关性并不大。但是，如果你打算在互联网计算机上部署，在你计划你的应用程序的实施时，你应该特别注意一些设计决定。",
+  "source": "@site/docs/tutorial-how/design-apps.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/design-apps",
+  "permalink": "/docs/tutorial-how/design-apps",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/design-apps.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "安装、升级或删除软件",
+    "permalink": "/docs/tutorial-how/install-upgrade-remove"
+  },
+  "next": {
+    "title": "管理项目",
+    "permalink": "/docs/tutorial-how/customize-projects"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/work-with-languages",
+  "id": "tutorial-how/work-with-languages",
+  "isDocsHomePage": false,
+  "title": "使用不同的语言进行开发",
+  "description": "本指南中的大多数例子都默认使用Motoko--专门为互联网计算机设计的编程语言。然而，你也可以用任何可以编译成WebAssembly的语言来编写程序，以部署在互联网计算机上运行的应用程序。本节提供了一些关于用不同语言编写程序以及如何在 Internet 计算机上部署它们的高级指南。",
+  "source": "@site/docs/tutorial-how/work-with-languages.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/work-with-languages",
+  "permalink": "/docs/tutorial-how/work-with-languages",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/work-with-languages.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "管理项目",
+    "permalink": "/docs/tutorial-how/customize-projects"
+  },
+  "next": {
+    "title": "添加前端资产",
+    "permalink": "/docs/tutorial-how/webpack-config"
+  }
+}

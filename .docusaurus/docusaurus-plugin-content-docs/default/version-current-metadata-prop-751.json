@@ -77,6 +77,26 @@
             "type": "link",
             "label": "安装、升级或删除软件",
             "href": "/docs/tutorial-how/install-upgrade-remove"
+          },
+          {
+            "type": "link",
+            "label": "设计应用",
+            "href": "/docs/tutorial-how/design-apps"
+          },
+          {
+            "type": "link",
+            "label": "管理项目",
+            "href": "/docs/tutorial-how/customize-projects"
+          },
+          {
+            "type": "link",
+            "label": "使用不同的语言进行开发",
+            "href": "/docs/tutorial-how/work-with-languages"
+          },
+          {
+            "type": "link",
+            "label": "添加前端资产",
+            "href": "/docs/tutorial-how/webpack-config"
           }
         ],
         "collapsed": true
@@ -89,6 +109,21 @@
             "type": "link",
             "label": "Motoko 编程语言",
             "href": "/docs/language-guide/motoko"
+          },
+          {
+            "type": "link",
+            "label": "关于本指南",
+            "href": "/docs/language-guide/about-this-guide"
+          },
+          {
+            "type": "link",
+            "label": "Motoko简介",
+            "href": "/docs/language-guide/motoko-introduction"
+          },
+          {
+            "type": "link",
+            "label": "基本概念和术语",
+            "href": "/docs/language-guide/basic-concepts"
           }
         ],
         "collapsed": true
@@ -104,12 +139,40 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "ICP开发指南",
+        "items": [
+          {
+            "type": "link",
+            "label": "[ICP开发]:IC学习心得",
+            "href": "/docs/quick-start/ic"
+          },
+          {
+            "type": "link",
+            "label": "[ICP开发]:DFX命令最全指南学习心得和实践",
+            "href": "/docs/quick-start/dfx-guide"
+          },
+          {
+            "type": "link",
+            "label": "Motoko 编程语言",
+            "href": "/docs/quick-start/motoko"
+          }
+        ],
+        "collapsed": true
       }
     ]
   },
   "permalinkToSidebar": {
     "/docs/intro": "tutorialSidebar",
+    "/docs/language-guide/about-this-guide": "tutorialSidebar",
+    "/docs/language-guide/basic-concepts": "tutorialSidebar",
     "/docs/language-guide/motoko": "tutorialSidebar",
+    "/docs/language-guide/motoko-introduction": "tutorialSidebar",
+    "/docs/quick-start/dfx-guide": "tutorialSidebar",
+    "/docs/quick-start/ic": "tutorialSidebar",
+    "/docs/quick-start/motoko": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
     "/docs/tutorial-extras/canisters-code": "tutorialSidebar",
@@ -118,8 +181,12 @@
     "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
     "/docs/tutorial-extras/tokens-cycles": "tutorialSidebar",
     "/docs/tutorial-extras/translate-your-site": "tutorialSidebar",
+    "/docs/tutorial-how/customize-projects": "tutorialSidebar",
+    "/docs/tutorial-how/design-apps": "tutorialSidebar",
     "/docs/tutorial-how/install-upgrade-remove": "tutorialSidebar",
     "/docs/tutorial-how/sdk-guide": "tutorialSidebar",
+    "/docs/tutorial-how/webpack-config": "tutorialSidebar",
+    "/docs/tutorial-how/work-with-languages": "tutorialSidebar",
     "/docs/tutorial-wasms/wasm-intro": "tutorialSidebar"
   }
 }

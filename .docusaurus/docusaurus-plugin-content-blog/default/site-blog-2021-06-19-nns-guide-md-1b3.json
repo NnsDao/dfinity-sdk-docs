@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/icp-nns-dfinity-part",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-19-nns-guide.md",
+  "source": "@site/blog/2021-06-19-nns-guide.md",
+  "title": "神经元网络——Dfinity的算法自治之路（上）",
+  "description": "神经元网络——Dfinity的算法自治之路（上）",
+  "date": "2021-06-19T00:00:00.000Z",
+  "formattedDate": "June 19, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    }
+  ],
+  "readingTime": 0.275,
+  "truncated": false,
+  "nextItem": {
+    "title": "神经元网络——Dfinity的算法自治之路（下）",
+    "permalink": "/blog/icp-nns-dfinity-next"
+  }
+}

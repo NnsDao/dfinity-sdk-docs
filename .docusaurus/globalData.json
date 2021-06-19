@@ -16,8 +16,38 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "language-guide/about-this-guide",
+              "path": "/docs/language-guide/about-this-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "language-guide/basic-concepts",
+              "path": "/docs/language-guide/basic-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "language-guide/motoko",
               "path": "/docs/language-guide/motoko",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "language-guide/motoko-introduction",
+              "path": "/docs/language-guide/motoko-introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-start/dfx-guide",
+              "path": "/docs/quick-start/dfx-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-start/ic",
+              "path": "/docs/quick-start/ic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-start/motoko",
+              "path": "/docs/quick-start/motoko",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -61,6 +91,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-how/customize-projects",
+              "path": "/docs/tutorial-how/customize-projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-how/design-apps",
+              "path": "/docs/tutorial-how/design-apps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-how/install-upgrade-remove",
               "path": "/docs/tutorial-how/install-upgrade-remove",
               "sidebar": "tutorialSidebar"
@@ -68,6 +108,16 @@
             {
               "id": "tutorial-how/sdk-guide",
               "path": "/docs/tutorial-how/sdk-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-how/webpack-config",
+              "path": "/docs/tutorial-how/webpack-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-how/work-with-languages",
+              "path": "/docs/tutorial-how/work-with-languages",
               "sidebar": "tutorialSidebar"
             },
             {

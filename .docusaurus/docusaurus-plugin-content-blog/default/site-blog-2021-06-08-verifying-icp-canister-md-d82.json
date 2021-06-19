@@ -1,0 +1,20 @@
+{
+  "permalink": "/blog/2021/06/08/verifying-icp-canister",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-08-verifying-icp-canister.md",
+  "source": "@site/blog/2021-06-08-verifying-icp-canister.md",
+  "title": "[ICP科普]一个例子看懂如何验证互联网身份认证的代码",
+  "description": "互联网身份认证的代码",
+  "date": "2021-06-08T00:00:00.000Z",
+  "formattedDate": "June 8, 2021",
+  "tags": [],
+  "readingTime": 0.525,
+  "truncated": false,
+  "prevItem": {
+    "title": "如何书写完美的开发者资助申请？",
+    "permalink": "/blog/icp-grants"
+  },
+  "nextItem": {
+    "title": "ICP - Dfinity简介和基础科普",
+    "permalink": "/blog/icp-intro"
+  }
+}

@@ -111,7 +111,7 @@ export default {
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/blog/"
+          "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/"
         },
         "theme": {
           "customCss": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/src/css/custom.css"

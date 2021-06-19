@@ -1,0 +1,65 @@
+{
+  "permalink": "/blog/icp-token-nns-dfinity",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-15-nns-token-econmics.md",
+  "source": "@site/blog/2021-06-15-nns-token-econmics.md",
+  "title": "DFINITY主网启动以来社区主导网络治理",
+  "description": "区别于传统区块链网络治理权大多数都掌握在矿工手里，造成更广泛的参与者利益难以保证。目前DFINITY网络治理的权利牢牢掌握在更广泛的社区手中（包括代币持有者和应用开发者），社区控制着约 60% 的投票权。",
+  "date": "2021-06-15T00:00:00.000Z",
+  "formattedDate": "June 15, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    },
+    {
+      "label": "nns",
+      "permalink": "/blog/tags/nns"
+    },
+    {
+      "label": "cancan",
+      "permalink": "/blog/tags/cancan"
+    },
+    {
+      "label": "candid",
+      "permalink": "/blog/tags/candid"
+    }
+  ],
+  "readingTime": 0.64,
+  "truncated": false,
+  "prevItem": {
+    "title": "神经元网络——Dfinity的算法自治之路（下）",
+    "permalink": "/blog/icp-nns-dfinity-next"
+  },
+  "nextItem": {
+    "title": "ICP官方最新数据:网络神经系统质押奖励年化追高28.9%?",
+    "permalink": "/blog/dfinity-stacking-vote-reward"
+  }
+}

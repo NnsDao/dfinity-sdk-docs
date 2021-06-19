@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/customize-projects",
+  "id": "tutorial-how/customize-projects",
+  "isDocsHomePage": false,
+  "title": "管理项目",
+  "description": "你可以通过修改每个项目的dfx.json配置文件来修改单个项目的一些关键设置。你可以使用dfx config命令以编程方式改变这些设置，或者直接手动编辑dfx.json文件。",
+  "source": "@site/docs/tutorial-how/customize-projects.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/customize-projects",
+  "permalink": "/docs/tutorial-how/customize-projects",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/customize-projects.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "设计应用",
+    "permalink": "/docs/tutorial-how/design-apps"
+  },
+  "next": {
+    "title": "使用不同的语言进行开发",
+    "permalink": "/docs/tutorial-how/work-with-languages"
+  }
+}

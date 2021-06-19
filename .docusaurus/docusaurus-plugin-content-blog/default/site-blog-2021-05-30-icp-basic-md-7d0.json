@@ -23,11 +23,11 @@
   "readingTime": 1.1,
   "truncated": true,
   "prevItem": {
-    "title": "不一样的「DFINITY」词贴 | SailFash是什么？",
-    "permalink": "/blog/dfinity-SailFash"
+    "title": "[ICP科普]一个例子看懂如何验证互联网身份认证的代码",
+    "permalink": "/blog/2021/06/08/verifying-icp-canister"
   },
   "nextItem": {
-    "title": "ICP科普系列:DFINITY生态项目概览",
-    "permalink": "/blog/icp-intro-Ecology"
+    "title": "不一样的「DFINITY」词贴 | Canistore是什么？",
+    "permalink": "/blog/dfinity-Canistore"
   }
 }

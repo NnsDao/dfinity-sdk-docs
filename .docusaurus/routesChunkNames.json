@@ -25,27 +25,47 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-af1": {
+  "/blog-4b5": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
-        "content": "content---blogdfd-8e7"
+        "content": "content---blog-151-329"
       },
       {
-        "content": "content---blog-4-bb-33c"
+        "content": "content---blog-40-e-ba6"
       },
       {
-        "content": "content---blogb-0-b-f78"
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blog-6-cb-21e"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      },
+      {
+        "content": "content---blog-99-c-ea6"
       },
       {
         "content": "content---blog-274-55a"
       },
       {
-        "content": "content---blog-80-e-c42"
+        "content": "content---blogdfd-8e7"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/2021/06/08/verifying-icp-canister-d6b": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-2021-06-08-verifying-icp-canisterd-82-691"
   },
   "/blog/dfinity-Canistore-b64": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -57,6 +77,16 @@
     "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-dfinity-sail-fashf-64-ad7"
   },
+  "/blog/dfinity-stacking-vote-reward-994": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-dfinity-stacking-vote-rewardd-08-19d"
+  },
+  "/blog/icp-grants-157": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-icp-grants-17-c-d47"
+  },
   "/blog/icp-intro-068": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-13-e-950",
@@ -67,15 +97,76 @@
     "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-icp-intro-ecologyaf-4-22f"
   },
+  "/blog/icp-nns-dfinity-next-f5f": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-2021-06-19-nns-guide-next-066-5af"
+  },
+  "/blog/icp-nns-dfinity-part-649": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-2021-06-19-nns-guide-1-b-3-1b8"
+  },
+  "/blog/icp-price-predictions-e9c": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-icp-price-predictions-020-30e"
+  },
+  "/blog/icp-price-predictions-nnsdao-e4a": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-icp-price-predictions-nnsdao-039-c3b"
+  },
+  "/blog/icp-token-nns-dfinity-beb": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-13-e-950",
+    "content": "content---blog-icp-token-nns-dfinity-239-a15"
+  },
   "/blog/okex-icp-fund-d7a": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-13-e-950",
     "content": "content---blog-okex-icp-fund-948-86d"
   },
+  "/blog/page/2-037": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-4-bb-33c"
+      },
+      {
+        "content": "content---blog-80-e-c42"
+      },
+      {
+        "content": "content---blog-page-2-b-0-b-c51"
+      }
+    ],
+    "metadata": "metadata---blog-page-28-eb-625"
+  },
   "/blog/tags-31c": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
     "sidebar": "sidebar---blog-13-e-950",
     "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/cancan-d5a": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-4-f-2-027"
+      }
+    ],
+    "metadata": "metadata---blog-tags-cancan-664-a85"
+  },
+  "/blog/tags/candid-0ba": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-4-f-2-027"
+      }
+    ],
+    "metadata": "metadata---blog-tags-candid-118-da6"
   },
   "/blog/tags/canistore-abb": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -87,10 +178,59 @@
     ],
     "metadata": "metadata---blog-tags-canistore-813-5f3"
   },
-  "/blog/tags/dfinity-ef8": {
+  "/blog/tags/dapp-62f": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-13-e-950",
     "items": [
+      {
+        "content": "content---blog-151-329"
+      },
+      {
+        "content": "content---blog-40-e-ba6"
+      },
+      {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      }
+    ],
+    "metadata": "metadata---blog-tags-dapp-982-62f"
+  },
+  "/blog/tags/dfinity-24a": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-151-329"
+      },
+      {
+        "content": "content---blog-40-e-ba6"
+      },
+      {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blog-6-cb-21e"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      },
+      {
+        "content": "content---blog-274-55a"
+      },
       {
         "content": "content---blogdfd-8e7"
       },
@@ -98,21 +238,92 @@
         "content": "content---blog-4-bb-33c"
       },
       {
-        "content": "content---blogb-0-b-f78"
-      },
-      {
-        "content": "content---blog-274-55a"
-      },
-      {
         "content": "content---blog-80-e-c42"
+      },
+      {
+        "content": "content---blog-page-2-b-0-b-c51"
       }
     ],
     "metadata": "metadata---blog-tags-dfinity-77-a-333"
   },
-  "/blog/tags/icp-6ba": {
+  "/blog/tags/dscvr-8d7": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-13-e-950",
     "items": [
+      {
+        "content": "content---blog-151-329"
+      },
+      {
+        "content": "content---blog-40-e-ba6"
+      },
+      {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      }
+    ],
+    "metadata": "metadata---blog-tags-dscvr-931-281"
+  },
+  "/blog/tags/grants-845": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-151-329"
+      },
+      {
+        "content": "content---blog-40-e-ba6"
+      },
+      {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      }
+    ],
+    "metadata": "metadata---blog-tags-grants-757-d93"
+  },
+  "/blog/tags/icp-afd": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-151-329"
+      },
+      {
+        "content": "content---blog-40-e-ba6"
+      },
+      {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blog-6-cb-21e"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      },
+      {
+        "content": "content---blog-274-55a"
+      },
       {
         "content": "content---blogdfd-8e7"
       },
@@ -120,43 +331,124 @@
         "content": "content---blog-4-bb-33c"
       },
       {
-        "content": "content---blogb-0-b-f78"
-      },
-      {
-        "content": "content---blog-274-55a"
-      },
-      {
         "content": "content---blog-80-e-c42"
+      },
+      {
+        "content": "content---blog-page-2-b-0-b-c51"
       }
     ],
     "metadata": "metadata---blog-tags-icp-17-f-334"
   },
-  "/blog/tags/nnsdao-0b4": {
+  "/blog/tags/icp币-aa3": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-13-e-950",
     "items": [
       {
-        "content": "content---blogdfd-8e7"
+        "content": "content---blog-6-cb-21e"
+      }
+    ],
+    "metadata": "metadata---blog-tags-icp币-914-a2d"
+  },
+  "/blog/tags/nns-57d": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-4-f-2-027"
+      }
+    ],
+    "metadata": "metadata---blog-tags-nnsade-620"
+  },
+  "/blog/tags/nnsdao-88b": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-151-329"
       },
       {
-        "content": "content---blog-4-bb-33c"
+        "content": "content---blog-40-e-ba6"
       },
       {
-        "content": "content---blogb-0-b-f78"
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blog-6-cb-21e"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
       },
       {
         "content": "content---blog-274-55a"
       },
       {
+        "content": "content---blogdfd-8e7"
+      },
+      {
+        "content": "content---blog-4-bb-33c"
+      },
+      {
         "content": "content---blog-80-e-c42"
+      },
+      {
+        "content": "content---blog-page-2-b-0-b-c51"
       }
     ],
     "metadata": "metadata---blog-tags-nnsdaoa-1-c-a9a"
   },
-  "/blog/tags/sail-fash-41f": {
+  "/blog/tags/polychain-e14": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-13-e-950",
     "items": [
+      {
+        "content": "content---blog-151-329"
+      },
+      {
+        "content": "content---blog-40-e-ba6"
+      },
+      {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      }
+    ],
+    "metadata": "metadata---blog-tags-polychaind-53-dd2"
+  },
+  "/blog/tags/sail-fash-3ad": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-13-e-950",
+    "items": [
+      {
+        "content": "content---blog-151-329"
+      },
+      {
+        "content": "content---blog-40-e-ba6"
+      },
+      {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blogc-7-b-a83"
+      },
+      {
+        "content": "content---blogf-29-0e8"
+      },
+      {
+        "content": "content---blog-083-d42"
+      },
       {
         "content": "content---blogdfd-8e7"
       },
@@ -164,7 +456,7 @@
         "content": "content---blog-4-bb-33c"
       },
       {
-        "content": "content---blogb-0-b-f78"
+        "content": "content---blog-page-2-b-0-b-c51"
       }
     ],
     "metadata": "metadata---blog-tags-sail-fashaa-9-97c"
@@ -173,7 +465,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-a40": {
+  "/docs-765": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -181,9 +473,33 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
+  "/docs/language-guide/about-this-guide-ce5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-language-guide-about-this-guide-71-b-8af"
+  },
+  "/docs/language-guide/basic-concepts-414": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-language-guide-basic-concepts-821-b5d"
+  },
   "/docs/language-guide/motoko-7a6": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-language-guide-motoko-23-f-a42"
+  },
+  "/docs/language-guide/motoko-introduction-2c5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-language-guide-motoko-introduction-8-b-0-2b2"
+  },
+  "/docs/quick-start/dfx-guide-6ac": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-dfx-guide-8-a-3-404"
+  },
+  "/docs/quick-start/ic-17a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-ic-91-c-f0e"
+  },
+  "/docs/quick-start/motoko-f4e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-motoko-9-fe-23d"
   },
   "/docs/tutorial-basics/create-a-document-f0d": {
     "component": "component---theme-doc-item-178-a40",
@@ -217,6 +533,14 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
+  "/docs/tutorial-how/customize-projects-9a7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-how-customize-projects-3-d-2-535"
+  },
+  "/docs/tutorial-how/design-apps-945": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-how-design-apps-737-e4f"
+  },
   "/docs/tutorial-how/install-upgrade-remove-fe4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-how-install-upgrade-removef-27-89f"
@@ -224,6 +548,14 @@
   "/docs/tutorial-how/sdk-guide-2e7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-how-sdk-guide-252-e8a"
+  },
+  "/docs/tutorial-how/webpack-config-596": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-how-webpack-configa-63-e71"
+  },
+  "/docs/tutorial-how/work-with-languages-ac0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-how-work-with-languages-343-2bc"
   },
   "/docs/tutorial-wasms/wasm-intro-310": {
     "component": "component---theme-doc-item-178-a40",

@@ -15,18 +15,18 @@ tags: [icp, SailFash, Dfinity, nnsdao,grants,Polychain,dapp,DSCVR,nns,cancan,can
 
 区别于传统区块链网络治理权大多数都掌握在矿工手里，造成更广泛的参与者利益难以保证。目前DFINITY网络治理的权利牢牢掌握在更广泛的社区手中（包括代币持有者和应用开发者），社区控制着约 60% 的投票权。
 
-![DFINITY主网启动以来社区主导网络治理](https://mmbiz.qpic.cn/mmbiz_png/qbzaGJYgmP4SlyhV5cQIONPP21DVTL6szKCXH4Lkg6O5j3yicj4Xlh3tCAFP6tZNso8Vs4fu2KA8Y47Hser3Fgg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![DFINITY主网启动以来社区主导网络治理](https://www.dailybtc.cn/wp-content/uploads/2021/06/frc-0d66c4c4fb49c538072bc8b5dc8a95f7.png)
 
 由于ICP代币持有者质押代币在网络神经系统（NNS）中创建神经元，网络神经系统是控制互联网计算机区块链的无许可的治理系统。他们可以通过使用投票权对不断升级互联网计算机的提案进行投票来参与网络治理，迄今为止已向 NNS 提交了 4,970 项提案并由社区进行了投票。
 
 一旦通过，提案就会由NNS自动执行。作为回报，网络治理的社区参与者获得“投票奖励”。截至 2021 年 6 月 8 日，网络治理参与者的年化回报率高达 28.9%。
 
 
-![DFINITY主网启动以来社区主导网络治理](https://mmbiz.qpic.cn/mmbiz_png/qbzaGJYgmP4SlyhV5cQIONPP21DVTL6sINgib33hXh4zlaywHDRKZhiakGQzEUbdHQpaibJQUzBf3sAy8icKxDFD8w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![DFINITY主网启动以来社区主导网络治理](https://www.dailybtc.cn/wp-content/uploads/2021/06/frc-2da4c8942d5b6e563ee6f17cd905f3a4.png)
 
 DFINITY 基金会和互联网计算机协会共同持有的投票权永远不会超过 50%。在 主网启动阶段，这两个非营利组织之间的总投票权为 40%。随着越来越多的 ICP 代币被分发，随着代币持有者通过质押代币参与网络治理，DFINITY 基金会和互联网计算机协会的集体投票权将继续大幅下降，让更广泛的社区在网络治理中发挥更大的作用。
 
-![DFINITY主网启动以来社区主导网络治理](https://mmbiz.qpic.cn/mmbiz_png/qbzaGJYgmP4SlyhV5cQIONPP21DVTL6sQ9SicLHS0ziacVJ3uCQCj2w2rxnzpZTuiaJcjaiaRxBjs3gRznXbFcdia1g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![DFINITY主网启动以来社区主导网络治理](https://www.dailybtc.cn/wp-content/uploads/2021/06/frc-ace70cd3ff71a4cb4c595e6e76da0ae4.png)
 
 神经元的投票权是根据三个条件计算的：
 
@@ -44,7 +44,7 @@ DFINITY 基金会和互联网计算机协会共同持有的投票权永远不会
 
 种子捐赠者和早期贡献者在 Genesis 的神经元中收到了他们所有的 ICP 代币（占 Genesis 代币分配的 24.7% 和 9.5%）以立即参与 NNS。Genesis 代币分配已通过 Messari 的独立研究报告提供，该报告详细介绍了代币的时间、代币经济学、百分比和定价。
 
-![DFINITY主网启动以来社区主导网络治理](https://mmbiz.qpic.cn/mmbiz_png/qbzaGJYgmP4SlyhV5cQIONPP21DVTL6s1YZ4PiakM4BSiamic6VJS3jKfR8A2qxiaEuPUbXOKu6lAjDRk2yMvdP1Bw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![DFINITY主网启动以来社区主导网络治理](https://www.dailybtc.cn/wp-content/uploads/2021/06/frc-7058e5a9f70454e593709f634de70ad8.png)
 
 随着时间的推移，代币流动性受到多种不同方式的影响：
 
@@ -52,7 +52,7 @@ DFINITY 基金会和互联网计算机协会共同持有的投票权永远不会
 
 新铸造的 ICP 代币供应（通货膨胀）。有两种令牌铸造类型：（1）神经元投票奖励和（2）节点提供者奖励。对于神经元投票奖励，根据总 ICP 供应量的百分比铸造新的 ICP 代币。这部分每年铸造是主网启动初始铸造的 10%，并在八年内缓慢下降到 5%。
 
-![DFINITY主网启动以来社区主导网络治理](https://mmbiz.qpic.cn/mmbiz_png/qbzaGJYgmP4SlyhV5cQIONPP21DVTL6s2Y4ib5fBebH25Q2iak2ha8icGrJ5nOmPDfhUwrVvwVibgzcYia0wqjjGibGQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![DFINITY主网启动以来社区主导网络治理](https://www.dailybtc.cn/wp-content/uploads/2021/06/frc-65bbfd940007c70c5d94281de24a92e9.png)
 
 
 燃烧 ICP 代币供应（通货紧缩）。供应消耗有两种方式：(1) 转换为周期以对罐充电或 (2) 用于 DeFi 和交易费用。

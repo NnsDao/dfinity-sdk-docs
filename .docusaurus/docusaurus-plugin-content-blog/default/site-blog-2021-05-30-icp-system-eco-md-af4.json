@@ -23,7 +23,11 @@
   "readingTime": 0.5,
   "truncated": true,
   "prevItem": {
-    "title": "ICP - Dfinity简介和基础科普",
-    "permalink": "/blog/icp-intro"
+    "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
+    "permalink": "/blog/okex-icp-fund"
+  },
+  "nextItem": {
+    "title": "不一样的「DFINITY」词贴 | SailFash是什么？",
+    "permalink": "/blog/dfinity-SailFash"
   }
 }

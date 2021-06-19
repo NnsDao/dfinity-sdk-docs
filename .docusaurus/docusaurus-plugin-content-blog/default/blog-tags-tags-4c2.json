@@ -3,29 +3,85 @@
     "allTagsPath": "/blog/tags",
     "slug": "icp",
     "name": "icp",
-    "count": 5,
+    "count": 12,
     "permalink": "/blog/tags/icp"
   },
   "sail-fash": {
     "allTagsPath": "/blog/tags",
     "slug": "sail-fash",
     "name": "sailfash",
-    "count": 3,
+    "count": 9,
     "permalink": "/blog/tags/sail-fash"
   },
   "dfinity": {
     "allTagsPath": "/blog/tags",
     "slug": "dfinity",
     "name": "dfinity",
-    "count": 5,
+    "count": 12,
     "permalink": "/blog/tags/dfinity"
   },
   "nnsdao": {
     "allTagsPath": "/blog/tags",
     "slug": "nnsdao",
     "name": "nnsdao",
-    "count": 5,
+    "count": 12,
     "permalink": "/blog/tags/nnsdao"
+  },
+  "grants": {
+    "allTagsPath": "/blog/tags",
+    "slug": "grants",
+    "name": "grants",
+    "count": 6,
+    "permalink": "/blog/tags/grants"
+  },
+  "polychain": {
+    "allTagsPath": "/blog/tags",
+    "slug": "polychain",
+    "name": "polychain",
+    "count": 6,
+    "permalink": "/blog/tags/polychain"
+  },
+  "dapp": {
+    "allTagsPath": "/blog/tags",
+    "slug": "dapp",
+    "name": "dapp",
+    "count": 6,
+    "permalink": "/blog/tags/dapp"
+  },
+  "dscvr": {
+    "allTagsPath": "/blog/tags",
+    "slug": "dscvr",
+    "name": "dscvr",
+    "count": 6,
+    "permalink": "/blog/tags/dscvr"
+  },
+  "nns": {
+    "allTagsPath": "/blog/tags",
+    "slug": "nns",
+    "name": "nns",
+    "count": 1,
+    "permalink": "/blog/tags/nns"
+  },
+  "cancan": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cancan",
+    "name": "cancan",
+    "count": 1,
+    "permalink": "/blog/tags/cancan"
+  },
+  "candid": {
+    "allTagsPath": "/blog/tags",
+    "slug": "candid",
+    "name": "candid",
+    "count": 1,
+    "permalink": "/blog/tags/candid"
+  },
+  "icp币": {
+    "allTagsPath": "/blog/tags",
+    "slug": "icp币",
+    "name": "icp币",
+    "count": 1,
+    "permalink": "/blog/tags/icp币"
   },
   "canistore": {
     "allTagsPath": "/blog/tags",

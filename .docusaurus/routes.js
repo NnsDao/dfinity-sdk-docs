@@ -44,7 +44,12 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','af1'),
+  component: ComponentCreator('/blog','4b5'),
+  exact: true,
+},
+{
+  path: '/blog/2021/06/08/verifying-icp-canister',
+  component: ComponentCreator('/blog/2021/06/08/verifying-icp-canister','d6b'),
   exact: true,
 },
 {
@@ -58,6 +63,16 @@ export default [
   exact: true,
 },
 {
+  path: '/blog/dfinity-stacking-vote-reward',
+  component: ComponentCreator('/blog/dfinity-stacking-vote-reward','994'),
+  exact: true,
+},
+{
+  path: '/blog/icp-grants',
+  component: ComponentCreator('/blog/icp-grants','157'),
+  exact: true,
+},
+{
   path: '/blog/icp-intro',
   component: ComponentCreator('/blog/icp-intro','068'),
   exact: true,
@@ -68,8 +83,38 @@ export default [
   exact: true,
 },
 {
+  path: '/blog/icp-nns-dfinity-next',
+  component: ComponentCreator('/blog/icp-nns-dfinity-next','f5f'),
+  exact: true,
+},
+{
+  path: '/blog/icp-nns-dfinity-part',
+  component: ComponentCreator('/blog/icp-nns-dfinity-part','649'),
+  exact: true,
+},
+{
+  path: '/blog/icp-price-predictions',
+  component: ComponentCreator('/blog/icp-price-predictions','e9c'),
+  exact: true,
+},
+{
+  path: '/blog/icp-price-predictions-nnsdao',
+  component: ComponentCreator('/blog/icp-price-predictions-nnsdao','e4a'),
+  exact: true,
+},
+{
+  path: '/blog/icp-token-nns-dfinity',
+  component: ComponentCreator('/blog/icp-token-nns-dfinity','beb'),
+  exact: true,
+},
+{
   path: '/blog/okex-icp-fund',
   component: ComponentCreator('/blog/okex-icp-fund','d7a'),
+  exact: true,
+},
+{
+  path: '/blog/page/2',
+  component: ComponentCreator('/blog/page/2','037'),
   exact: true,
 },
 {
@@ -78,28 +123,68 @@ export default [
   exact: true,
 },
 {
+  path: '/blog/tags/cancan',
+  component: ComponentCreator('/blog/tags/cancan','d5a'),
+  exact: true,
+},
+{
+  path: '/blog/tags/candid',
+  component: ComponentCreator('/blog/tags/candid','0ba'),
+  exact: true,
+},
+{
   path: '/blog/tags/canistore',
   component: ComponentCreator('/blog/tags/canistore','abb'),
   exact: true,
 },
 {
+  path: '/blog/tags/dapp',
+  component: ComponentCreator('/blog/tags/dapp','62f'),
+  exact: true,
+},
+{
   path: '/blog/tags/dfinity',
-  component: ComponentCreator('/blog/tags/dfinity','ef8'),
+  component: ComponentCreator('/blog/tags/dfinity','24a'),
+  exact: true,
+},
+{
+  path: '/blog/tags/dscvr',
+  component: ComponentCreator('/blog/tags/dscvr','8d7'),
+  exact: true,
+},
+{
+  path: '/blog/tags/grants',
+  component: ComponentCreator('/blog/tags/grants','845'),
   exact: true,
 },
 {
   path: '/blog/tags/icp',
-  component: ComponentCreator('/blog/tags/icp','6ba'),
+  component: ComponentCreator('/blog/tags/icp','afd'),
+  exact: true,
+},
+{
+  path: '/blog/tags/icp币',
+  component: ComponentCreator('/blog/tags/icp币','aa3'),
+  exact: true,
+},
+{
+  path: '/blog/tags/nns',
+  component: ComponentCreator('/blog/tags/nns','57d'),
   exact: true,
 },
 {
   path: '/blog/tags/nnsdao',
-  component: ComponentCreator('/blog/tags/nnsdao','0b4'),
+  component: ComponentCreator('/blog/tags/nnsdao','88b'),
+  exact: true,
+},
+{
+  path: '/blog/tags/polychain',
+  component: ComponentCreator('/blog/tags/polychain','e14'),
   exact: true,
 },
 {
   path: '/blog/tags/sail-fash',
-  component: ComponentCreator('/blog/tags/sail-fash','41f'),
+  component: ComponentCreator('/blog/tags/sail-fash','3ad'),
   exact: true,
 },
 {
@@ -109,7 +194,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','a40'),
+  component: ComponentCreator('/docs','765'),
   
   routes: [
 {
@@ -118,8 +203,38 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/language-guide/about-this-guide',
+  component: ComponentCreator('/docs/language-guide/about-this-guide','ce5'),
+  exact: true,
+},
+{
+  path: '/docs/language-guide/basic-concepts',
+  component: ComponentCreator('/docs/language-guide/basic-concepts','414'),
+  exact: true,
+},
+{
   path: '/docs/language-guide/motoko',
   component: ComponentCreator('/docs/language-guide/motoko','7a6'),
+  exact: true,
+},
+{
+  path: '/docs/language-guide/motoko-introduction',
+  component: ComponentCreator('/docs/language-guide/motoko-introduction','2c5'),
+  exact: true,
+},
+{
+  path: '/docs/quick-start/dfx-guide',
+  component: ComponentCreator('/docs/quick-start/dfx-guide','6ac'),
+  exact: true,
+},
+{
+  path: '/docs/quick-start/ic',
+  component: ComponentCreator('/docs/quick-start/ic','17a'),
+  exact: true,
+},
+{
+  path: '/docs/quick-start/motoko',
+  component: ComponentCreator('/docs/quick-start/motoko','f4e'),
   exact: true,
 },
 {
@@ -163,6 +278,16 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/tutorial-how/customize-projects',
+  component: ComponentCreator('/docs/tutorial-how/customize-projects','9a7'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-how/design-apps',
+  component: ComponentCreator('/docs/tutorial-how/design-apps','945'),
+  exact: true,
+},
+{
   path: '/docs/tutorial-how/install-upgrade-remove',
   component: ComponentCreator('/docs/tutorial-how/install-upgrade-remove','fe4'),
   exact: true,
@@ -170,6 +295,16 @@ export default [
 {
   path: '/docs/tutorial-how/sdk-guide',
   component: ComponentCreator('/docs/tutorial-how/sdk-guide','2e7'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-how/webpack-config',
+  component: ComponentCreator('/docs/tutorial-how/webpack-config','596'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-how/work-with-languages',
+  component: ComponentCreator('/docs/tutorial-how/work-with-languages','ac0'),
   exact: true,
 },
 {

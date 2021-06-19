@@ -1,0 +1,26 @@
+{
+  "unversionedId": "language-guide/basic-concepts",
+  "id": "language-guide/basic-concepts",
+  "isDocsHomePage": false,
+  "title": "基本概念和术语",
+  "description": "Motoko 是为带有行为体(actor)的分布式编程而设计的。",
+  "source": "@site/docs/language-guide/basic-concepts.md",
+  "sourceDirName": "language-guide",
+  "slug": "/language-guide/basic-concepts",
+  "permalink": "/docs/language-guide/basic-concepts",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/language-guide/basic-concepts.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Motoko简介",
+    "permalink": "/docs/language-guide/motoko-introduction"
+  },
+  "next": {
+    "title": "WebAssembly是什么",
+    "permalink": "/docs/tutorial-wasms/wasm-intro"
+  }
+}

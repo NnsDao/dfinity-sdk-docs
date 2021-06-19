@@ -1,0 +1,26 @@
+{
+  "unversionedId": "language-guide/motoko-introduction",
+  "id": "language-guide/motoko-introduction",
+  "isDocsHomePage": false,
+  "title": "Motoko简介",
+  "description": "Motoko是一种现代编程语言，你可以专门用于互联网计算机平台程序，也可以作为一种通用语言用于在其他平台上运行的语言。",
+  "source": "@site/docs/language-guide/motoko-introduction.md",
+  "sourceDirName": "language-guide",
+  "slug": "/language-guide/motoko-introduction",
+  "permalink": "/docs/language-guide/motoko-introduction",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/language-guide/motoko-introduction.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "关于本指南",
+    "permalink": "/docs/language-guide/about-this-guide"
+  },
+  "next": {
+    "title": "基本概念和术语",
+    "permalink": "/docs/language-guide/basic-concepts"
+  }
+}

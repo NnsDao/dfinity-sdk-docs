@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/webpack-config",
+  "id": "tutorial-how/webpack-config",
+  "isDocsHomePage": false,
+  "title": "添加前端资产",
+  "description": "+ 此节教程介绍了为你的项目建立前端用户界面的一些基本方法。例如，其中包括了:",
+  "source": "@site/docs/tutorial-how/webpack-config.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/webpack-config",
+  "permalink": "/docs/tutorial-how/webpack-config",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/webpack-config.md",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "使用不同的语言进行开发",
+    "permalink": "/docs/tutorial-how/work-with-languages"
+  },
+  "next": {
+    "title": "Motoko 编程语言",
+    "permalink": "/docs/language-guide/motoko"
+  }
+}

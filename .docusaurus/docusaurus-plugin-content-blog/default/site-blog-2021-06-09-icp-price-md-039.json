@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/icp-price-predictions-nnsdao",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-09-icp-price.md",
+  "source": "@site/blog/2021-06-09-icp-price.md",
+  "title": "ICP价格预测：4年后会到3500美元吗？",
+  "description": "本文仅供参考，盈亏自负。",
+  "date": "2021-06-09T00:00:00.000Z",
+  "formattedDate": "June 9, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    }
+  ],
+  "readingTime": 0.795,
+  "truncated": false,
+  "prevItem": {
+    "title": "什么是互联网计算机？最新流行的加密货币指南",
+    "permalink": "/blog/icp-price-predictions"
+  },
+  "nextItem": {
+    "title": "如何书写完美的开发者资助申请？",
+    "permalink": "/blog/icp-grants"
+  }
+}

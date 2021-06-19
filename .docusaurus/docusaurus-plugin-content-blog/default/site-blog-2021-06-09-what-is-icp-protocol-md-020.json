@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/icp-price-predictions",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-09-what-is-icp-protocol.md",
+  "source": "@site/blog/2021-06-09-what-is-icp-protocol.md",
+  "title": "什么是互联网计算机？最新流行的加密货币指南",
+  "description": "tags: [icp, SailFash, Dfinity, nnsdao,dao]",
+  "date": "2021-06-09T00:00:00.000Z",
+  "formattedDate": "June 9, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    }
+  ],
+  "readingTime": 1.31,
+  "truncated": false,
+  "prevItem": {
+    "title": "ICP官方最新数据:网络神经系统质押奖励年化追高28.9%?",
+    "permalink": "/blog/dfinity-stacking-vote-reward"
+  },
+  "nextItem": {
+    "title": "ICP价格预测：4年后会到3500美元吗？",
+    "permalink": "/blog/icp-price-predictions-nnsdao"
+  }
+}

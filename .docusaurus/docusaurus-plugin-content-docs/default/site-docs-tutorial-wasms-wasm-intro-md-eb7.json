@@ -16,7 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Motoko 编程语言",
-    "permalink": "/docs/language-guide/motoko"
+    "title": "基本概念和术语",
+    "permalink": "/docs/language-guide/basic-concepts"
+  },
+  "next": {
+    "title": "[ICP开发]:IC学习心得",
+    "permalink": "/docs/quick-start/ic"
   }
 }

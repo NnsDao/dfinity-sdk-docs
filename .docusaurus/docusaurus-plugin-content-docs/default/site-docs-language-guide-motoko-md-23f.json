@@ -3,7 +3,7 @@
   "id": "language-guide/motoko",
   "isDocsHomePage": false,
   "title": "Motoko 编程语言",
-  "description": "TODOTODO",
+  "description": "Motoko编程语言会跟随DFINITY Canister SDK的新版本和Motoko编译器的持续更新而不断发展迭代。常常回来看看，尝试新的功能，看看有什么新功能。",
   "source": "@site/docs/language-guide/motoko.md",
   "sourceDirName": "language-guide",
   "slug": "/language-guide/motoko",
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "安装、升级或删除软件",
-    "permalink": "/docs/tutorial-how/install-upgrade-remove"
+    "title": "添加前端资产",
+    "permalink": "/docs/tutorial-how/webpack-config"
   },
   "next": {
-    "title": "WebAssembly是什么",
-    "permalink": "/docs/tutorial-wasms/wasm-intro"
+    "title": "关于本指南",
+    "permalink": "/docs/language-guide/about-this-guide"
   }
 }

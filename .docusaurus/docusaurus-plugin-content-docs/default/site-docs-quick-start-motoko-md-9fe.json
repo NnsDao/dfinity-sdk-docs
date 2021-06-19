@@ -1,0 +1,22 @@
+{
+  "unversionedId": "quick-start/motoko",
+  "id": "quick-start/motoko",
+  "isDocsHomePage": false,
+  "title": "Motoko 编程语言",
+  "description": "TODO",
+  "source": "@site/docs/quick-start/motoko.md",
+  "sourceDirName": "quick-start",
+  "slug": "/quick-start/motoko",
+  "permalink": "/docs/quick-start/motoko",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/quick-start/motoko.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[ICP开发]:DFX命令最全指南学习心得和实践",
+    "permalink": "/docs/quick-start/dfx-guide"
+  }
+}

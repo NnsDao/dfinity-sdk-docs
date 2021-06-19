@@ -1,0 +1,26 @@
+{
+  "unversionedId": "language-guide/about-this-guide",
+  "id": "language-guide/about-this-guide",
+  "isDocsHomePage": false,
+  "title": "关于本指南",
+  "description": "Motoko编程语言指南介绍了通用Motoko编程语言的主要特点，并提供了实例和参考信息，以帮助您了解该语言的细微差别和如何应用它的实际意义。",
+  "source": "@site/docs/language-guide/about-this-guide.md",
+  "sourceDirName": "language-guide",
+  "slug": "/language-guide/about-this-guide",
+  "permalink": "/docs/language-guide/about-this-guide",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/language-guide/about-this-guide.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Motoko 编程语言",
+    "permalink": "/docs/language-guide/motoko"
+  },
+  "next": {
+    "title": "Motoko简介",
+    "permalink": "/docs/language-guide/motoko-introduction"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/icp-grants",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-09-icp-grants.md",
+  "source": "@site/blog/2021-06-09-icp-grants.md",
+  "title": "如何书写完美的开发者资助申请？",
+  "description": "5 月 25 日，DFINITY 基金会宣布启动一项 2 亿瑞士法郎的计划，以支持互联网计算机开发者生态系统，帮助资助互联网计算机区块链上的 dapps、工具和基础设施的建设。",
+  "date": "2021-06-09T00:00:00.000Z",
+  "formattedDate": "June 9, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    }
+  ],
+  "readingTime": 0.61,
+  "truncated": false,
+  "prevItem": {
+    "title": "ICP价格预测：4年后会到3500美元吗？",
+    "permalink": "/blog/icp-price-predictions-nnsdao"
+  },
+  "nextItem": {
+    "title": "[ICP科普]一个例子看懂如何验证互联网身份认证的代码",
+    "permalink": "/blog/2021/06/08/verifying-icp-canister"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "quick-start/dfx-guide",
+  "id": "quick-start/dfx-guide",
+  "isDocsHomePage": false,
+  "title": "[ICP开发]:DFX命令最全指南学习心得和实践",
+  "description": "dfx new",
+  "source": "@site/docs/quick-start/dfx-guide.md",
+  "sourceDirName": "quick-start",
+  "slug": "/quick-start/dfx-guide",
+  "permalink": "/docs/quick-start/dfx-guide",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/quick-start/dfx-guide.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[ICP开发]:IC学习心得",
+    "permalink": "/docs/quick-start/ic"
+  },
+  "next": {
+    "title": "Motoko 编程语言",
+    "permalink": "/docs/quick-start/motoko"
+  }
+}

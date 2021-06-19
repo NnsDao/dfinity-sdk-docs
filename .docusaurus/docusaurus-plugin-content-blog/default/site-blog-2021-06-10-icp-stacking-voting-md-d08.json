@@ -1,0 +1,37 @@
+{
+  "permalink": "/blog/dfinity-stacking-vote-reward",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-10-icp-stacking-voting.md",
+  "source": "@site/blog/2021-06-10-icp-stacking-voting.md",
+  "title": "ICP官方最新数据:网络神经系统质押奖励年化追高28.9%?",
+  "description": "ICP官方最新数据:网络神经系统质押奖励年化追高28.9%?",
+  "date": "2021-06-10T00:00:00.000Z",
+  "formattedDate": "June 10, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "icp币",
+      "permalink": "/blog/tags/icp币"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    }
+  ],
+  "readingTime": 0.55,
+  "truncated": false,
+  "prevItem": {
+    "title": "DFINITY主网启动以来社区主导网络治理",
+    "permalink": "/blog/icp-token-nns-dfinity"
+  },
+  "nextItem": {
+    "title": "什么是互联网计算机？最新流行的加密货币指南",
+    "permalink": "/blog/icp-price-predictions"
+  }
+}
