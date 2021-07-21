@@ -2,7 +2,80 @@
 sidebar_position: 4
 ---
 
-# 集成Internet Identity 
+# Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity 
+
+### identity绑定wallet
+
+identity进行canister创建需要wallet，并且发送消息至canister时也可以选择由wallet canister进行转发(dfx canister命令使用--no-wallet表明不使用wallet canister转发消息，而使用--wallet参数表明使用wallet canister转发消息)。
+
+因此identity需要绑定wallet，绑定wallet有以下两种方式。
+
+### 创建新的canister wallet并绑定
+
++ 创建新的`canister wallet`第一步需要创建一个新的空canister。有以下两种方式：
+由`nns.ic0.app`创建一个空的canister，并将当前开发者的principal添加至该canister的控制列表，参见canister添加NNS账户控制的添加开发者身份至canister controller。
+由命令`dfx ledger --network ic create-canister tsqwz-udeik-5migd-ehrev-pvoqv-szx2g-akh5s-fkyqc-zy6q7-snav6-uqe --amount 1.25`，不建议用第二种方式创建canister，还要将ICP转移至开发者账户才能进行，并且不易管理。
+
++ 执行以下命令将wallet wasm部署至创建的空的canister中并绑定到当前identity：
+`dfx identity --network ic deploy-wallet gastn-uqaaa-aaaae-aaafq-cai`
+其中`gastn-uqaaa-aaaae-aaafq-cai`替换为第一步创建除了的canister。
+
++ 执行以下命令将`canister wallet`授权调用给执行身份。
+`dfx wallet --network ic authorize tsqwz-udeik-5migd-ehrev-pvoqv-szx2g-akh5s-fkyqc-zy6q7-snav6-uqe`，其中`tsqwz-udeik-5migd-ehrev-pvoqv-szx2g-akh5s-fkyqc-zy6q7-snav6-uqe` 替换为 `dfx identity get-principal`命令的输出。
+
+### 绑定到已存在的canister wallet
+
++ 在原来存在wallet权限的身份下执行命令进行调用授权：
+`dfx wallet --network ic authorize tsqwz-udeik-5migd-ehrev-pvoqv-szx2g-akh5s-fkyqc-zy6q7-snav6-uqe`
+其中`tsqwz-udeik-5migd-ehrev-pvoqv-szx2g-akh5s-fkyqc-zy6q7-snav6-uqe`替换为新的授权。
+
++ 在新的身份下执行命令设置当前身份关联的wallet：
+`dfx identity --network ic set-wallet --force gastn-uqaaa-aaaae-aaafq-cai`
+其中`gastn-uqaaa-aaaae-aaafq-cai`为被关联的钱包。
+
+### canister添加NNS账户控制
+
+canister添加NNS账户控制有以下几个步骤：
+
+获取`nns.ic0.app`账户的principal
+
+![principal](../../static/img/practices/principal.png)
+
+本例中为：`pqyom-bdjiu-xhlwq-fz5rg-d3pj4-bl5gj-gxfkv-tfwj2-k2lgg-bxgzn-6qe`
+
+### 移交canister控制权
+
+执行以下命令将当前canister账户控制权交给NNS账户：
+
+`dfx canister --network ic update-settings --controller pqyom-bdjiu-xhlwq-fz5rg-d3pj4-bl5gj-gxfkv-tfwj2-k2lgg-bxgzn-6qe canister_name`
+
+其中：`pqyom-bdjiu-xhlwq-fz5rg-d3pj4-bl5gj-gxfkv-tfwj2-k2lgg-bxgzn-6qe`替换为你的NNS账户身份。
+
+`canister_name`是你项目中的canister名称。
+
+### 获取当前开发者身份
+
+执行以下命令获取当前开发者身份：
+
+`dfx identity --network ic get-principal`
+
+`hi6jc-ho57g-jlt4k-2qvti-yfgxd-oonal-w3ktt-gxy6r-kdpuf-sevzk-4ae`
+
+
+link canister至NNS ，将canister link至NNS
+
+![principal](../../static/img/practices/linknns.png)
+
+
+注意：如果link后界面显示没有控制权限(其实是有权限的)，可以发送2T个cycle来修复(可能是NNS内部状态不一致导致的)。
+
+添加开发者身份至`canister controller`
+
+将原来的开发者身份添加为canister的控制者。
+
+![canister controller](../../static/img/practices/change-controller.png)
+
+### 集成Internet Identity 
 
 Internet Identity(简称II)的集成需要区分为开发环境和主网环境，通过主网环境的II认证得到的principal是无法使用在开发环境的，通过开发环境的II认证的principal是无法使用在主网环境的。
 
