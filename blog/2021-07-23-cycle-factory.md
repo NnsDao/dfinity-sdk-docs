@@ -16,13 +16,22 @@ ICP水龙头快速获取Cycle步骤：
 
 1.授权Github（账号90天前注册，需要最近30天是活跃的）
 
-![Cycle水龙头](../static/img/media/16270108300913/16270118054615.jpg)
+
+![Cycle水龙头](../static/img/media/16270108300913/16270117251576.jpg)
+
+
 
 
 2.填写自己的Principal ID
-![Cycle水龙头](../static/img/media/16270108300913/16270122503700.jpg)
+
+![Cycle水龙头](../static/img/media/16270108300913/16270118054615.jpg)
+
+
 
 3.选择接受Cycles，有已经存在的wallet或直接新建wallet
+
+![Cycle水龙头](../static/img/media/16270108300913/16270122503700.jpg)
+
 ![Cycle水龙头](../static/img/media/16270108300913/16270122672614.jpg)
 
 4.如果是已经存在的Cycle wallet，则输入xxx-cai的地址，然后下一步等待。
@@ -36,7 +45,6 @@ Cycles水龙头是开发人员可以立即开始利用的资源，以支持在�
 
 互联网计算机协议（ICP）代币是互联网计算机的本地实用代币。ICP代币可以在一个神经元内进行抵押，以参与网络治理，也可以转化为Cycles，在网络上运行软件。开发人员使用Cycles来支付互联网计算机上的计算和资源消耗。为了将Canisters部署到生产中，开发者首先需要获得ICP。由DFINITY基金会分配的ICP资助的Cycles水龙头，允许开发者跳过这一转换，只需几个简单的步骤就能部署Canisters。
 
-![Cycle水龙头](../static/img/media/16270108300913/16270117251576.jpg)
 
 
 + 进入Cycles水龙头地址[https://faucet.dfinity.org/auth](https://faucet.dfinity.org/auth)后，开发者将能够选择两个选项之一来管理他们的Cycles（开发者将被提示输入他们的主标识符）：
