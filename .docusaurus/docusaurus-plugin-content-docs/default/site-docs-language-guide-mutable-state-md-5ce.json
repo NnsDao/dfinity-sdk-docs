@@ -1,0 +1,26 @@
+{
+  "unversionedId": "language-guide/mutable-state",
+  "id": "language-guide/mutable-state",
+  "isDocsHomePage": false,
+  "title": "可变状态",
+  "description": "Motoko 中的每个 actor 都可以使用，但可能永远不会直接共享内部可变状态。",
+  "source": "@site/docs/language-guide/mutable-state.md",
+  "sourceDirName": "language-guide",
+  "slug": "/language-guide/mutable-state",
+  "permalink": "/docs/language-guide/mutable-state",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/language-guide/mutable-state.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "基本概念和术语",
+    "permalink": "/docs/language-guide/basic-concepts"
+  },
+  "next": {
+    "title": "WebAssembly是什么",
+    "permalink": "/docs/tutorial-wasms/wasm-intro"
+  }
+}

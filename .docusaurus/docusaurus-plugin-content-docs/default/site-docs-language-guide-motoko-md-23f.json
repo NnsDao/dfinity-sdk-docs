@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "添加前端资产",
-    "permalink": "/docs/tutorial-how/webpack-config"
+    "title": "网络神经系统应用快速启动",
+    "permalink": "/docs/token-holders/nns-app-quickstart"
   },
   "next": {
     "title": "关于本指南",

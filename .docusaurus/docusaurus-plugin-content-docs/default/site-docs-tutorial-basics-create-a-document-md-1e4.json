@@ -3,7 +3,7 @@
   "id": "tutorial-basics/create-a-document",
   "isDocsHomePage": false,
   "title": "网络部署",
-  "description": "+ TODO",
+  "description": "本快速入门方案假设您是第一次安装DFINITY Canister SDK，并在远程运行的Internet计算机上部署默认项目。",
   "source": "@site/docs/tutorial-basics/create-a-document.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-document",

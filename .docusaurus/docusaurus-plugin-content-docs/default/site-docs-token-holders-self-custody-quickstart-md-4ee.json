@@ -1,0 +1,26 @@
+{
+  "unversionedId": "token-holders/self-custody-quickstart",
+  "id": "token-holders/self-custody-quickstart",
+  "isDocsHomePage": false,
+  "title": "自我托管快速启动",
+  "description": "在IC生态系统内，IC协议代币（ICP代币）是一种原生的实用代币。ICP代币在IC的治理和经济方面都发挥着关键作用。",
+  "source": "@site/docs/token-holders/self-custody-quickstart.md",
+  "sourceDirName": "token-holders",
+  "slug": "/token-holders/self-custody-quickstart",
+  "permalink": "/docs/token-holders/self-custody-quickstart",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/token-holders/self-custody-quickstart.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "选择数字资产的自我托管",
+    "permalink": "/docs/token-holders/custody-options-intro"
+  },
+  "next": {
+    "title": "网络神经系统应用快速启动",
+    "permalink": "/docs/token-holders/nns-app-quickstart"
+  }
+}

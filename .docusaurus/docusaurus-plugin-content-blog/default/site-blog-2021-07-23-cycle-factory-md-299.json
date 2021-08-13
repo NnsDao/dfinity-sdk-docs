@@ -1,0 +1,61 @@
+{
+  "permalink": "/blog/icp-cycle-faucet",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-07-23-cycle-factory.md",
+  "source": "@site/blog/2021-07-23-cycle-factory.md",
+  "title": "【ICP开发福利】Cycle水龙头：在互联网计算机上免费建造dApp",
+  "description": "ICP水龙头快速获取Cycle步骤：",
+  "date": "2021-07-23T00:00:00.000Z",
+  "formattedDate": "July 23, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    },
+    {
+      "label": "faucet",
+      "permalink": "/blog/tags/faucet"
+    },
+    {
+      "label": "cycle",
+      "permalink": "/blog/tags/cycle"
+    },
+    {
+      "label": "cycles",
+      "permalink": "/blog/tags/cycles"
+    }
+  ],
+  "readingTime": 0.15,
+  "truncated": false,
+  "nextItem": {
+    "title": "介绍互联网计算机 \"荒地 \"概念",
+    "permalink": "/blog/icp-badlands-concept"
+  }
+}

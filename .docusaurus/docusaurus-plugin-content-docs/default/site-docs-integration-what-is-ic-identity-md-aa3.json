@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Integration/what-is-ic-identity",
+  "id": "Integration/what-is-ic-identity",
+  "isDocsHomePage": false,
+  "title": "什么是互联网身份？",
+  "description": "+ 当您访问使用互联网身份作为认证方法的应用程序时，互联网身份使您能够安全和匿名地进行认证。为您登录的每个应用程序创建一个不同的身份，您将能够使用您注册的所有设备或认证方法来登录同一个账户。",
+  "source": "@site/docs/Integration/what-is-ic-identity.md",
+  "sourceDirName": "Integration",
+  "slug": "/Integration/what-is-ic-identity",
+  "permalink": "/docs/Integration/what-is-ic-identity",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/Integration/what-is-ic-identity.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "awesome-icp",
+    "permalink": "/docs/sample-apps/some-dapp"
+  },
+  "next": {
+    "title": "如何使用互联网身份",
+    "permalink": "/docs/Integration/auth-how-to-ic"
+  }
+}

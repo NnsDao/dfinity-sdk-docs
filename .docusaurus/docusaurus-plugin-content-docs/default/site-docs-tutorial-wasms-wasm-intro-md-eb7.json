@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "基本概念和术语",
-    "permalink": "/docs/language-guide/basic-concepts"
+    "title": "可变状态",
+    "permalink": "/docs/language-guide/mutable-state"
   },
   "next": {
     "title": "[ICP开发]:IC学习心得",

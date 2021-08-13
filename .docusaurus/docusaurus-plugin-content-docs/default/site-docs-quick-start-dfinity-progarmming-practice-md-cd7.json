@@ -1,0 +1,22 @@
+{
+  "unversionedId": "quick-start/dfinity-progarmming-practice",
+  "id": "quick-start/dfinity-progarmming-practice",
+  "isDocsHomePage": false,
+  "title": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+  "description": "identity绑定wallet",
+  "source": "@site/docs/quick-start/dfinity-progarmming-practice.md",
+  "sourceDirName": "quick-start",
+  "slug": "/quick-start/dfinity-progarmming-practice",
+  "permalink": "/docs/quick-start/dfinity-progarmming-practice",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/quick-start/dfinity-progarmming-practice.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Motoko 概述",
+    "permalink": "/docs/quick-start/motoko"
+  }
+}

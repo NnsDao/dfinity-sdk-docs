@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/default-wallet",
+  "id": "tutorial-how/default-wallet",
+  "isDocsHomePage": false,
+  "title": "使用默认的Cycles钱包",
+  "description": "+ 正如在通证和Cycles中所讨论的，ICP通证可以转化为Cycles，为程序罐的运行提供动力。Cycles提供了一个基本稳定的价值主张，代表了应用所消耗的通信、计算和存储的运营成本。例如，Cycles反映了在IC服务上运行的应用程序所需的物理硬件、机架空间、能源、存储设备和网络带宽的实际成本。",
+  "source": "@site/docs/tutorial-how/default-wallet.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/default-wallet",
+  "permalink": "/docs/tutorial-how/default-wallet",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/default-wallet.md",
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "管理程序罐",
+    "permalink": "/docs/tutorial-how/working-with-canisters"
+  },
+  "next": {
+    "title": "排除故障的问题",
+    "permalink": "/docs/tutorial-how/troubleshooting"
+  }
+}

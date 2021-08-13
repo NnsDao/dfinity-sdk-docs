@@ -1,0 +1,26 @@
+{
+  "unversionedId": "token-holders/custody-options-intro",
+  "id": "token-holders/custody-options-intro",
+  "isDocsHomePage": false,
+  "title": "选择数字资产的自我托管",
+  "description": "自我保管是一种代币发行的选择，它使你能够对你的数字资产和你的私钥的管理全权负责，而不需要第三方来掌控你的资产。",
+  "source": "@site/docs/token-holders/custody-options-intro.md",
+  "sourceDirName": "token-holders",
+  "slug": "/token-holders/custody-options-intro",
+  "permalink": "/docs/token-holders/custody-options-intro",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/token-holders/custody-options-intro.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "与互联网计算机总账整合",
+    "permalink": "/docs/Integration/ledger-quick-start"
+  },
+  "next": {
+    "title": "自我托管快速启动",
+    "permalink": "/docs/token-holders/self-custody-quickstart"
+  }
+}

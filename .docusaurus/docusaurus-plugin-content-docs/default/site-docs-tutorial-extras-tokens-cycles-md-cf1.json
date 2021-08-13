@@ -2,21 +2,21 @@
   "unversionedId": "tutorial-extras/tokens-cycles",
   "id": "tutorial-extras/tokens-cycles",
   "isDocsHomePage": false,
-  "title": "tokens-cycles",
-  "description": "通证和cycles燃气",
+  "title": "通证和cycles燃料",
+  "description": "在互联网计算机生态系统中，互联网计算机协议通证（ICP通证）是一种原生效用通证，其价值由公开市场决定。ICP通证在互联网计算机的管理和经济方面都发挥着关键作用。",
   "source": "@site/docs/tutorial-extras/tokens-cycles.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/tokens-cycles",
   "permalink": "/docs/tutorial-extras/tokens-cycles",
   "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/tokens-cycles.md",
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar_position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "canisters-code",
+    "title": "程序罐(容器)和代码",
     "permalink": "/docs/tutorial-extras/canisters-code"
   },
   "next": {

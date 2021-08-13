@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "神经元和治理",
-    "permalink": "/docs/tutorial-extras/governance"
+    "title": "词汇表",
+    "permalink": "/docs/cli-reference/glossary"
   },
   "next": {
     "title": "安装、升级或删除软件",

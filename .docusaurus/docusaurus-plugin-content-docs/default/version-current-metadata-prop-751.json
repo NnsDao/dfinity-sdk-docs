@@ -38,6 +38,11 @@
           },
           {
             "type": "link",
+            "label": "互联网计算机接口规范",
+            "href": "/docs/tutorial-extras/interface-spec"
+          },
+          {
+            "type": "link",
             "label": "节点和子网",
             "href": "/docs/tutorial-extras/translate-your-site"
           },
@@ -48,18 +53,67 @@
           },
           {
             "type": "link",
-            "label": "canisters-code",
+            "label": "程序罐(容器)和代码",
             "href": "/docs/tutorial-extras/canisters-code"
           },
           {
             "type": "link",
-            "label": "tokens-cycles",
+            "label": "通证和cycles燃料",
             "href": "/docs/tutorial-extras/tokens-cycles"
           },
           {
             "type": "link",
             "label": "神经元和治理",
             "href": "/docs/tutorial-extras/governance"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "开发教程",
+        "items": [
+          {
+            "type": "link",
+            "label": "教程",
+            "href": "/docs/developers-guide/tutorials-intro"
+          },
+          {
+            "type": "link",
+            "label": "一目了然",
+            "href": "/docs/developers-guide/at-a-glance"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "命令行参考",
+        "items": [
+          {
+            "type": "link",
+            "label": "命令行参考",
+            "href": "/docs/cli-reference/com-reference"
+          },
+          {
+            "type": "link",
+            "label": "环境变量",
+            "href": "/docs/cli-reference/dfx-envars"
+          },
+          {
+            "type": "link",
+            "label": "支持的类型",
+            "href": "/docs/cli-reference/candid-types"
+          },
+          {
+            "type": "link",
+            "label": "语言服务器和开发客户端支持",
+            "href": "/docs/cli-reference/lang-service-ide"
+          },
+          {
+            "type": "link",
+            "label": "词汇表",
+            "href": "/docs/cli-reference/glossary"
           }
         ],
         "collapsed": true
@@ -97,6 +151,82 @@
             "type": "link",
             "label": "添加前端资产",
             "href": "/docs/tutorial-how/webpack-config"
+          },
+          {
+            "type": "link",
+            "label": "管理程序罐",
+            "href": "/docs/tutorial-how/working-with-canisters"
+          },
+          {
+            "type": "link",
+            "label": "使用默认的Cycles钱包",
+            "href": "/docs/tutorial-how/default-wallet"
+          },
+          {
+            "type": "link",
+            "label": "排除故障的问题",
+            "href": "/docs/tutorial-how/troubleshooting"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Dapp",
+        "items": [
+          {
+            "type": "link",
+            "label": "示例代码、应用程序和微服务",
+            "href": "/docs/sample-apps/apps"
+          },
+          {
+            "type": "link",
+            "label": "awesome-icp",
+            "href": "/docs/sample-apps/some-dapp"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "一体化",
+        "items": [
+          {
+            "type": "link",
+            "label": "什么是互联网身份？",
+            "href": "/docs/Integration/what-is-ic-identity"
+          },
+          {
+            "type": "link",
+            "label": "如何使用互联网身份",
+            "href": "/docs/Integration/auth-how-to-ic"
+          },
+          {
+            "type": "link",
+            "label": "与互联网计算机总账整合",
+            "href": "/docs/Integration/ledger-quick-start"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "通证持有者",
+        "items": [
+          {
+            "type": "link",
+            "label": "选择数字资产的自我托管",
+            "href": "/docs/token-holders/custody-options-intro"
+          },
+          {
+            "type": "link",
+            "label": "自我托管快速启动",
+            "href": "/docs/token-holders/self-custody-quickstart"
+          },
+          {
+            "type": "link",
+            "label": "网络神经系统应用快速启动",
+            "href": "/docs/token-holders/nns-app-quickstart"
           }
         ],
         "collapsed": true
@@ -124,6 +254,11 @@
             "type": "link",
             "label": "基本概念和术语",
             "href": "/docs/language-guide/basic-concepts"
+          },
+          {
+            "type": "link",
+            "label": "可变状态",
+            "href": "/docs/language-guide/mutable-state"
           }
         ],
         "collapsed": true
@@ -142,7 +277,7 @@
       },
       {
         "type": "category",
-        "label": "ICP开发指南",
+        "label": "IC最佳实践",
         "items": [
           {
             "type": "link",
@@ -156,8 +291,13 @@
           },
           {
             "type": "link",
-            "label": "Motoko 编程语言",
+            "label": "Motoko 概述",
             "href": "/docs/quick-start/motoko"
+          },
+          {
+            "type": "link",
+            "label": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+            "href": "/docs/quick-start/dfinity-progarmming-practice"
           }
         ],
         "collapsed": true
@@ -165,28 +305,49 @@
     ]
   },
   "permalinkToSidebar": {
+    "/docs/cli-reference/candid-types": "tutorialSidebar",
+    "/docs/cli-reference/com-reference": "tutorialSidebar",
+    "/docs/cli-reference/dfx-envars": "tutorialSidebar",
+    "/docs/cli-reference/glossary": "tutorialSidebar",
+    "/docs/cli-reference/lang-service-ide": "tutorialSidebar",
+    "/docs/developers-guide/at-a-glance": "tutorialSidebar",
+    "/docs/developers-guide/tutorials-intro": "tutorialSidebar",
+    "/docs/Integration/auth-how-to-ic": "tutorialSidebar",
+    "/docs/Integration/ledger-quick-start": "tutorialSidebar",
+    "/docs/Integration/what-is-ic-identity": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/language-guide/about-this-guide": "tutorialSidebar",
     "/docs/language-guide/basic-concepts": "tutorialSidebar",
     "/docs/language-guide/motoko": "tutorialSidebar",
     "/docs/language-guide/motoko-introduction": "tutorialSidebar",
+    "/docs/language-guide/mutable-state": "tutorialSidebar",
+    "/docs/quick-start/dfinity-progarmming-practice": "tutorialSidebar",
     "/docs/quick-start/dfx-guide": "tutorialSidebar",
     "/docs/quick-start/ic": "tutorialSidebar",
     "/docs/quick-start/motoko": "tutorialSidebar",
+    "/docs/sample-apps/apps": "tutorialSidebar",
+    "/docs/sample-apps/some-dapp": "tutorialSidebar",
+    "/docs/token-holders/custody-options-intro": "tutorialSidebar",
+    "/docs/token-holders/nns-app-quickstart": "tutorialSidebar",
+    "/docs/token-holders/self-custody-quickstart": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
     "/docs/tutorial-extras/canisters-code": "tutorialSidebar",
     "/docs/tutorial-extras/data-centers": "tutorialSidebar",
     "/docs/tutorial-extras/governance": "tutorialSidebar",
+    "/docs/tutorial-extras/interface-spec": "tutorialSidebar",
     "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
     "/docs/tutorial-extras/tokens-cycles": "tutorialSidebar",
     "/docs/tutorial-extras/translate-your-site": "tutorialSidebar",
     "/docs/tutorial-how/customize-projects": "tutorialSidebar",
+    "/docs/tutorial-how/default-wallet": "tutorialSidebar",
     "/docs/tutorial-how/design-apps": "tutorialSidebar",
     "/docs/tutorial-how/install-upgrade-remove": "tutorialSidebar",
     "/docs/tutorial-how/sdk-guide": "tutorialSidebar",
+    "/docs/tutorial-how/troubleshooting": "tutorialSidebar",
     "/docs/tutorial-how/webpack-config": "tutorialSidebar",
     "/docs/tutorial-how/work-with-languages": "tutorialSidebar",
+    "/docs/tutorial-how/working-with-canisters": "tutorialSidebar",
     "/docs/tutorial-wasms/wasm-intro": "tutorialSidebar"
   }
 }

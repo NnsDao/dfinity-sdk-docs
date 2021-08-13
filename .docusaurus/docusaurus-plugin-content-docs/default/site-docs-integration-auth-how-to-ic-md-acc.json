@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Integration/auth-how-to-ic",
+  "id": "Integration/auth-how-to-ic",
+  "isDocsHomePage": false,
+  "title": "如何使用互联网身份",
+  "description": "+ 当您访问使用互联网身份作为认证方法的应用程序时，互联网身份使您能够安全地和匿名地进行认证。为您登录的每个应用程序创建一个不同的身份，您将能够使用您所有的注册设备或认证方法来登录同一个账户。这都是使用在互联网计算机区块链上运行的加密智能合约完成的。",
+  "source": "@site/docs/Integration/auth-how-to-ic.md",
+  "sourceDirName": "Integration",
+  "slug": "/Integration/auth-how-to-ic",
+  "permalink": "/docs/Integration/auth-how-to-ic",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/Integration/auth-how-to-ic.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "什么是互联网身份？",
+    "permalink": "/docs/Integration/what-is-ic-identity"
+  },
+  "next": {
+    "title": "与互联网计算机总账整合",
+    "permalink": "/docs/Integration/ledger-quick-start"
+  }
+}

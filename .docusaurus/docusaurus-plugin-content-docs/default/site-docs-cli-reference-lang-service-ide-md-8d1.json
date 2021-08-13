@@ -1,0 +1,26 @@
+{
+  "unversionedId": "cli-reference/lang-service-ide",
+  "id": "cli-reference/lang-service-ide",
+  "isDocsHomePage": false,
+  "title": "语言服务器和开发客户端支持",
+  "description": "语言服务器协议（LSP）--最初由微软开发--提供了一种通用语言，以增加广泛有用的功能，如自动完成代码、GoTo定义和悬停在开发工具上的工具提示。使用语言服务器协议，语言服务器可以在编程语言和任何编辑器、集成开发环境（IDE）或客户端终端工具之间进行标准化的进程间通信。",
+  "source": "@site/docs/cli-reference/lang-service-ide.md",
+  "sourceDirName": "cli-reference",
+  "slug": "/cli-reference/lang-service-ide",
+  "permalink": "/docs/cli-reference/lang-service-ide",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/lang-service-ide.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "支持的类型",
+    "permalink": "/docs/cli-reference/candid-types"
+  },
+  "next": {
+    "title": "词汇表",
+    "permalink": "/docs/cli-reference/glossary"
+  }
+}

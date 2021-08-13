@@ -10,14 +10,14 @@
   "permalink": "/docs/tutorial-extras/translate-your-site",
   "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/translate-your-site.md",
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "什么是互联网计算机（ICP）",
-    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+    "title": "互联网计算机接口规范",
+    "permalink": "/docs/tutorial-extras/interface-spec"
   },
   "next": {
     "title": "去中心化数据中心",

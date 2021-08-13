@@ -1,0 +1,65 @@
+{
+  "permalink": "/blog/icp-basic-intro",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-27-icp-basic-intro.md",
+  "source": "@site/blog/2021-06-27-icp-basic-intro.md",
+  "title": "【ICP科普】什么是 DFINITY？",
+  "description": "DFINITY 通过其互联网计算机协议，号称是第三个区块链革命者。那么，什么是 DFINITY？",
+  "date": "2021-06-27T00:00:00.000Z",
+  "formattedDate": "June 27, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    },
+    {
+      "label": "icpscan",
+      "permalink": "/blog/tags/icpscan"
+    },
+    {
+      "label": "icpdrops",
+      "permalink": "/blog/tags/icpdrops"
+    },
+    {
+      "label": "NDT",
+      "permalink": "/blog/tags/ndt"
+    }
+  ],
+  "readingTime": 0.855,
+  "truncated": false,
+  "prevItem": {
+    "title": "【ICP科普】如何使用策略配置质押挖矿ICP，并获取最高收益",
+    "permalink": "/blog/icp-stacking-guide"
+  },
+  "nextItem": {
+    "title": "互联网计算机-icp：近期发展、社区、未来事件",
+    "permalink": "/blog/icp-dev-chat-fature"
+  }
+}

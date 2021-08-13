@@ -1,0 +1,26 @@
+{
+  "unversionedId": "cli-reference/candid-types",
+  "id": "cli-reference/candid-types",
+  "isDocsHomePage": false,
+  "title": "支持的类型",
+  "description": "TODOTODO",
+  "source": "@site/docs/cli-reference/candid-types.md",
+  "sourceDirName": "cli-reference",
+  "slug": "/cli-reference/candid-types",
+  "permalink": "/docs/cli-reference/candid-types",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/candid-types.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "环境变量",
+    "permalink": "/docs/cli-reference/dfx-envars"
+  },
+  "next": {
+    "title": "语言服务器和开发客户端支持",
+    "permalink": "/docs/cli-reference/lang-service-ide"
+  }
+}

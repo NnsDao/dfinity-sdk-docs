@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/working-with-canisters",
+  "id": "tutorial-how/working-with-canisters",
+  "isDocsHomePage": false,
+  "title": "管理程序罐",
+  "description": "+ 如果您按照 \"教程 \"部分的教程或从实例库中克隆实例，尝试使用DFINITY Canister软件开发工具包（SDK），您就已经熟悉了如何将程序构建和部署为程序罐。本节提供了有关程序罐生命周期和如何管理程序罐的额外信息。",
+  "source": "@site/docs/tutorial-how/working-with-canisters.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/working-with-canisters",
+  "permalink": "/docs/tutorial-how/working-with-canisters",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/working-with-canisters.md",
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "添加前端资产",
+    "permalink": "/docs/tutorial-how/webpack-config"
+  },
+  "next": {
+    "title": "使用默认的Cycles钱包",
+    "permalink": "/docs/tutorial-how/default-wallet"
+  }
+}

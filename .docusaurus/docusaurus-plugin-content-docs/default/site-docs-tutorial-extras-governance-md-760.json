@@ -10,17 +10,17 @@
   "permalink": "/docs/tutorial-extras/governance",
   "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/governance.md",
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 7
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "tokens-cycles",
+    "title": "通证和cycles燃料",
     "permalink": "/docs/tutorial-extras/tokens-cycles"
   },
   "next": {
-    "title": "容器 SDK - 开发者工具",
-    "permalink": "/docs/tutorial-how/sdk-guide"
+    "title": "教程",
+    "permalink": "/docs/developers-guide/tutorials-intro"
   }
 }

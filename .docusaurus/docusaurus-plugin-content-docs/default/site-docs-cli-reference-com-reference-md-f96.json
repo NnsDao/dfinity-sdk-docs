@@ -1,0 +1,26 @@
+{
+  "unversionedId": "cli-reference/com-reference",
+  "id": "cli-reference/com-reference",
+  "isDocsHomePage": false,
+  "title": "命令行参考",
+  "description": "DFINITY 命令行执行环境 ( dfx) 是用于创建、部署和管理您为 IC 区块链开发的应用程序的主要工具。",
+  "source": "@site/docs/cli-reference/com-reference.md",
+  "sourceDirName": "cli-reference",
+  "slug": "/cli-reference/com-reference",
+  "permalink": "/docs/cli-reference/com-reference",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/com-reference.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "一目了然",
+    "permalink": "/docs/developers-guide/at-a-glance"
+  },
+  "next": {
+    "title": "环境变量",
+    "permalink": "/docs/cli-reference/dfx-envars"
+  }
+}

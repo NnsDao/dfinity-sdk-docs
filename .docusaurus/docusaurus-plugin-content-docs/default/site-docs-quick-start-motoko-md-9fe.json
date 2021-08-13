@@ -2,8 +2,8 @@
   "unversionedId": "quick-start/motoko",
   "id": "quick-start/motoko",
   "isDocsHomePage": false,
-  "title": "Motoko 编程语言",
-  "description": "TODO",
+  "title": "Motoko 概述",
+  "description": "+ Motoko编程语言是一种新的现代类型语言，专为希望构建下一代应用程序和服务以直接在 Internet Computer上运行的开发人员而设计。其具有以下特性：",
   "source": "@site/docs/quick-start/motoko.md",
   "sourceDirName": "quick-start",
   "slug": "/quick-start/motoko",
@@ -18,5 +18,9 @@
   "previous": {
     "title": "[ICP开发]:DFX命令最全指南学习心得和实践",
     "permalink": "/docs/quick-start/dfx-guide"
+  },
+  "next": {
+    "title": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+    "permalink": "/docs/quick-start/dfinity-progarmming-practice"
   }
 }

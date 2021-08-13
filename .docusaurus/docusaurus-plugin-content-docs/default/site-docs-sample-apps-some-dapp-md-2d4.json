@@ -1,0 +1,26 @@
+{
+  "unversionedId": "sample-apps/some-dapp",
+  "id": "sample-apps/some-dapp",
+  "isDocsHomePage": false,
+  "title": "awesome-icp",
+  "description": "更多dApps请访问:",
+  "source": "@site/docs/sample-apps/some-dapp.md",
+  "sourceDirName": "sample-apps",
+  "slug": "/sample-apps/some-dapp",
+  "permalink": "/docs/sample-apps/some-dapp",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/sample-apps/some-dapp.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "示例代码、应用程序和微服务",
+    "permalink": "/docs/sample-apps/apps"
+  },
+  "next": {
+    "title": "什么是互联网身份？",
+    "permalink": "/docs/Integration/what-is-ic-identity"
+  }
+}

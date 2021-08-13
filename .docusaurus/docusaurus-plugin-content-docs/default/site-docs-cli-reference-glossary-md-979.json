@@ -1,0 +1,26 @@
+{
+  "unversionedId": "cli-reference/glossary",
+  "id": "cli-reference/glossary",
+  "isDocsHomePage": false,
+  "title": "词汇表",
+  "description": "行为体(Actor)",
+  "source": "@site/docs/cli-reference/glossary.md",
+  "sourceDirName": "cli-reference",
+  "slug": "/cli-reference/glossary",
+  "permalink": "/docs/cli-reference/glossary",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/glossary.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "语言服务器和开发客户端支持",
+    "permalink": "/docs/cli-reference/lang-service-ide"
+  },
+  "next": {
+    "title": "容器 SDK - 开发者工具",
+    "permalink": "/docs/tutorial-how/sdk-guide"
+  }
+}

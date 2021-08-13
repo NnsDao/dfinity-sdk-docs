@@ -1,0 +1,26 @@
+{
+  "unversionedId": "token-holders/nns-app-quickstart",
+  "id": "token-holders/nns-app-quickstart",
+  "isDocsHomePage": false,
+  "title": "网络神经系统应用快速启动",
+  "description": "+ 作为一个去中心化的区块链，IC的配置和行为的所有变化都由一个称为网络神经系统（NNS）的算法治理系统控制。NNS控制IC网络配置的所有方面，并负责执行许多网络管理操作。例如，网络神经系统（NNS）负责：",
+  "source": "@site/docs/token-holders/nns-app-quickstart.md",
+  "sourceDirName": "token-holders",
+  "slug": "/token-holders/nns-app-quickstart",
+  "permalink": "/docs/token-holders/nns-app-quickstart",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/token-holders/nns-app-quickstart.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "自我托管快速启动",
+    "permalink": "/docs/token-holders/self-custody-quickstart"
+  },
+  "next": {
+    "title": "Motoko 编程语言",
+    "permalink": "/docs/language-guide/motoko"
+  }
+}

@@ -42,6 +42,10 @@
   ],
   "readingTime": 0.275,
   "truncated": false,
+  "prevItem": {
+    "title": "ICP价格预测：4年后会到3500美元吗？",
+    "permalink": "/blog/icp-price-predictions-nnsdao"
+  },
   "nextItem": {
     "title": "神经元网络——Dfinity的算法自治之路（下）",
     "permalink": "/blog/icp-nns-dfinity-next"

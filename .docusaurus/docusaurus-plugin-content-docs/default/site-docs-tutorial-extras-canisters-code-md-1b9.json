@@ -2,7 +2,7 @@
   "unversionedId": "tutorial-extras/canisters-code",
   "id": "tutorial-extras/canisters-code",
   "isDocsHomePage": false,
-  "title": "canisters-code",
+  "title": "程序罐(容器)和代码",
   "description": "程序罐(容器)和代码",
   "source": "@site/docs/tutorial-extras/canisters-code.md",
   "sourceDirName": "tutorial-extras",
@@ -10,9 +10,9 @@
   "permalink": "/docs/tutorial-extras/canisters-code",
   "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/canisters-code.md",
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-extras/data-centers"
   },
   "next": {
-    "title": "tokens-cycles",
+    "title": "通证和cycles燃料",
     "permalink": "/docs/tutorial-extras/tokens-cycles"
   }
 }

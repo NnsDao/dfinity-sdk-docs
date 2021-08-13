@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/icp-price-predictions-nnsdao",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-25-icp-price-down-95.md",
+  "source": "@site/blog/2021-06-25-icp-price-down-95.md",
+  "title": "ICP价格预测：4年后会到3500美元吗？",
+  "description": "本文仅供参考，盈亏自负。",
+  "date": "2021-06-25T00:00:00.000Z",
+  "formattedDate": "June 25, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    }
+  ],
+  "readingTime": 0.975,
+  "truncated": false,
+  "prevItem": {
+    "title": "互联网计算机-icp：近期发展、社区、未来事件",
+    "permalink": "/blog/icp-dev-chat-fature"
+  },
+  "nextItem": {
+    "title": "神经元网络——Dfinity的算法自治之路（上）",
+    "permalink": "/blog/icp-nns-dfinity-part"
+  }
+}

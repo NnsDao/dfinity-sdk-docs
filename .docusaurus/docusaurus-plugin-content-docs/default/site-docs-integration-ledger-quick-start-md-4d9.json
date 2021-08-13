@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Integration/ledger-quick-start",
+  "id": "Integration/ledger-quick-start",
+  "isDocsHomePage": false,
+  "title": "与互联网计算机总账整合",
+  "description": "+ 本指南是对互联网计算机协议（ICP）组件的介绍，用于代币分配、交易管理、基于代币的质押挖矿和服务的支付。该文件包括对支持互联网计算机协议通证管理的设计、实现、安全保证、系统要求和应用编程接口（API）的概述。",
+  "source": "@site/docs/Integration/ledger-quick-start.md",
+  "sourceDirName": "Integration",
+  "slug": "/Integration/ledger-quick-start",
+  "permalink": "/docs/Integration/ledger-quick-start",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/Integration/ledger-quick-start.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "如何使用互联网身份",
+    "permalink": "/docs/Integration/auth-how-to-ic"
+  },
+  "next": {
+    "title": "选择数字资产的自我托管",
+    "permalink": "/docs/token-holders/custody-options-intro"
+  }
+}

@@ -10,9 +10,9 @@
   "permalink": "/docs/tutorial-extras/data-centers",
   "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/data-centers.md",
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 3
+    "sidebar_position": 4
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-extras/translate-your-site"
   },
   "next": {
-    "title": "canisters-code",
+    "title": "程序罐(容器)和代码",
     "permalink": "/docs/tutorial-extras/canisters-code"
   }
 }

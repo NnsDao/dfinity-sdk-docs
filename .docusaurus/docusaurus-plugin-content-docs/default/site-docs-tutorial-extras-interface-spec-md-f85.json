@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-extras/interface-spec",
+  "id": "tutorial-extras/interface-spec",
+  "isDocsHomePage": false,
+  "title": "互联网计算机接口规范",
+  "description": "简介",
+  "source": "@site/docs/tutorial-extras/interface-spec.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/interface-spec",
+  "permalink": "/docs/tutorial-extras/interface-spec",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/interface-spec.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "什么是互联网计算机（ICP）",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "节点和子网",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

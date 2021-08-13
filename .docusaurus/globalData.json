@@ -11,6 +11,56 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "cli-reference/candid-types",
+              "path": "/docs/cli-reference/candid-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cli-reference/com-reference",
+              "path": "/docs/cli-reference/com-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cli-reference/dfx-envars",
+              "path": "/docs/cli-reference/dfx-envars",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cli-reference/glossary",
+              "path": "/docs/cli-reference/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cli-reference/lang-service-ide",
+              "path": "/docs/cli-reference/lang-service-ide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers-guide/at-a-glance",
+              "path": "/docs/developers-guide/at-a-glance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers-guide/tutorials-intro",
+              "path": "/docs/developers-guide/tutorials-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Integration/auth-how-to-ic",
+              "path": "/docs/Integration/auth-how-to-ic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Integration/ledger-quick-start",
+              "path": "/docs/Integration/ledger-quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Integration/what-is-ic-identity",
+              "path": "/docs/Integration/what-is-ic-identity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -36,6 +86,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "language-guide/mutable-state",
+              "path": "/docs/language-guide/mutable-state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-start/dfinity-progarmming-practice",
+              "path": "/docs/quick-start/dfinity-progarmming-practice",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "quick-start/dfx-guide",
               "path": "/docs/quick-start/dfx-guide",
               "sidebar": "tutorialSidebar"
@@ -48,6 +108,31 @@
             {
               "id": "quick-start/motoko",
               "path": "/docs/quick-start/motoko",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-apps/apps",
+              "path": "/docs/sample-apps/apps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-apps/some-dapp",
+              "path": "/docs/sample-apps/some-dapp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "token-holders/custody-options-intro",
+              "path": "/docs/token-holders/custody-options-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "token-holders/nns-app-quickstart",
+              "path": "/docs/token-holders/nns-app-quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "token-holders/self-custody-quickstart",
+              "path": "/docs/token-holders/self-custody-quickstart",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -76,6 +161,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-extras/interface-spec",
+              "path": "/docs/tutorial-extras/interface-spec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-extras/manage-docs-versions",
               "path": "/docs/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
@@ -96,6 +186,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-how/default-wallet",
+              "path": "/docs/tutorial-how/default-wallet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-how/design-apps",
               "path": "/docs/tutorial-how/design-apps",
               "sidebar": "tutorialSidebar"
@@ -111,6 +206,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-how/troubleshooting",
+              "path": "/docs/tutorial-how/troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-how/webpack-config",
               "path": "/docs/tutorial-how/webpack-config",
               "sidebar": "tutorialSidebar"
@@ -118,6 +218,11 @@
             {
               "id": "tutorial-how/work-with-languages",
               "path": "/docs/tutorial-how/work-with-languages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-how/working-with-canisters",
+              "path": "/docs/tutorial-how/working-with-canisters",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "cli-reference/dfx-envars",
+  "id": "cli-reference/dfx-envars",
+  "isDocsHomePage": false,
+  "title": "环境变量",
+  "description": "你可以使用环境变量为你的DFINITY Canister SDK执行环境配置某些属性。",
+  "source": "@site/docs/cli-reference/dfx-envars.md",
+  "sourceDirName": "cli-reference",
+  "slug": "/cli-reference/dfx-envars",
+  "permalink": "/docs/cli-reference/dfx-envars",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/dfx-envars.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "命令行参考",
+    "permalink": "/docs/cli-reference/com-reference"
+  },
+  "next": {
+    "title": "支持的类型",
+    "permalink": "/docs/cli-reference/candid-types"
+  }
+}

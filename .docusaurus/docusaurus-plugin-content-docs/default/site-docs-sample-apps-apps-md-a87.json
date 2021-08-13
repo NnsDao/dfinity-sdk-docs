@@ -1,0 +1,26 @@
+{
+  "unversionedId": "sample-apps/apps",
+  "id": "sample-apps/apps",
+  "isDocsHomePage": false,
+  "title": "示例代码、应用程序和微服务",
+  "description": "由DFINITY开发或由社区贡献的示例代码、应用程序和微服务可从DFINITY公共资源库中获得。",
+  "source": "@site/docs/sample-apps/apps.md",
+  "sourceDirName": "sample-apps",
+  "slug": "/sample-apps/apps",
+  "permalink": "/docs/sample-apps/apps",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/sample-apps/apps.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "排除故障的问题",
+    "permalink": "/docs/tutorial-how/troubleshooting"
+  },
+  "next": {
+    "title": "awesome-icp",
+    "permalink": "/docs/sample-apps/some-dapp"
+  }
+}

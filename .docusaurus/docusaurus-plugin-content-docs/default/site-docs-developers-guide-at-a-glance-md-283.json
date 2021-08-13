@@ -1,0 +1,26 @@
+{
+  "unversionedId": "developers-guide/at-a-glance",
+  "id": "developers-guide/at-a-glance",
+  "isDocsHomePage": false,
+  "title": "一目了然",
+  "description": "快速启动提供了一个快速部署简单的默认应用程序的途径，而不必停下来欣赏沿途的风景。单独的教程通过特定的场景，指出你在每个步骤中所做的细节。",
+  "source": "@site/docs/developers-guide/at-a-glance.md",
+  "sourceDirName": "developers-guide",
+  "slug": "/developers-guide/at-a-glance",
+  "permalink": "/docs/developers-guide/at-a-glance",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/developers-guide/at-a-glance.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "教程",
+    "permalink": "/docs/developers-guide/tutorials-intro"
+  },
+  "next": {
+    "title": "命令行参考",
+    "permalink": "/docs/cli-reference/com-reference"
+  }
+}

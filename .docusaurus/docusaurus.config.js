@@ -106,7 +106,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/sidebars.js",
+          "sidebarPath": "/Users/kk/work/dfinity-sdk-docs/sidebars.js",
           "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/"
         },
         "blog": {
@@ -114,7 +114,7 @@ export default {
           "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/src/css/custom.css"
+          "customCss": "/Users/kk/work/dfinity-sdk-docs/src/css/custom.css"
         }
       }
     ]

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-how/troubleshooting",
+  "id": "tutorial-how/troubleshooting",
+  "isDocsHomePage": false,
+  "title": "排除故障的问题",
+  "description": "+ 本节提供信息以帮助您快速排查问题和解决与下列任务有关的常见问题：",
+  "source": "@site/docs/tutorial-how/troubleshooting.md",
+  "sourceDirName": "tutorial-how",
+  "slug": "/tutorial-how/troubleshooting",
+  "permalink": "/docs/tutorial-how/troubleshooting",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/troubleshooting.md",
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "使用默认的Cycles钱包",
+    "permalink": "/docs/tutorial-how/default-wallet"
+  },
+  "next": {
+    "title": "示例代码、应用程序和微服务",
+    "permalink": "/docs/sample-apps/apps"
+  }
+}

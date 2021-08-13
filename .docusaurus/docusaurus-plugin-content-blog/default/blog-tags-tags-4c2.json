@@ -3,57 +3,113 @@
     "allTagsPath": "/blog/tags",
     "slug": "icp",
     "name": "icp",
-    "count": 12,
+    "count": 18,
     "permalink": "/blog/tags/icp"
   },
   "sail-fash": {
     "allTagsPath": "/blog/tags",
     "slug": "sail-fash",
     "name": "sailfash",
-    "count": 9,
+    "count": 15,
     "permalink": "/blog/tags/sail-fash"
   },
   "dfinity": {
     "allTagsPath": "/blog/tags",
     "slug": "dfinity",
     "name": "dfinity",
-    "count": 12,
+    "count": 18,
     "permalink": "/blog/tags/dfinity"
   },
   "nnsdao": {
     "allTagsPath": "/blog/tags",
     "slug": "nnsdao",
     "name": "nnsdao",
-    "count": 12,
+    "count": 18,
     "permalink": "/blog/tags/nnsdao"
   },
   "grants": {
     "allTagsPath": "/blog/tags",
     "slug": "grants",
     "name": "grants",
-    "count": 6,
+    "count": 12,
     "permalink": "/blog/tags/grants"
   },
   "polychain": {
     "allTagsPath": "/blog/tags",
     "slug": "polychain",
     "name": "polychain",
-    "count": 6,
+    "count": 12,
     "permalink": "/blog/tags/polychain"
   },
   "dapp": {
     "allTagsPath": "/blog/tags",
     "slug": "dapp",
     "name": "dapp",
-    "count": 6,
+    "count": 12,
     "permalink": "/blog/tags/dapp"
   },
   "dscvr": {
     "allTagsPath": "/blog/tags",
     "slug": "dscvr",
     "name": "dscvr",
-    "count": 6,
+    "count": 12,
     "permalink": "/blog/tags/dscvr"
+  },
+  "faucet": {
+    "allTagsPath": "/blog/tags",
+    "slug": "faucet",
+    "name": "faucet",
+    "count": 1,
+    "permalink": "/blog/tags/faucet"
+  },
+  "cycle": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cycle",
+    "name": "cycle",
+    "count": 1,
+    "permalink": "/blog/tags/cycle"
+  },
+  "cycles": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cycles",
+    "name": "cycles",
+    "count": 1,
+    "permalink": "/blog/tags/cycles"
+  },
+  "badlands": {
+    "allTagsPath": "/blog/tags",
+    "slug": "badlands",
+    "name": "badlands",
+    "count": 1,
+    "permalink": "/blog/tags/badlands"
+  },
+  "ndp": {
+    "allTagsPath": "/blog/tags",
+    "slug": "ndp",
+    "name": "ndp",
+    "count": 1,
+    "permalink": "/blog/tags/ndp"
+  },
+  "icpscan": {
+    "allTagsPath": "/blog/tags",
+    "slug": "icpscan",
+    "name": "icpscan",
+    "count": 2,
+    "permalink": "/blog/tags/icpscan"
+  },
+  "icpdrops": {
+    "allTagsPath": "/blog/tags",
+    "slug": "icpdrops",
+    "name": "icpdrops",
+    "count": 2,
+    "permalink": "/blog/tags/icpdrops"
+  },
+  "ndt": {
+    "allTagsPath": "/blog/tags",
+    "slug": "ndt",
+    "name": "ndt",
+    "count": 2,
+    "permalink": "/blog/tags/ndt"
   },
   "nns": {
     "allTagsPath": "/blog/tags",

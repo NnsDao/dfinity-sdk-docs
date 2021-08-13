@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/sidebars.js",
-          "contentPath": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/docs",
-          "contentPathLocalized": "/Users/yylc/Documents/GitHub/dfinity-sdk-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/kk/work/dfinity-sdk-docs/sidebars.js",
+          "contentPath": "/Users/kk/work/dfinity-sdk-docs/docs",
+          "contentPathLocalized": "/Users/kk/work/dfinity-sdk-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "intro",
           "sidebars": {
             "tutorialSidebar": [
@@ -45,6 +45,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "tutorial-extras/interface-spec"
+                  },
+                  {
+                    "type": "doc",
                     "id": "tutorial-extras/translate-your-site"
                   },
                   {
@@ -62,6 +66,48 @@
                   {
                     "type": "doc",
                     "id": "tutorial-extras/governance"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "开发教程",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "developers-guide/tutorials-intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developers-guide/at-a-glance"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "命令行参考",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "cli-reference/com-reference"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cli-reference/dfx-envars"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cli-reference/candid-types"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cli-reference/lang-service-ide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cli-reference/glossary"
                   }
                 ],
                 "collapsed": true
@@ -93,6 +139,71 @@
                   {
                     "type": "doc",
                     "id": "tutorial-how/webpack-config"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-how/working-with-canisters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-how/default-wallet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-how/troubleshooting"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Dapp",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "sample-apps/apps"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "sample-apps/some-dapp"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "一体化",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Integration/what-is-ic-identity"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integration/auth-how-to-ic"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integration/ledger-quick-start"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "通证持有者",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "token-holders/custody-options-intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "token-holders/self-custody-quickstart"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "token-holders/nns-app-quickstart"
                   }
                 ],
                 "collapsed": true
@@ -116,6 +227,10 @@
                   {
                     "type": "doc",
                     "id": "language-guide/basic-concepts"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "language-guide/mutable-state"
                   }
                 ],
                 "collapsed": true
@@ -133,7 +248,7 @@
               },
               {
                 "type": "category",
-                "label": "ICP开发指南",
+                "label": "IC最佳实践",
                 "items": [
                   {
                     "type": "doc",
@@ -146,6 +261,10 @@
                   {
                     "type": "doc",
                     "id": "quick-start/motoko"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "quick-start/dfinity-progarmming-practice"
                   }
                 ],
                 "collapsed": true
@@ -153,31 +272,312 @@
             ]
           },
           "permalinkToSidebar": {
+            "/docs/cli-reference/candid-types": "tutorialSidebar",
+            "/docs/cli-reference/com-reference": "tutorialSidebar",
+            "/docs/cli-reference/dfx-envars": "tutorialSidebar",
+            "/docs/cli-reference/glossary": "tutorialSidebar",
+            "/docs/cli-reference/lang-service-ide": "tutorialSidebar",
+            "/docs/developers-guide/at-a-glance": "tutorialSidebar",
+            "/docs/developers-guide/tutorials-intro": "tutorialSidebar",
+            "/docs/Integration/auth-how-to-ic": "tutorialSidebar",
+            "/docs/Integration/ledger-quick-start": "tutorialSidebar",
+            "/docs/Integration/what-is-ic-identity": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/language-guide/about-this-guide": "tutorialSidebar",
             "/docs/language-guide/basic-concepts": "tutorialSidebar",
             "/docs/language-guide/motoko": "tutorialSidebar",
             "/docs/language-guide/motoko-introduction": "tutorialSidebar",
+            "/docs/language-guide/mutable-state": "tutorialSidebar",
+            "/docs/quick-start/dfinity-progarmming-practice": "tutorialSidebar",
             "/docs/quick-start/dfx-guide": "tutorialSidebar",
             "/docs/quick-start/ic": "tutorialSidebar",
             "/docs/quick-start/motoko": "tutorialSidebar",
+            "/docs/sample-apps/apps": "tutorialSidebar",
+            "/docs/sample-apps/some-dapp": "tutorialSidebar",
+            "/docs/token-holders/custody-options-intro": "tutorialSidebar",
+            "/docs/token-holders/nns-app-quickstart": "tutorialSidebar",
+            "/docs/token-holders/self-custody-quickstart": "tutorialSidebar",
             "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
             "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
             "/docs/tutorial-extras/canisters-code": "tutorialSidebar",
             "/docs/tutorial-extras/data-centers": "tutorialSidebar",
             "/docs/tutorial-extras/governance": "tutorialSidebar",
+            "/docs/tutorial-extras/interface-spec": "tutorialSidebar",
             "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
             "/docs/tutorial-extras/tokens-cycles": "tutorialSidebar",
             "/docs/tutorial-extras/translate-your-site": "tutorialSidebar",
             "/docs/tutorial-how/customize-projects": "tutorialSidebar",
+            "/docs/tutorial-how/default-wallet": "tutorialSidebar",
             "/docs/tutorial-how/design-apps": "tutorialSidebar",
             "/docs/tutorial-how/install-upgrade-remove": "tutorialSidebar",
             "/docs/tutorial-how/sdk-guide": "tutorialSidebar",
+            "/docs/tutorial-how/troubleshooting": "tutorialSidebar",
             "/docs/tutorial-how/webpack-config": "tutorialSidebar",
             "/docs/tutorial-how/work-with-languages": "tutorialSidebar",
+            "/docs/tutorial-how/working-with-canisters": "tutorialSidebar",
             "/docs/tutorial-wasms/wasm-intro": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "cli-reference/candid-types",
+              "id": "cli-reference/candid-types",
+              "isDocsHomePage": false,
+              "title": "支持的类型",
+              "description": "TODOTODO",
+              "source": "@site/docs/cli-reference/candid-types.md",
+              "sourceDirName": "cli-reference",
+              "slug": "/cli-reference/candid-types",
+              "permalink": "/docs/cli-reference/candid-types",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/candid-types.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "环境变量",
+                "permalink": "/docs/cli-reference/dfx-envars"
+              },
+              "next": {
+                "title": "语言服务器和开发客户端支持",
+                "permalink": "/docs/cli-reference/lang-service-ide"
+              }
+            },
+            {
+              "unversionedId": "cli-reference/com-reference",
+              "id": "cli-reference/com-reference",
+              "isDocsHomePage": false,
+              "title": "命令行参考",
+              "description": "DFINITY 命令行执行环境 ( dfx) 是用于创建、部署和管理您为 IC 区块链开发的应用程序的主要工具。",
+              "source": "@site/docs/cli-reference/com-reference.md",
+              "sourceDirName": "cli-reference",
+              "slug": "/cli-reference/com-reference",
+              "permalink": "/docs/cli-reference/com-reference",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/com-reference.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "一目了然",
+                "permalink": "/docs/developers-guide/at-a-glance"
+              },
+              "next": {
+                "title": "环境变量",
+                "permalink": "/docs/cli-reference/dfx-envars"
+              }
+            },
+            {
+              "unversionedId": "cli-reference/dfx-envars",
+              "id": "cli-reference/dfx-envars",
+              "isDocsHomePage": false,
+              "title": "环境变量",
+              "description": "你可以使用环境变量为你的DFINITY Canister SDK执行环境配置某些属性。",
+              "source": "@site/docs/cli-reference/dfx-envars.md",
+              "sourceDirName": "cli-reference",
+              "slug": "/cli-reference/dfx-envars",
+              "permalink": "/docs/cli-reference/dfx-envars",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/dfx-envars.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "命令行参考",
+                "permalink": "/docs/cli-reference/com-reference"
+              },
+              "next": {
+                "title": "支持的类型",
+                "permalink": "/docs/cli-reference/candid-types"
+              }
+            },
+            {
+              "unversionedId": "cli-reference/glossary",
+              "id": "cli-reference/glossary",
+              "isDocsHomePage": false,
+              "title": "词汇表",
+              "description": "行为体(Actor)",
+              "source": "@site/docs/cli-reference/glossary.md",
+              "sourceDirName": "cli-reference",
+              "slug": "/cli-reference/glossary",
+              "permalink": "/docs/cli-reference/glossary",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/glossary.md",
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "语言服务器和开发客户端支持",
+                "permalink": "/docs/cli-reference/lang-service-ide"
+              },
+              "next": {
+                "title": "容器 SDK - 开发者工具",
+                "permalink": "/docs/tutorial-how/sdk-guide"
+              }
+            },
+            {
+              "unversionedId": "cli-reference/lang-service-ide",
+              "id": "cli-reference/lang-service-ide",
+              "isDocsHomePage": false,
+              "title": "语言服务器和开发客户端支持",
+              "description": "语言服务器协议（LSP）--最初由微软开发--提供了一种通用语言，以增加广泛有用的功能，如自动完成代码、GoTo定义和悬停在开发工具上的工具提示。使用语言服务器协议，语言服务器可以在编程语言和任何编辑器、集成开发环境（IDE）或客户端终端工具之间进行标准化的进程间通信。",
+              "source": "@site/docs/cli-reference/lang-service-ide.md",
+              "sourceDirName": "cli-reference",
+              "slug": "/cli-reference/lang-service-ide",
+              "permalink": "/docs/cli-reference/lang-service-ide",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/cli-reference/lang-service-ide.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "支持的类型",
+                "permalink": "/docs/cli-reference/candid-types"
+              },
+              "next": {
+                "title": "词汇表",
+                "permalink": "/docs/cli-reference/glossary"
+              }
+            },
+            {
+              "unversionedId": "developers-guide/at-a-glance",
+              "id": "developers-guide/at-a-glance",
+              "isDocsHomePage": false,
+              "title": "一目了然",
+              "description": "快速启动提供了一个快速部署简单的默认应用程序的途径，而不必停下来欣赏沿途的风景。单独的教程通过特定的场景，指出你在每个步骤中所做的细节。",
+              "source": "@site/docs/developers-guide/at-a-glance.md",
+              "sourceDirName": "developers-guide",
+              "slug": "/developers-guide/at-a-glance",
+              "permalink": "/docs/developers-guide/at-a-glance",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/developers-guide/at-a-glance.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "教程",
+                "permalink": "/docs/developers-guide/tutorials-intro"
+              },
+              "next": {
+                "title": "命令行参考",
+                "permalink": "/docs/cli-reference/com-reference"
+              }
+            },
+            {
+              "unversionedId": "developers-guide/tutorials-intro",
+              "id": "developers-guide/tutorials-intro",
+              "isDocsHomePage": false,
+              "title": "教程",
+              "description": "快速入门提供了一个简单介绍，介绍了创建和部署一个新项目的基本流程，而没有详解项目目录或示例代码的内容。",
+              "source": "@site/docs/developers-guide/tutorials-intro.md",
+              "sourceDirName": "developers-guide",
+              "slug": "/developers-guide/tutorials-intro",
+              "permalink": "/docs/developers-guide/tutorials-intro",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/developers-guide/tutorials-intro.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "神经元和治理",
+                "permalink": "/docs/tutorial-extras/governance"
+              },
+              "next": {
+                "title": "一目了然",
+                "permalink": "/docs/developers-guide/at-a-glance"
+              }
+            },
+            {
+              "unversionedId": "Integration/auth-how-to-ic",
+              "id": "Integration/auth-how-to-ic",
+              "isDocsHomePage": false,
+              "title": "如何使用互联网身份",
+              "description": "+ 当您访问使用互联网身份作为认证方法的应用程序时，互联网身份使您能够安全地和匿名地进行认证。为您登录的每个应用程序创建一个不同的身份，您将能够使用您所有的注册设备或认证方法来登录同一个账户。这都是使用在互联网计算机区块链上运行的加密智能合约完成的。",
+              "source": "@site/docs/Integration/auth-how-to-ic.md",
+              "sourceDirName": "Integration",
+              "slug": "/Integration/auth-how-to-ic",
+              "permalink": "/docs/Integration/auth-how-to-ic",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/Integration/auth-how-to-ic.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "什么是互联网身份？",
+                "permalink": "/docs/Integration/what-is-ic-identity"
+              },
+              "next": {
+                "title": "与互联网计算机总账整合",
+                "permalink": "/docs/Integration/ledger-quick-start"
+              }
+            },
+            {
+              "unversionedId": "Integration/ledger-quick-start",
+              "id": "Integration/ledger-quick-start",
+              "isDocsHomePage": false,
+              "title": "与互联网计算机总账整合",
+              "description": "+ 本指南是对互联网计算机协议（ICP）组件的介绍，用于代币分配、交易管理、基于代币的质押挖矿和服务的支付。该文件包括对支持互联网计算机协议通证管理的设计、实现、安全保证、系统要求和应用编程接口（API）的概述。",
+              "source": "@site/docs/Integration/ledger-quick-start.md",
+              "sourceDirName": "Integration",
+              "slug": "/Integration/ledger-quick-start",
+              "permalink": "/docs/Integration/ledger-quick-start",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/Integration/ledger-quick-start.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "如何使用互联网身份",
+                "permalink": "/docs/Integration/auth-how-to-ic"
+              },
+              "next": {
+                "title": "选择数字资产的自我托管",
+                "permalink": "/docs/token-holders/custody-options-intro"
+              }
+            },
+            {
+              "unversionedId": "Integration/what-is-ic-identity",
+              "id": "Integration/what-is-ic-identity",
+              "isDocsHomePage": false,
+              "title": "什么是互联网身份？",
+              "description": "+ 当您访问使用互联网身份作为认证方法的应用程序时，互联网身份使您能够安全和匿名地进行认证。为您登录的每个应用程序创建一个不同的身份，您将能够使用您注册的所有设备或认证方法来登录同一个账户。",
+              "source": "@site/docs/Integration/what-is-ic-identity.md",
+              "sourceDirName": "Integration",
+              "slug": "/Integration/what-is-ic-identity",
+              "permalink": "/docs/Integration/what-is-ic-identity",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/Integration/what-is-ic-identity.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "awesome-icp",
+                "permalink": "/docs/sample-apps/some-dapp"
+              },
+              "next": {
+                "title": "如何使用互联网身份",
+                "permalink": "/docs/Integration/auth-how-to-ic"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -248,8 +648,8 @@
                 "permalink": "/docs/language-guide/motoko-introduction"
               },
               "next": {
-                "title": "WebAssembly是什么",
-                "permalink": "/docs/tutorial-wasms/wasm-intro"
+                "title": "可变状态",
+                "permalink": "/docs/language-guide/mutable-state"
               }
             },
             {
@@ -270,8 +670,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "添加前端资产",
-                "permalink": "/docs/tutorial-how/webpack-config"
+                "title": "网络神经系统应用快速启动",
+                "permalink": "/docs/token-holders/nns-app-quickstart"
               },
               "next": {
                 "title": "关于本指南",
@@ -305,6 +705,54 @@
               }
             },
             {
+              "unversionedId": "language-guide/mutable-state",
+              "id": "language-guide/mutable-state",
+              "isDocsHomePage": false,
+              "title": "可变状态",
+              "description": "Motoko 中的每个 actor 都可以使用，但可能永远不会直接共享内部可变状态。",
+              "source": "@site/docs/language-guide/mutable-state.md",
+              "sourceDirName": "language-guide",
+              "slug": "/language-guide/mutable-state",
+              "permalink": "/docs/language-guide/mutable-state",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/language-guide/mutable-state.md",
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "基本概念和术语",
+                "permalink": "/docs/language-guide/basic-concepts"
+              },
+              "next": {
+                "title": "WebAssembly是什么",
+                "permalink": "/docs/tutorial-wasms/wasm-intro"
+              }
+            },
+            {
+              "unversionedId": "quick-start/dfinity-progarmming-practice",
+              "id": "quick-start/dfinity-progarmming-practice",
+              "isDocsHomePage": false,
+              "title": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+              "description": "identity绑定wallet",
+              "source": "@site/docs/quick-start/dfinity-progarmming-practice.md",
+              "sourceDirName": "quick-start",
+              "slug": "/quick-start/dfinity-progarmming-practice",
+              "permalink": "/docs/quick-start/dfinity-progarmming-practice",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/quick-start/dfinity-progarmming-practice.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Motoko 概述",
+                "permalink": "/docs/quick-start/motoko"
+              }
+            },
+            {
               "unversionedId": "quick-start/dfx-guide",
               "id": "quick-start/dfx-guide",
               "isDocsHomePage": false,
@@ -326,7 +774,7 @@
                 "permalink": "/docs/quick-start/ic"
               },
               "next": {
-                "title": "Motoko 编程语言",
+                "title": "Motoko 概述",
                 "permalink": "/docs/quick-start/motoko"
               }
             },
@@ -360,8 +808,8 @@
               "unversionedId": "quick-start/motoko",
               "id": "quick-start/motoko",
               "isDocsHomePage": false,
-              "title": "Motoko 编程语言",
-              "description": "TODO",
+              "title": "Motoko 概述",
+              "description": "+ Motoko编程语言是一种新的现代类型语言，专为希望构建下一代应用程序和服务以直接在 Internet Computer上运行的开发人员而设计。其具有以下特性：",
               "source": "@site/docs/quick-start/motoko.md",
               "sourceDirName": "quick-start",
               "slug": "/quick-start/motoko",
@@ -376,6 +824,140 @@
               "previous": {
                 "title": "[ICP开发]:DFX命令最全指南学习心得和实践",
                 "permalink": "/docs/quick-start/dfx-guide"
+              },
+              "next": {
+                "title": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+                "permalink": "/docs/quick-start/dfinity-progarmming-practice"
+              }
+            },
+            {
+              "unversionedId": "sample-apps/apps",
+              "id": "sample-apps/apps",
+              "isDocsHomePage": false,
+              "title": "示例代码、应用程序和微服务",
+              "description": "由DFINITY开发或由社区贡献的示例代码、应用程序和微服务可从DFINITY公共资源库中获得。",
+              "source": "@site/docs/sample-apps/apps.md",
+              "sourceDirName": "sample-apps",
+              "slug": "/sample-apps/apps",
+              "permalink": "/docs/sample-apps/apps",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/sample-apps/apps.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "排除故障的问题",
+                "permalink": "/docs/tutorial-how/troubleshooting"
+              },
+              "next": {
+                "title": "awesome-icp",
+                "permalink": "/docs/sample-apps/some-dapp"
+              }
+            },
+            {
+              "unversionedId": "sample-apps/some-dapp",
+              "id": "sample-apps/some-dapp",
+              "isDocsHomePage": false,
+              "title": "awesome-icp",
+              "description": "更多dApps请访问:",
+              "source": "@site/docs/sample-apps/some-dapp.md",
+              "sourceDirName": "sample-apps",
+              "slug": "/sample-apps/some-dapp",
+              "permalink": "/docs/sample-apps/some-dapp",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/sample-apps/some-dapp.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "示例代码、应用程序和微服务",
+                "permalink": "/docs/sample-apps/apps"
+              },
+              "next": {
+                "title": "什么是互联网身份？",
+                "permalink": "/docs/Integration/what-is-ic-identity"
+              }
+            },
+            {
+              "unversionedId": "token-holders/custody-options-intro",
+              "id": "token-holders/custody-options-intro",
+              "isDocsHomePage": false,
+              "title": "选择数字资产的自我托管",
+              "description": "自我保管是一种代币发行的选择，它使你能够对你的数字资产和你的私钥的管理全权负责，而不需要第三方来掌控你的资产。",
+              "source": "@site/docs/token-holders/custody-options-intro.md",
+              "sourceDirName": "token-holders",
+              "slug": "/token-holders/custody-options-intro",
+              "permalink": "/docs/token-holders/custody-options-intro",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/token-holders/custody-options-intro.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "与互联网计算机总账整合",
+                "permalink": "/docs/Integration/ledger-quick-start"
+              },
+              "next": {
+                "title": "自我托管快速启动",
+                "permalink": "/docs/token-holders/self-custody-quickstart"
+              }
+            },
+            {
+              "unversionedId": "token-holders/nns-app-quickstart",
+              "id": "token-holders/nns-app-quickstart",
+              "isDocsHomePage": false,
+              "title": "网络神经系统应用快速启动",
+              "description": "+ 作为一个去中心化的区块链，IC的配置和行为的所有变化都由一个称为网络神经系统（NNS）的算法治理系统控制。NNS控制IC网络配置的所有方面，并负责执行许多网络管理操作。例如，网络神经系统（NNS）负责：",
+              "source": "@site/docs/token-holders/nns-app-quickstart.md",
+              "sourceDirName": "token-holders",
+              "slug": "/token-holders/nns-app-quickstart",
+              "permalink": "/docs/token-holders/nns-app-quickstart",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/token-holders/nns-app-quickstart.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "自我托管快速启动",
+                "permalink": "/docs/token-holders/self-custody-quickstart"
+              },
+              "next": {
+                "title": "Motoko 编程语言",
+                "permalink": "/docs/language-guide/motoko"
+              }
+            },
+            {
+              "unversionedId": "token-holders/self-custody-quickstart",
+              "id": "token-holders/self-custody-quickstart",
+              "isDocsHomePage": false,
+              "title": "自我托管快速启动",
+              "description": "在IC生态系统内，IC协议代币（ICP代币）是一种原生的实用代币。ICP代币在IC的治理和经济方面都发挥着关键作用。",
+              "source": "@site/docs/token-holders/self-custody-quickstart.md",
+              "sourceDirName": "token-holders",
+              "slug": "/token-holders/self-custody-quickstart",
+              "permalink": "/docs/token-holders/self-custody-quickstart",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/token-holders/self-custody-quickstart.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "选择数字资产的自我托管",
+                "permalink": "/docs/token-holders/custody-options-intro"
+              },
+              "next": {
+                "title": "网络神经系统应用快速启动",
+                "permalink": "/docs/token-holders/nns-app-quickstart"
               }
             },
             {
@@ -383,7 +965,7 @@
               "id": "tutorial-basics/create-a-document",
               "isDocsHomePage": false,
               "title": "网络部署",
-              "description": "+ TODO",
+              "description": "本快速入门方案假设您是第一次安装DFINITY Canister SDK，并在远程运行的Internet计算机上部署默认项目。",
               "source": "@site/docs/tutorial-basics/create-a-document.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
@@ -434,7 +1016,7 @@
               "unversionedId": "tutorial-extras/canisters-code",
               "id": "tutorial-extras/canisters-code",
               "isDocsHomePage": false,
-              "title": "canisters-code",
+              "title": "程序罐(容器)和代码",
               "description": "程序罐(容器)和代码",
               "source": "@site/docs/tutorial-extras/canisters-code.md",
               "sourceDirName": "tutorial-extras",
@@ -442,9 +1024,9 @@
               "permalink": "/docs/tutorial-extras/canisters-code",
               "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/canisters-code.md",
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 5,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -452,7 +1034,7 @@
                 "permalink": "/docs/tutorial-extras/data-centers"
               },
               "next": {
-                "title": "tokens-cycles",
+                "title": "通证和cycles燃料",
                 "permalink": "/docs/tutorial-extras/tokens-cycles"
               }
             },
@@ -468,9 +1050,9 @@
               "permalink": "/docs/tutorial-extras/data-centers",
               "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/data-centers.md",
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -478,7 +1060,7 @@
                 "permalink": "/docs/tutorial-extras/translate-your-site"
               },
               "next": {
-                "title": "canisters-code",
+                "title": "程序罐(容器)和代码",
                 "permalink": "/docs/tutorial-extras/canisters-code"
               }
             },
@@ -494,18 +1076,44 @@
               "permalink": "/docs/tutorial-extras/governance",
               "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/governance.md",
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 6
+                "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "tokens-cycles",
+                "title": "通证和cycles燃料",
                 "permalink": "/docs/tutorial-extras/tokens-cycles"
               },
               "next": {
-                "title": "容器 SDK - 开发者工具",
-                "permalink": "/docs/tutorial-how/sdk-guide"
+                "title": "教程",
+                "permalink": "/docs/developers-guide/tutorials-intro"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/interface-spec",
+              "id": "tutorial-extras/interface-spec",
+              "isDocsHomePage": false,
+              "title": "互联网计算机接口规范",
+              "description": "简介",
+              "source": "@site/docs/tutorial-extras/interface-spec.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/interface-spec",
+              "permalink": "/docs/tutorial-extras/interface-spec",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/interface-spec.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "什么是互联网计算机（ICP）",
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "节点和子网",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
               }
             },
             {
@@ -530,29 +1138,29 @@
                 "permalink": "/docs/tutorial-basics/create-a-document"
               },
               "next": {
-                "title": "节点和子网",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
+                "title": "互联网计算机接口规范",
+                "permalink": "/docs/tutorial-extras/interface-spec"
               }
             },
             {
               "unversionedId": "tutorial-extras/tokens-cycles",
               "id": "tutorial-extras/tokens-cycles",
               "isDocsHomePage": false,
-              "title": "tokens-cycles",
-              "description": "通证和cycles燃气",
+              "title": "通证和cycles燃料",
+              "description": "在互联网计算机生态系统中，互联网计算机协议通证（ICP通证）是一种原生效用通证，其价值由公开市场决定。ICP通证在互联网计算机的管理和经济方面都发挥着关键作用。",
               "source": "@site/docs/tutorial-extras/tokens-cycles.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/tokens-cycles",
               "permalink": "/docs/tutorial-extras/tokens-cycles",
               "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/tokens-cycles.md",
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 6,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar_position": 6
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "canisters-code",
+                "title": "程序罐(容器)和代码",
                 "permalink": "/docs/tutorial-extras/canisters-code"
               },
               "next": {
@@ -572,14 +1180,14 @@
               "permalink": "/docs/tutorial-extras/translate-your-site",
               "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-extras/translate-your-site.md",
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "什么是互联网计算机（ICP）",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "互联网计算机接口规范",
+                "permalink": "/docs/tutorial-extras/interface-spec"
               },
               "next": {
                 "title": "去中心化数据中心",
@@ -610,6 +1218,32 @@
               "next": {
                 "title": "使用不同的语言进行开发",
                 "permalink": "/docs/tutorial-how/work-with-languages"
+              }
+            },
+            {
+              "unversionedId": "tutorial-how/default-wallet",
+              "id": "tutorial-how/default-wallet",
+              "isDocsHomePage": false,
+              "title": "使用默认的Cycles钱包",
+              "description": "+ 正如在通证和Cycles中所讨论的，ICP通证可以转化为Cycles，为程序罐的运行提供动力。Cycles提供了一个基本稳定的价值主张，代表了应用所消耗的通信、计算和存储的运营成本。例如，Cycles反映了在IC服务上运行的应用程序所需的物理硬件、机架空间、能源、存储设备和网络带宽的实际成本。",
+              "source": "@site/docs/tutorial-how/default-wallet.md",
+              "sourceDirName": "tutorial-how",
+              "slug": "/tutorial-how/default-wallet",
+              "permalink": "/docs/tutorial-how/default-wallet",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/default-wallet.md",
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "管理程序罐",
+                "permalink": "/docs/tutorial-how/working-with-canisters"
+              },
+              "next": {
+                "title": "排除故障的问题",
+                "permalink": "/docs/tutorial-how/troubleshooting"
               }
             },
             {
@@ -682,12 +1316,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "神经元和治理",
-                "permalink": "/docs/tutorial-extras/governance"
+                "title": "词汇表",
+                "permalink": "/docs/cli-reference/glossary"
               },
               "next": {
                 "title": "安装、升级或删除软件",
                 "permalink": "/docs/tutorial-how/install-upgrade-remove"
+              }
+            },
+            {
+              "unversionedId": "tutorial-how/troubleshooting",
+              "id": "tutorial-how/troubleshooting",
+              "isDocsHomePage": false,
+              "title": "排除故障的问题",
+              "description": "+ 本节提供信息以帮助您快速排查问题和解决与下列任务有关的常见问题：",
+              "source": "@site/docs/tutorial-how/troubleshooting.md",
+              "sourceDirName": "tutorial-how",
+              "slug": "/tutorial-how/troubleshooting",
+              "permalink": "/docs/tutorial-how/troubleshooting",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/troubleshooting.md",
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "使用默认的Cycles钱包",
+                "permalink": "/docs/tutorial-how/default-wallet"
+              },
+              "next": {
+                "title": "示例代码、应用程序和微服务",
+                "permalink": "/docs/sample-apps/apps"
               }
             },
             {
@@ -712,8 +1372,8 @@
                 "permalink": "/docs/tutorial-how/work-with-languages"
               },
               "next": {
-                "title": "Motoko 编程语言",
-                "permalink": "/docs/language-guide/motoko"
+                "title": "管理程序罐",
+                "permalink": "/docs/tutorial-how/working-with-canisters"
               }
             },
             {
@@ -743,6 +1403,32 @@
               }
             },
             {
+              "unversionedId": "tutorial-how/working-with-canisters",
+              "id": "tutorial-how/working-with-canisters",
+              "isDocsHomePage": false,
+              "title": "管理程序罐",
+              "description": "+ 如果您按照 \"教程 \"部分的教程或从实例库中克隆实例，尝试使用DFINITY Canister软件开发工具包（SDK），您就已经熟悉了如何将程序构建和部署为程序罐。本节提供了有关程序罐生命周期和如何管理程序罐的额外信息。",
+              "source": "@site/docs/tutorial-how/working-with-canisters.md",
+              "sourceDirName": "tutorial-how",
+              "slug": "/tutorial-how/working-with-canisters",
+              "permalink": "/docs/tutorial-how/working-with-canisters",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/tutorial-how/working-with-canisters.md",
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "添加前端资产",
+                "permalink": "/docs/tutorial-how/webpack-config"
+              },
+              "next": {
+                "title": "使用默认的Cycles钱包",
+                "permalink": "/docs/tutorial-how/default-wallet"
+              }
+            },
+            {
               "unversionedId": "tutorial-wasms/wasm-intro",
               "id": "tutorial-wasms/wasm-intro",
               "isDocsHomePage": false,
@@ -760,8 +1446,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "基本概念和术语",
-                "permalink": "/docs/language-guide/basic-concepts"
+                "title": "可变状态",
+                "permalink": "/docs/language-guide/mutable-state"
               },
               "next": {
                 "title": "[ICP开发]:IC学习心得",
@@ -776,6 +1462,382 @@
   "docusaurus-plugin-content-blog": {
     "default": {
       "blogPosts": [
+        {
+          "id": "icp-cycle-faucet",
+          "metadata": {
+            "permalink": "/blog/icp-cycle-faucet",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-07-23-cycle-factory.md",
+            "source": "@site/blog/2021-07-23-cycle-factory.md",
+            "title": "【ICP开发福利】Cycle水龙头：在互联网计算机上免费建造dApp",
+            "description": "ICP水龙头快速获取Cycle步骤：",
+            "date": "2021-07-23T00:00:00.000Z",
+            "formattedDate": "July 23, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
+              },
+              {
+                "label": "Dfinity",
+                "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "grants",
+                "permalink": "/blog/tags/grants"
+              },
+              {
+                "label": "Polychain",
+                "permalink": "/blog/tags/polychain"
+              },
+              {
+                "label": "dapp",
+                "permalink": "/blog/tags/dapp"
+              },
+              {
+                "label": "DSCVR",
+                "permalink": "/blog/tags/dscvr"
+              },
+              {
+                "label": "faucet",
+                "permalink": "/blog/tags/faucet"
+              },
+              {
+                "label": "cycle",
+                "permalink": "/blog/tags/cycle"
+              },
+              {
+                "label": "cycles",
+                "permalink": "/blog/tags/cycles"
+              }
+            ],
+            "readingTime": 0.15,
+            "truncated": false,
+            "nextItem": {
+              "title": "介绍互联网计算机 \"荒地 \"概念",
+              "permalink": "/blog/icp-badlands-concept"
+            }
+          }
+        },
+        {
+          "id": "icp-badlands-concept",
+          "metadata": {
+            "permalink": "/blog/icp-badlands-concept",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-07-05-icp-badlands.md",
+            "source": "@site/blog/2021-07-05-icp-badlands.md",
+            "title": "介绍互联网计算机 \"荒地 \"概念",
+            "description": "介绍互联网计算机 \"荒地 \"概念",
+            "date": "2021-07-05T00:00:00.000Z",
+            "formattedDate": "July 5, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
+              },
+              {
+                "label": "Dfinity",
+                "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "grants",
+                "permalink": "/blog/tags/grants"
+              },
+              {
+                "label": "Polychain",
+                "permalink": "/blog/tags/polychain"
+              },
+              {
+                "label": "dapp",
+                "permalink": "/blog/tags/dapp"
+              },
+              {
+                "label": "DSCVR",
+                "permalink": "/blog/tags/dscvr"
+              },
+              {
+                "label": "badlands",
+                "permalink": "/blog/tags/badlands"
+              },
+              {
+                "label": "NDP",
+                "permalink": "/blog/tags/ndp"
+              }
+            ],
+            "readingTime": 0.56,
+            "truncated": false,
+            "prevItem": {
+              "title": "【ICP开发福利】Cycle水龙头：在互联网计算机上免费建造dApp",
+              "permalink": "/blog/icp-cycle-faucet"
+            },
+            "nextItem": {
+              "title": "【ICP科普】如何使用策略配置质押挖矿ICP，并获取最高收益",
+              "permalink": "/blog/icp-stacking-guide"
+            }
+          }
+        },
+        {
+          "id": "icp-stacking-guide",
+          "metadata": {
+            "permalink": "/blog/icp-stacking-guide",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-28-icp-staking-guide.md",
+            "source": "@site/blog/2021-06-28-icp-staking-guide.md",
+            "title": "【ICP科普】如何使用策略配置质押挖矿ICP，并获取最高收益",
+            "description": "【ICP科普】如何使用策略配置质押挖矿ICP，并获取最高收益",
+            "date": "2021-06-28T00:00:00.000Z",
+            "formattedDate": "June 28, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
+              },
+              {
+                "label": "Dfinity",
+                "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "grants",
+                "permalink": "/blog/tags/grants"
+              },
+              {
+                "label": "Polychain",
+                "permalink": "/blog/tags/polychain"
+              },
+              {
+                "label": "dapp",
+                "permalink": "/blog/tags/dapp"
+              },
+              {
+                "label": "DSCVR",
+                "permalink": "/blog/tags/dscvr"
+              },
+              {
+                "label": "icpscan",
+                "permalink": "/blog/tags/icpscan"
+              },
+              {
+                "label": "icpdrops",
+                "permalink": "/blog/tags/icpdrops"
+              },
+              {
+                "label": "NDT",
+                "permalink": "/blog/tags/ndt"
+              }
+            ],
+            "readingTime": 0.245,
+            "truncated": false,
+            "prevItem": {
+              "title": "介绍互联网计算机 \"荒地 \"概念",
+              "permalink": "/blog/icp-badlands-concept"
+            },
+            "nextItem": {
+              "title": "【ICP科普】什么是 DFINITY？",
+              "permalink": "/blog/icp-basic-intro"
+            }
+          }
+        },
+        {
+          "id": "icp-basic-intro",
+          "metadata": {
+            "permalink": "/blog/icp-basic-intro",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-27-icp-basic-intro.md",
+            "source": "@site/blog/2021-06-27-icp-basic-intro.md",
+            "title": "【ICP科普】什么是 DFINITY？",
+            "description": "DFINITY 通过其互联网计算机协议，号称是第三个区块链革命者。那么，什么是 DFINITY？",
+            "date": "2021-06-27T00:00:00.000Z",
+            "formattedDate": "June 27, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
+              },
+              {
+                "label": "Dfinity",
+                "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "grants",
+                "permalink": "/blog/tags/grants"
+              },
+              {
+                "label": "Polychain",
+                "permalink": "/blog/tags/polychain"
+              },
+              {
+                "label": "dapp",
+                "permalink": "/blog/tags/dapp"
+              },
+              {
+                "label": "DSCVR",
+                "permalink": "/blog/tags/dscvr"
+              },
+              {
+                "label": "icpscan",
+                "permalink": "/blog/tags/icpscan"
+              },
+              {
+                "label": "icpdrops",
+                "permalink": "/blog/tags/icpdrops"
+              },
+              {
+                "label": "NDT",
+                "permalink": "/blog/tags/ndt"
+              }
+            ],
+            "readingTime": 0.855,
+            "truncated": false,
+            "prevItem": {
+              "title": "【ICP科普】如何使用策略配置质押挖矿ICP，并获取最高收益",
+              "permalink": "/blog/icp-stacking-guide"
+            },
+            "nextItem": {
+              "title": "互联网计算机-icp：近期发展、社区、未来事件",
+              "permalink": "/blog/icp-dev-chat-fature"
+            }
+          }
+        },
+        {
+          "id": "icp-dev-chat-fature",
+          "metadata": {
+            "permalink": "/blog/icp-dev-chat-fature",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-25-icp-dev-chat-fature.md",
+            "source": "@site/blog/2021-06-25-icp-dev-chat-fature.md",
+            "title": "互联网计算机-icp：近期发展、社区、未来事件",
+            "description": "互联网计算机 (ICP)：近期发展、社区、未来事件",
+            "date": "2021-06-25T00:00:00.000Z",
+            "formattedDate": "June 25, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
+              },
+              {
+                "label": "Dfinity",
+                "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "grants",
+                "permalink": "/blog/tags/grants"
+              },
+              {
+                "label": "Polychain",
+                "permalink": "/blog/tags/polychain"
+              },
+              {
+                "label": "dapp",
+                "permalink": "/blog/tags/dapp"
+              },
+              {
+                "label": "DSCVR",
+                "permalink": "/blog/tags/dscvr"
+              }
+            ],
+            "readingTime": 0.22,
+            "truncated": false,
+            "prevItem": {
+              "title": "【ICP科普】什么是 DFINITY？",
+              "permalink": "/blog/icp-basic-intro"
+            },
+            "nextItem": {
+              "title": "ICP价格预测：4年后会到3500美元吗？",
+              "permalink": "/blog/icp-price-predictions-nnsdao"
+            }
+          }
+        },
+        {
+          "id": "icp-price-predictions-nnsdao",
+          "metadata": {
+            "permalink": "/blog/icp-price-predictions-nnsdao",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-25-icp-price-down-95.md",
+            "source": "@site/blog/2021-06-25-icp-price-down-95.md",
+            "title": "ICP价格预测：4年后会到3500美元吗？",
+            "description": "本文仅供参考，盈亏自负。",
+            "date": "2021-06-25T00:00:00.000Z",
+            "formattedDate": "June 25, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
+              },
+              {
+                "label": "Dfinity",
+                "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "grants",
+                "permalink": "/blog/tags/grants"
+              },
+              {
+                "label": "Polychain",
+                "permalink": "/blog/tags/polychain"
+              },
+              {
+                "label": "dapp",
+                "permalink": "/blog/tags/dapp"
+              },
+              {
+                "label": "DSCVR",
+                "permalink": "/blog/tags/dscvr"
+              }
+            ],
+            "readingTime": 0.975,
+            "truncated": false,
+            "prevItem": {
+              "title": "互联网计算机-icp：近期发展、社区、未来事件",
+              "permalink": "/blog/icp-dev-chat-fature"
+            },
+            "nextItem": {
+              "title": "神经元网络——Dfinity的算法自治之路（上）",
+              "permalink": "/blog/icp-nns-dfinity-part"
+            }
+          }
+        },
         {
           "id": "icp-nns-dfinity-part",
           "metadata": {
@@ -822,6 +1884,10 @@
             ],
             "readingTime": 0.275,
             "truncated": false,
+            "prevItem": {
+              "title": "ICP价格预测：4年后会到3500美元吗？",
+              "permalink": "/blog/icp-price-predictions-nnsdao"
+            },
             "nextItem": {
               "title": "神经元网络——Dfinity的算法自治之路（下）",
               "permalink": "/blog/icp-nns-dfinity-next"
@@ -987,19 +2053,19 @@
               "permalink": "/blog/icp-token-nns-dfinity"
             },
             "nextItem": {
-              "title": "什么是互联网计算机？最新流行的加密货币指南",
-              "permalink": "/blog/icp-price-predictions"
+              "title": "如何书写完美的开发者资助申请？",
+              "permalink": "/blog/icp-grants"
             }
           }
         },
         {
-          "id": "icp-price-predictions",
+          "id": "icp-grants",
           "metadata": {
-            "permalink": "/blog/icp-price-predictions",
-            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-09-what-is-icp-protocol.md",
-            "source": "@site/blog/2021-06-09-what-is-icp-protocol.md",
-            "title": "什么是互联网计算机？最新流行的加密货币指南",
-            "description": "tags: [icp, SailFash, Dfinity, nnsdao,dao]",
+            "permalink": "/blog/icp-grants",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-09-icp-grants.md",
+            "source": "@site/blog/2021-06-09-icp-grants.md",
+            "title": "如何书写完美的开发者资助申请？",
+            "description": "5 月 25 日，DFINITY 基金会宣布启动一项 2 亿瑞士法郎的计划，以支持互联网计算机开发者生态系统，帮助资助互联网计算机区块链上的 dapps、工具和基础设施的建设。",
             "date": "2021-06-09T00:00:00.000Z",
             "formattedDate": "June 9, 2021",
             "tags": [
@@ -1036,7 +2102,7 @@
                 "permalink": "/blog/tags/dscvr"
               }
             ],
-            "readingTime": 1.31,
+            "readingTime": 0.61,
             "truncated": false,
             "prevItem": {
               "title": "ICP官方最新数据:网络神经系统质押奖励年化追高28.9%?",
@@ -1095,23 +2161,23 @@
             "readingTime": 0.795,
             "truncated": false,
             "prevItem": {
-              "title": "什么是互联网计算机？最新流行的加密货币指南",
-              "permalink": "/blog/icp-price-predictions"
-            },
-            "nextItem": {
               "title": "如何书写完美的开发者资助申请？",
               "permalink": "/blog/icp-grants"
+            },
+            "nextItem": {
+              "title": "什么是互联网计算机？最新流行的加密货币指南",
+              "permalink": "/blog/icp-price-predictions"
             }
           }
         },
         {
-          "id": "icp-grants",
+          "id": "icp-price-predictions",
           "metadata": {
-            "permalink": "/blog/icp-grants",
-            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-09-icp-grants.md",
-            "source": "@site/blog/2021-06-09-icp-grants.md",
-            "title": "如何书写完美的开发者资助申请？",
-            "description": "5 月 25 日，DFINITY 基金会宣布启动一项 2 亿瑞士法郎的计划，以支持互联网计算机开发者生态系统，帮助资助互联网计算机区块链上的 dapps、工具和基础设施的建设。",
+            "permalink": "/blog/icp-price-predictions",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-09-what-is-icp-protocol.md",
+            "source": "@site/blog/2021-06-09-what-is-icp-protocol.md",
+            "title": "什么是互联网计算机？最新流行的加密货币指南",
+            "description": "tags: [icp, SailFash, Dfinity, nnsdao,dao]",
             "date": "2021-06-09T00:00:00.000Z",
             "formattedDate": "June 9, 2021",
             "tags": [
@@ -1148,7 +2214,7 @@
                 "permalink": "/blog/tags/dscvr"
               }
             ],
-            "readingTime": 0.61,
+            "readingTime": 1.31,
             "truncated": false,
             "prevItem": {
               "title": "ICP价格预测：4年后会到3500美元吗？",
@@ -1174,23 +2240,23 @@
             "readingTime": 0.525,
             "truncated": false,
             "prevItem": {
-              "title": "如何书写完美的开发者资助申请？",
-              "permalink": "/blog/icp-grants"
+              "title": "什么是互联网计算机？最新流行的加密货币指南",
+              "permalink": "/blog/icp-price-predictions"
             },
             "nextItem": {
-              "title": "ICP - Dfinity简介和基础科普",
-              "permalink": "/blog/icp-intro"
+              "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
+              "permalink": "/blog/okex-icp-fund"
             }
           }
         },
         {
-          "id": "icp-intro",
+          "id": "okex-icp-fund",
           "metadata": {
-            "permalink": "/blog/icp-intro",
-            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-basic.md",
-            "source": "@site/blog/2021-05-30-icp-basic.md",
-            "title": "ICP - Dfinity简介和基础科普",
-            "description": "Dfinity是一个去中心化的网络设计项目。",
+            "permalink": "/blog/okex-icp-fund",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-okex-fund.md",
+            "source": "@site/blog/2021-05-30-icp-okex-fund.md",
+            "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
+            "description": "DFINITY 基金会为互联网计算机启动开发者激励计划，并开始接受申请。",
             "date": "2021-05-30T00:00:00.000Z",
             "formattedDate": "May 30, 2021",
             "tags": [
@@ -1199,15 +2265,19 @@
                 "permalink": "/blog/tags/icp"
               },
               {
-                "label": "nnsdao",
-                "permalink": "/blog/tags/nnsdao"
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
               },
               {
-                "label": "dfinity",
+                "label": "Dfinity",
                 "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
               }
             ],
-            "readingTime": 1.1,
+            "readingTime": 0.565,
             "truncated": true,
             "prevItem": {
               "title": "[ICP科普]一个例子看懂如何验证互联网身份认证的代码",
@@ -1254,48 +2324,8 @@
             "readingTime": 0.155,
             "truncated": true,
             "prevItem": {
-              "title": "ICP - Dfinity简介和基础科普",
-              "permalink": "/blog/icp-intro"
-            },
-            "nextItem": {
               "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
               "permalink": "/blog/okex-icp-fund"
-            }
-          }
-        },
-        {
-          "id": "okex-icp-fund",
-          "metadata": {
-            "permalink": "/blog/okex-icp-fund",
-            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-okex-fund.md",
-            "source": "@site/blog/2021-05-30-icp-okex-fund.md",
-            "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
-            "description": "DFINITY 基金会为互联网计算机启动开发者激励计划，并开始接受申请。",
-            "date": "2021-05-30T00:00:00.000Z",
-            "formattedDate": "May 30, 2021",
-            "tags": [
-              {
-                "label": "icp",
-                "permalink": "/blog/tags/icp"
-              },
-              {
-                "label": "SailFash",
-                "permalink": "/blog/tags/sail-fash"
-              },
-              {
-                "label": "Dfinity",
-                "permalink": "/blog/tags/dfinity"
-              },
-              {
-                "label": "nnsdao",
-                "permalink": "/blog/tags/nnsdao"
-              }
-            ],
-            "readingTime": 0.565,
-            "truncated": true,
-            "prevItem": {
-              "title": "不一样的「DFINITY」词贴 | Canistore是什么？",
-              "permalink": "/blog/dfinity-Canistore"
             },
             "nextItem": {
               "title": "ICP科普系列:DFINITY生态项目概览",
@@ -1330,8 +2360,44 @@
             "readingTime": 0.5,
             "truncated": true,
             "prevItem": {
-              "title": "继Okex并发起千万美元专项生态基金,ICP基金会启动约 2 亿瑞士法郎开发者激励计划",
-              "permalink": "/blog/okex-icp-fund"
+              "title": "不一样的「DFINITY」词贴 | Canistore是什么？",
+              "permalink": "/blog/dfinity-Canistore"
+            },
+            "nextItem": {
+              "title": "ICP - Dfinity简介和基础科普",
+              "permalink": "/blog/icp-intro"
+            }
+          }
+        },
+        {
+          "id": "icp-intro",
+          "metadata": {
+            "permalink": "/blog/icp-intro",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-05-30-icp-basic.md",
+            "source": "@site/blog/2021-05-30-icp-basic.md",
+            "title": "ICP - Dfinity简介和基础科普",
+            "description": "Dfinity是一个去中心化的网络设计项目。",
+            "date": "2021-05-30T00:00:00.000Z",
+            "formattedDate": "May 30, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "dfinity",
+                "permalink": "/blog/tags/dfinity"
+              }
+            ],
+            "readingTime": 1.1,
+            "truncated": true,
+            "prevItem": {
+              "title": "ICP科普系列:DFINITY生态项目概览",
+              "permalink": "/blog/icp-intro-Ecology"
             },
             "nextItem": {
               "title": "不一样的「DFINITY」词贴 | SailFash是什么？",
@@ -1370,8 +2436,8 @@
             "readingTime": 0.145,
             "truncated": true,
             "prevItem": {
-              "title": "ICP科普系列:DFINITY生态项目概览",
-              "permalink": "/blog/icp-intro-Ecology"
+              "title": "ICP - Dfinity简介和基础科普",
+              "permalink": "/blog/icp-intro"
             }
           }
         }
@@ -1383,23 +2449,23 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 2,
-            "totalCount": 13,
+            "totalCount": 19,
             "previousPage": null,
             "nextPage": "/blog/page/2",
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
-            "dfinity-stacking-vote-reward",
-            "icp-price-predictions",
-            "icp-price-predictions-nnsdao",
-            "icp-grants",
-            "[ICP科普]一个例子看懂如何验证互联网身份认证的代码",
-            "icp-intro",
-            "dfinity-Canistore"
+            "dfinity-stacking-vote-reward"
           ]
         },
         {
@@ -1408,15 +2474,21 @@
             "page": 2,
             "postsPerPage": 10,
             "totalPages": 2,
-            "totalCount": 13,
+            "totalCount": 19,
             "previousPage": "/blog",
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
+            "icp-grants",
+            "icp-price-predictions-nnsdao",
+            "icp-price-predictions",
+            "[ICP科普]一个例子看懂如何验证互联网身份认证的代码",
             "okex-icp-fund",
+            "dfinity-Canistore",
             "icp-intro-Ecology",
+            "icp-intro",
             "dfinity-SailFash"
           ]
         }
@@ -1425,17 +2497,23 @@
         "icp": {
           "name": "icp",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "dfinity-stacking-vote-reward",
-            "icp-price-predictions",
-            "icp-price-predictions-nnsdao",
             "icp-grants",
-            "icp-intro",
-            "dfinity-Canistore",
+            "icp-price-predictions-nnsdao",
+            "icp-price-predictions",
             "okex-icp-fund",
+            "dfinity-Canistore",
             "icp-intro-Ecology",
+            "icp-intro",
             "dfinity-SailFash"
           ],
           "permalink": "/blog/tags/icp"
@@ -1443,14 +2521,20 @@
         "sail-fash": {
           "name": "sailfash",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
-            "icp-price-predictions",
-            "icp-price-predictions-nnsdao",
             "icp-grants",
-            "dfinity-Canistore",
+            "icp-price-predictions-nnsdao",
+            "icp-price-predictions",
             "okex-icp-fund",
+            "dfinity-Canistore",
             "dfinity-SailFash"
           ],
           "permalink": "/blog/tags/sail-fash"
@@ -1458,17 +2542,23 @@
         "dfinity": {
           "name": "dfinity",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "dfinity-stacking-vote-reward",
-            "icp-price-predictions",
-            "icp-price-predictions-nnsdao",
             "icp-grants",
-            "icp-intro",
-            "dfinity-Canistore",
+            "icp-price-predictions-nnsdao",
+            "icp-price-predictions",
             "okex-icp-fund",
+            "dfinity-Canistore",
             "icp-intro-Ecology",
+            "icp-intro",
             "dfinity-SailFash"
           ],
           "permalink": "/blog/tags/dfinity"
@@ -1476,17 +2566,23 @@
         "nnsdao": {
           "name": "nnsdao",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "dfinity-stacking-vote-reward",
-            "icp-price-predictions",
-            "icp-price-predictions-nnsdao",
             "icp-grants",
-            "icp-intro",
-            "dfinity-Canistore",
+            "icp-price-predictions-nnsdao",
+            "icp-price-predictions",
             "okex-icp-fund",
+            "dfinity-Canistore",
             "icp-intro-Ecology",
+            "icp-intro",
             "dfinity-SailFash"
           ],
           "permalink": "/blog/tags/nnsdao"
@@ -1494,50 +2590,133 @@
         "grants": {
           "name": "grants",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
-            "icp-price-predictions",
+            "icp-grants",
             "icp-price-predictions-nnsdao",
-            "icp-grants"
+            "icp-price-predictions"
           ],
           "permalink": "/blog/tags/grants"
         },
         "polychain": {
           "name": "polychain",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
-            "icp-price-predictions",
+            "icp-grants",
             "icp-price-predictions-nnsdao",
-            "icp-grants"
+            "icp-price-predictions"
           ],
           "permalink": "/blog/tags/polychain"
         },
         "dapp": {
           "name": "dapp",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
-            "icp-price-predictions",
+            "icp-grants",
             "icp-price-predictions-nnsdao",
-            "icp-grants"
+            "icp-price-predictions"
           ],
           "permalink": "/blog/tags/dapp"
         },
         "dscvr": {
           "name": "dscvr",
           "items": [
+            "icp-cycle-faucet",
+            "icp-badlands-concept",
+            "icp-stacking-guide",
+            "icp-basic-intro",
+            "icp-dev-chat-fature",
+            "icp-price-predictions-nnsdao",
             "icp-nns-dfinity-part",
             "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
-            "icp-price-predictions",
+            "icp-grants",
             "icp-price-predictions-nnsdao",
-            "icp-grants"
+            "icp-price-predictions"
           ],
           "permalink": "/blog/tags/dscvr"
+        },
+        "faucet": {
+          "name": "faucet",
+          "items": [
+            "icp-cycle-faucet"
+          ],
+          "permalink": "/blog/tags/faucet"
+        },
+        "cycle": {
+          "name": "cycle",
+          "items": [
+            "icp-cycle-faucet"
+          ],
+          "permalink": "/blog/tags/cycle"
+        },
+        "cycles": {
+          "name": "cycles",
+          "items": [
+            "icp-cycle-faucet"
+          ],
+          "permalink": "/blog/tags/cycles"
+        },
+        "badlands": {
+          "name": "badlands",
+          "items": [
+            "icp-badlands-concept"
+          ],
+          "permalink": "/blog/tags/badlands"
+        },
+        "ndp": {
+          "name": "ndp",
+          "items": [
+            "icp-badlands-concept"
+          ],
+          "permalink": "/blog/tags/ndp"
+        },
+        "icpscan": {
+          "name": "icpscan",
+          "items": [
+            "icp-stacking-guide",
+            "icp-basic-intro"
+          ],
+          "permalink": "/blog/tags/icpscan"
+        },
+        "icpdrops": {
+          "name": "icpdrops",
+          "items": [
+            "icp-stacking-guide",
+            "icp-basic-intro"
+          ],
+          "permalink": "/blog/tags/icpdrops"
+        },
+        "ndt": {
+          "name": "ndt",
+          "items": [
+            "icp-stacking-guide",
+            "icp-basic-intro"
+          ],
+          "permalink": "/blog/tags/ndt"
         },
         "nns": {
           "name": "nns",

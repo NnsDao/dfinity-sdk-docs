@@ -1,0 +1,26 @@
+{
+  "unversionedId": "developers-guide/tutorials-intro",
+  "id": "developers-guide/tutorials-intro",
+  "isDocsHomePage": false,
+  "title": "教程",
+  "description": "快速入门提供了一个简单介绍，介绍了创建和部署一个新项目的基本流程，而没有详解项目目录或示例代码的内容。",
+  "source": "@site/docs/developers-guide/tutorials-intro.md",
+  "sourceDirName": "developers-guide",
+  "slug": "/developers-guide/tutorials-intro",
+  "permalink": "/docs/developers-guide/tutorials-intro",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/developers-guide/tutorials-intro.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "神经元和治理",
+    "permalink": "/docs/tutorial-extras/governance"
+  },
+  "next": {
+    "title": "一目了然",
+    "permalink": "/docs/developers-guide/at-a-glance"
+  }
+}

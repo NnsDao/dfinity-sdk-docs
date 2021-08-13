@@ -20,7 +20,7 @@
     "permalink": "/docs/language-guide/motoko-introduction"
   },
   "next": {
-    "title": "WebAssembly是什么",
-    "permalink": "/docs/tutorial-wasms/wasm-intro"
+    "title": "可变状态",
+    "permalink": "/docs/language-guide/mutable-state"
   }
 }
