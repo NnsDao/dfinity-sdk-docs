@@ -1,19 +1,19 @@
 export default {
   "title": "ICP开发文档",
-  "tagline": "NnsDao,一个开放的去中心化组织",
+  "tagline": "NnsDao,一个无边界的自治组织",
   "url": "https://docs.nnsdao.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
+  "organizationName": "nnsdao",
   "projectName": "dfinity-sdk-docs-cn",
   "themeConfig": {
     "navbar": {
       "title": "ICP开发文档",
       "logo": {
         "alt": "ICP开发文档",
-        "src": "img/logo.svg"
+        "src": "img/docusaurus.png"
       },
       "items": [
         {
@@ -43,8 +43,24 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "新手指南",
               "to": "/docs/intro"
+            },
+            {
+              "label": "ICP开发快速上手",
+              "to": "/docs/quick-start/dfx-guide"
+            },
+            {
+              "label": "Motoko指南",
+              "to": "/docs/quick-start/motoko"
+            },
+            {
+              "label": "Rust指南",
+              "to": "/docs/rust-guide/rust-intro"
+            },
+            {
+              "label": "WebAssembly指南",
+              "to": "/docs/tutorial-wasms/wasm-intro"
             }
           ]
         },
@@ -66,11 +82,36 @@ export default {
           ]
         },
         {
+          "title": "Ecosystem",
+          "items": [
+            {
+              "label": "Icpscan",
+              "href": "https://sznps-4aaaa-aaaah-qab2a-cai.ic0.app/"
+            },
+            {
+              "label": "NNS计算器",
+              "href": "https://nns.icpscan.co/"
+            },
+            {
+              "label": "Icpdrops",
+              "to": "/"
+            }
+          ]
+        },
+        {
           "title": "More",
           "items": [
             {
               "label": "Blog",
               "to": "/blog"
+            },
+            {
+              "label": "Medium",
+              "href": "https://nnsdao.medium.com"
+            },
+            {
+              "label": "Substack",
+              "href": "https://nnsdao.substack.com"
             },
             {
               "label": "GitHub",
@@ -79,7 +120,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 NNSDAO, Inc."
+      "copyright": "Copyright © 2021 NnsDAO Labs, Inc."
     },
     "colorMode": {
       "defaultMode": "light",

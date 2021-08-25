@@ -1,20 +1,20 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'ICP开发文档',
-  tagline: 'NnsDao,一个开放的去中心化组织',
+  tagline: 'NnsDao,一个无边界的自治组织',
   url: 'https://docs.nnsdao.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'nnsdao', // Usually your GitHub org/user name.
   projectName: 'dfinity-sdk-docs-cn', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'ICP开发文档',
       logo: {
         alt: 'ICP开发文档',
-        src: 'img/logo.svg',
+        src: 'img/docusaurus.png',
       },
       items: [
         {
@@ -38,8 +38,24 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: '新手指南',
               to: '/docs/intro',
+            },
+            {
+              label: 'ICP开发快速上手',
+              to: '/docs/quick-start/dfx-guide',
+            },
+            {
+              label: 'Motoko指南',
+              to: '/docs/quick-start/motoko',
+            },
+            {
+              label: 'Rust指南',
+              to: '/docs/rust-guide/rust-intro',
+            },
+            {
+              label: 'WebAssembly指南',
+              to: '/docs/tutorial-wasms/wasm-intro',
             },
           ],
         },
@@ -61,6 +77,23 @@ module.exports = {
           ],
         },
         {
+          title: 'Ecosystem',
+          items: [
+            {
+              label: 'Icpscan',
+              href: 'https://sznps-4aaaa-aaaah-qab2a-cai.ic0.app/',
+            },
+            {
+              label: 'NNS计算器',
+              href: 'https://nns.icpscan.co/',
+            },
+            {
+              label: 'Icpdrops',
+              to: '/',
+            },
+          ],
+        },
+        {
           title: 'More',
           items: [
             {
@@ -68,13 +101,22 @@ module.exports = {
               to: '/blog',
             },
             {
+              label: 'Medium',
+              href: 'https://nnsdao.medium.com',
+            },
+            {
+              label: 'Substack',
+              href: 'https://nnsdao.substack.com',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/NnsDao',
             },
           ],
         },
+        
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} NNSDAO, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} NnsDAO Labs, Inc.`,
     },
   },
   presets: [

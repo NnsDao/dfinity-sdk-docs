@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            立即上手 : 一周入门Motoko、Candid、Rust一站式开放服务 ⏱️
+            立即上手 : 一周入门Motoko、Candid、Rust、WASM一站式开放服务 ⏱️
           </Link>
         </div>
       </div>

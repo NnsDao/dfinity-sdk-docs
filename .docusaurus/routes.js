@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','ad6'),
+  component: ComponentCreator('/blog','9c7'),
   exact: true,
 },
 {
@@ -149,12 +149,12 @@ export default [
 },
 {
   path: '/blog/page/2',
-  component: ComponentCreator('/blog/page/2','0a4'),
+  component: ComponentCreator('/blog/page/2','216'),
   exact: true,
 },
 {
   path: '/blog/page/3',
-  component: ComponentCreator('/blog/page/3','8bc'),
+  component: ComponentCreator('/blog/page/3','e5c'),
   exact: true,
 },
 {
@@ -199,7 +199,7 @@ export default [
 },
 {
   path: '/blog/tags/dapp',
-  component: ComponentCreator('/blog/tags/dapp','b42'),
+  component: ComponentCreator('/blog/tags/dapp','8e5'),
   exact: true,
 },
 {
@@ -209,12 +209,12 @@ export default [
 },
 {
   path: '/blog/tags/dfinity',
-  component: ComponentCreator('/blog/tags/dfinity','351'),
+  component: ComponentCreator('/blog/tags/dfinity','e61'),
   exact: true,
 },
 {
   path: '/blog/tags/dscvr',
-  component: ComponentCreator('/blog/tags/dscvr','074'),
+  component: ComponentCreator('/blog/tags/dscvr','631'),
   exact: true,
 },
 {
@@ -224,12 +224,12 @@ export default [
 },
 {
   path: '/blog/tags/grants',
-  component: ComponentCreator('/blog/tags/grants','61a'),
+  component: ComponentCreator('/blog/tags/grants','d87'),
   exact: true,
 },
 {
   path: '/blog/tags/icp',
-  component: ComponentCreator('/blog/tags/icp','f75'),
+  component: ComponentCreator('/blog/tags/icp','11f'),
   exact: true,
 },
 {
@@ -264,17 +264,17 @@ export default [
 },
 {
   path: '/blog/tags/nnsdao',
-  component: ComponentCreator('/blog/tags/nnsdao','f7a'),
+  component: ComponentCreator('/blog/tags/nnsdao','f20'),
   exact: true,
 },
 {
   path: '/blog/tags/polychain',
-  component: ComponentCreator('/blog/tags/polychain','596'),
+  component: ComponentCreator('/blog/tags/polychain','1b1'),
   exact: true,
 },
 {
   path: '/blog/tags/sail-fash',
-  component: ComponentCreator('/blog/tags/sail-fash','a8a'),
+  component: ComponentCreator('/blog/tags/sail-fash','8bb'),
   exact: true,
 },
 {
