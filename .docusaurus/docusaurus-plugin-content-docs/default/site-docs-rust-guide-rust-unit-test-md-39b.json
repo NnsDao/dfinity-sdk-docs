@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-unit-test",
+  "id": "rust-guide/rust-unit-test",
+  "isDocsHomePage": false,
+  "title": "Rust学习-- 代码测试",
+  "description": "单元测试",
+  "source": "@site/docs/rust-guide/rust-unit-test.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-unit-test",
+  "permalink": "/docs/rust-guide/rust-unit-test",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-unit-test.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--语言语法",
+    "permalink": "/docs/rust-guide/rust-programmer"
+  },
+  "next": {
+    "title": "Rust学习--设置国内镜像",
+    "permalink": "/docs/rust-guide/rust-micro"
+  }
+}

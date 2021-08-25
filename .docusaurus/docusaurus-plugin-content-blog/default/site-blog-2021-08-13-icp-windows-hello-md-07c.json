@@ -1,0 +1,69 @@
+{
+  "permalink": "/blog/windows-hello-ic",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-08-13-icp-windows-hello.md",
+  "source": "@site/blog/2021-08-13-icp-windows-hello.md",
+  "title": "【ICP登陆指南】通过Windows Hello登陆到Nns或添加新设备登陆的指南",
+  "description": "目前可以支持超过 10 亿 Windows 用户通过 Internet Identity 轻松访问 dapps，为基于 IC 的 dapps 开辟了一个庞大增长用户群。",
+  "date": "2021-08-13T00:00:00.000Z",
+  "formattedDate": "August 13, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    },
+    {
+      "label": "faucet",
+      "permalink": "/blog/tags/faucet"
+    },
+    {
+      "label": "cycle",
+      "permalink": "/blog/tags/cycle"
+    },
+    {
+      "label": "cycles",
+      "permalink": "/blog/tags/cycles"
+    },
+    {
+      "label": "WindowsHello",
+      "permalink": "/blog/tags/windows-hello"
+    }
+  ],
+  "readingTime": 0.835,
+  "truncated": false,
+  "prevItem": {
+    "title": "【ICP福利】DeFi生态空投领取DFCT和WICPT教程—Dfinance",
+    "permalink": "/blog/dfinance-airdrop-icp"
+  },
+  "nextItem": {
+    "title": "【ICP开发福利】Cycle水龙头：在互联网计算机上免费建造dApp",
+    "permalink": "/blog/icp-cycle-faucet"
+  }
+}

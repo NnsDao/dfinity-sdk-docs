@@ -111,6 +111,61 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "rust-guide/rust-book",
+              "path": "/docs/rust-guide/rust-book",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-cargo-config",
+              "path": "/docs/rust-guide/rust-cargo-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-cargo-config-detail",
+              "path": "/docs/rust-guide/rust-cargo-config-detail",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-cargo-env",
+              "path": "/docs/rust-guide/rust-cargo-env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-cargo-shell",
+              "path": "/docs/rust-guide/rust-cargo-shell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-command-detail",
+              "path": "/docs/rust-guide/rust-command-detail",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-guide",
+              "path": "/docs/rust-guide/rust-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-intro",
+              "path": "/docs/rust-guide/rust-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-micro",
+              "path": "/docs/rust-guide/rust-micro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-programmer",
+              "path": "/docs/rust-guide/rust-programmer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-unit-test",
+              "path": "/docs/rust-guide/rust-unit-test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "sample-apps/apps",
               "path": "/docs/sample-apps/apps",
               "sidebar": "tutorialSidebar"

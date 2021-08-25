@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-micro",
+  "id": "rust-guide/rust-micro",
+  "isDocsHomePage": false,
+  "title": "Rust学习--设置国内镜像",
+  "description": "macOS系统",
+  "source": "@site/docs/rust-guide/rust-micro.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-micro",
+  "permalink": "/docs/rust-guide/rust-micro",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-micro.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习-- 代码测试",
+    "permalink": "/docs/rust-guide/rust-unit-test"
+  },
+  "next": {
+    "title": "Rust学习--Cargo命令配置",
+    "permalink": "/docs/rust-guide/rust-cargo-config"
+  }
+}

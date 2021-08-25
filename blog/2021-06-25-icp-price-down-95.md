@@ -1,5 +1,5 @@
 ---
-slug: icp-price-predictions-nnsdao
+slug: icp-price-predictions-nnsdao-25
 title: ICP价格预测：4年后会到3500美元吗？
 author: nnsdao
 author_title: nnsdao

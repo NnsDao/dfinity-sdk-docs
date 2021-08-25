@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-book",
+  "id": "rust-guide/rust-book",
+  "isDocsHomePage": false,
+  "title": "Rust学习--推进阅读书籍",
+  "description": "【书籍推荐之】Rust 实践指南 - The Hitchhiker’s Guide to Rust",
+  "source": "@site/docs/rust-guide/rust-book.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-book",
+  "permalink": "/docs/rust-guide/rust-book",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-book.md",
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--Cargo构建脚本",
+    "permalink": "/docs/rust-guide/rust-cargo-shell"
+  },
+  "next": {
+    "title": "[ICP开发]:IC学习心得",
+    "permalink": "/docs/quick-start/ic"
+  }
+}

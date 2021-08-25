@@ -277,6 +277,68 @@
       },
       {
         "type": "category",
+        "label": "Rust指南",
+        "items": [
+          {
+            "type": "link",
+            "label": "Rust学习--Rust编程规范",
+            "href": "/docs/rust-guide/rust-intro"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--语言学习快速指南",
+            "href": "/docs/rust-guide/rust-guide"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--语言语法",
+            "href": "/docs/rust-guide/rust-programmer"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习-- 代码测试",
+            "href": "/docs/rust-guide/rust-unit-test"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--设置国内镜像",
+            "href": "/docs/rust-guide/rust-micro"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo命令配置",
+            "href": "/docs/rust-guide/rust-cargo-config"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习-- Cargo配置详解",
+            "href": "/docs/rust-guide/rust-cargo-config-detail"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo命令详解",
+            "href": "/docs/rust-guide/rust-command-detail"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo环境变量",
+            "href": "/docs/rust-guide/rust-cargo-env"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo构建脚本",
+            "href": "/docs/rust-guide/rust-cargo-shell"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--推进阅读书籍",
+            "href": "/docs/rust-guide/rust-book"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
         "label": "IC最佳实践",
         "items": [
           {
@@ -325,6 +387,17 @@
     "/docs/quick-start/dfx-guide": "tutorialSidebar",
     "/docs/quick-start/ic": "tutorialSidebar",
     "/docs/quick-start/motoko": "tutorialSidebar",
+    "/docs/rust-guide/rust-book": "tutorialSidebar",
+    "/docs/rust-guide/rust-cargo-config": "tutorialSidebar",
+    "/docs/rust-guide/rust-cargo-config-detail": "tutorialSidebar",
+    "/docs/rust-guide/rust-cargo-env": "tutorialSidebar",
+    "/docs/rust-guide/rust-cargo-shell": "tutorialSidebar",
+    "/docs/rust-guide/rust-command-detail": "tutorialSidebar",
+    "/docs/rust-guide/rust-guide": "tutorialSidebar",
+    "/docs/rust-guide/rust-intro": "tutorialSidebar",
+    "/docs/rust-guide/rust-micro": "tutorialSidebar",
+    "/docs/rust-guide/rust-programmer": "tutorialSidebar",
+    "/docs/rust-guide/rust-unit-test": "tutorialSidebar",
     "/docs/sample-apps/apps": "tutorialSidebar",
     "/docs/sample-apps/some-dapp": "tutorialSidebar",
     "/docs/token-holders/custody-options-intro": "tutorialSidebar",

@@ -1,0 +1,77 @@
+{
+  "permalink": "/blog/dfinance-airdrop-icp",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-08-25-dfi-airdrop.md",
+  "source": "@site/blog/2021-08-25-dfi-airdrop.md",
+  "title": "【ICP福利】DeFi生态空投领取DFCT和WICPT教程—Dfinance",
+  "description": "【ICP福利】DeFi生态空投领取DFCT和WICPT教程—Dfinance",
+  "date": "2021-08-25T00:00:00.000Z",
+  "formattedDate": "August 25, 2021",
+  "tags": [
+    {
+      "label": "icp",
+      "permalink": "/blog/tags/icp"
+    },
+    {
+      "label": "SailFash",
+      "permalink": "/blog/tags/sail-fash"
+    },
+    {
+      "label": "Dfinity",
+      "permalink": "/blog/tags/dfinity"
+    },
+    {
+      "label": "nnsdao",
+      "permalink": "/blog/tags/nnsdao"
+    },
+    {
+      "label": "grants",
+      "permalink": "/blog/tags/grants"
+    },
+    {
+      "label": "Polychain",
+      "permalink": "/blog/tags/polychain"
+    },
+    {
+      "label": "dapp",
+      "permalink": "/blog/tags/dapp"
+    },
+    {
+      "label": "DSCVR",
+      "permalink": "/blog/tags/dscvr"
+    },
+    {
+      "label": "faucet",
+      "permalink": "/blog/tags/faucet"
+    },
+    {
+      "label": "cycle",
+      "permalink": "/blog/tags/cycle"
+    },
+    {
+      "label": "cycles",
+      "permalink": "/blog/tags/cycles"
+    },
+    {
+      "label": "WindowsHello",
+      "permalink": "/blog/tags/windows-hello"
+    },
+    {
+      "label": "dfinance",
+      "permalink": "/blog/tags/dfinance"
+    },
+    {
+      "label": "airdrop",
+      "permalink": "/blog/tags/airdrop"
+    },
+    {
+      "label": "icpdrops",
+      "permalink": "/blog/tags/icpdrops"
+    }
+  ],
+  "readingTime": 0.17,
+  "truncated": false,
+  "nextItem": {
+    "title": "【ICP登陆指南】通过Windows Hello登陆到Nns或添加新设备登陆的指南",
+    "permalink": "/blog/windows-hello-ic"
+  }
+}

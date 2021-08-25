@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-programmer",
+  "id": "rust-guide/rust-programmer",
+  "isDocsHomePage": false,
+  "title": "Rust学习--语言语法",
+  "description": "词汇结构",
+  "source": "@site/docs/rust-guide/rust-programmer.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-programmer",
+  "permalink": "/docs/rust-guide/rust-programmer",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-programmer.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--语言学习快速指南",
+    "permalink": "/docs/rust-guide/rust-guide"
+  },
+  "next": {
+    "title": "Rust学习-- 代码测试",
+    "permalink": "/docs/rust-guide/rust-unit-test"
+  }
+}

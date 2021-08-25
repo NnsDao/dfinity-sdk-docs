@@ -54,6 +54,10 @@
   ],
   "readingTime": 0.15,
   "truncated": false,
+  "prevItem": {
+    "title": "【ICP登陆指南】通过Windows Hello登陆到Nns或添加新设备登陆的指南",
+    "permalink": "/blog/windows-hello-ic"
+  },
   "nextItem": {
     "title": "介绍互联网计算机 \"荒地 \"概念",
     "permalink": "/blog/icp-badlands-concept"

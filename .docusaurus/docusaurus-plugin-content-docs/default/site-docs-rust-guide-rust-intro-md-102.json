@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-intro",
+  "id": "rust-guide/rust-intro",
+  "isDocsHomePage": false,
+  "title": "Rust学习--Rust编程规范",
+  "description": "常量",
+  "source": "@site/docs/rust-guide/rust-intro.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-intro",
+  "permalink": "/docs/rust-guide/rust-intro",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-intro.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "WebAssembly是什么",
+    "permalink": "/docs/tutorial-wasms/wasm-intro"
+  },
+  "next": {
+    "title": "Rust学习--语言学习快速指南",
+    "permalink": "/docs/rust-guide/rust-guide"
+  }
+}

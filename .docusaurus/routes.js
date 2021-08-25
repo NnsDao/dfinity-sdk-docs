@@ -44,12 +44,17 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','ebb'),
+  component: ComponentCreator('/blog','ad6'),
   exact: true,
 },
 {
   path: '/blog/2021/06/08/verifying-icp-canister',
   component: ComponentCreator('/blog/2021/06/08/verifying-icp-canister','67d'),
+  exact: true,
+},
+{
+  path: '/blog/dfinance-airdrop-icp',
+  component: ComponentCreator('/blog/dfinance-airdrop-icp','5cb'),
   exact: true,
 },
 {
@@ -119,12 +124,12 @@ export default [
 },
 {
   path: '/blog/icp-price-predictions-nnsdao',
-  component: ComponentCreator('/blog/icp-price-predictions-nnsdao','1d3'),
+  component: ComponentCreator('/blog/icp-price-predictions-nnsdao','232'),
   exact: true,
 },
 {
-  path: '/blog/icp-price-predictions-nnsdao',
-  component: ComponentCreator('/blog/icp-price-predictions-nnsdao','232'),
+  path: '/blog/icp-price-predictions-nnsdao-25',
+  component: ComponentCreator('/blog/icp-price-predictions-nnsdao-25','fec'),
   exact: true,
 },
 {
@@ -144,12 +149,22 @@ export default [
 },
 {
   path: '/blog/page/2',
-  component: ComponentCreator('/blog/page/2','319'),
+  component: ComponentCreator('/blog/page/2','0a4'),
+  exact: true,
+},
+{
+  path: '/blog/page/3',
+  component: ComponentCreator('/blog/page/3','8bc'),
   exact: true,
 },
 {
   path: '/blog/tags',
   component: ComponentCreator('/blog/tags','fc1'),
+  exact: true,
+},
+{
+  path: '/blog/tags/airdrop',
+  component: ComponentCreator('/blog/tags/airdrop','582'),
   exact: true,
 },
 {
@@ -174,47 +189,52 @@ export default [
 },
 {
   path: '/blog/tags/cycle',
-  component: ComponentCreator('/blog/tags/cycle','e27'),
+  component: ComponentCreator('/blog/tags/cycle','44b'),
   exact: true,
 },
 {
   path: '/blog/tags/cycles',
-  component: ComponentCreator('/blog/tags/cycles','84a'),
+  component: ComponentCreator('/blog/tags/cycles','5ef'),
   exact: true,
 },
 {
   path: '/blog/tags/dapp',
-  component: ComponentCreator('/blog/tags/dapp','a66'),
+  component: ComponentCreator('/blog/tags/dapp','b42'),
+  exact: true,
+},
+{
+  path: '/blog/tags/dfinance',
+  component: ComponentCreator('/blog/tags/dfinance','f95'),
   exact: true,
 },
 {
   path: '/blog/tags/dfinity',
-  component: ComponentCreator('/blog/tags/dfinity','432'),
+  component: ComponentCreator('/blog/tags/dfinity','351'),
   exact: true,
 },
 {
   path: '/blog/tags/dscvr',
-  component: ComponentCreator('/blog/tags/dscvr','ecc'),
+  component: ComponentCreator('/blog/tags/dscvr','074'),
   exact: true,
 },
 {
   path: '/blog/tags/faucet',
-  component: ComponentCreator('/blog/tags/faucet','674'),
+  component: ComponentCreator('/blog/tags/faucet','5a1'),
   exact: true,
 },
 {
   path: '/blog/tags/grants',
-  component: ComponentCreator('/blog/tags/grants','5b5'),
+  component: ComponentCreator('/blog/tags/grants','61a'),
   exact: true,
 },
 {
   path: '/blog/tags/icp',
-  component: ComponentCreator('/blog/tags/icp','0be'),
+  component: ComponentCreator('/blog/tags/icp','f75'),
   exact: true,
 },
 {
   path: '/blog/tags/icpdrops',
-  component: ComponentCreator('/blog/tags/icpdrops','fed'),
+  component: ComponentCreator('/blog/tags/icpdrops','8cb'),
   exact: true,
 },
 {
@@ -244,17 +264,27 @@ export default [
 },
 {
   path: '/blog/tags/nnsdao',
-  component: ComponentCreator('/blog/tags/nnsdao','fd9'),
+  component: ComponentCreator('/blog/tags/nnsdao','f7a'),
   exact: true,
 },
 {
   path: '/blog/tags/polychain',
-  component: ComponentCreator('/blog/tags/polychain','62f'),
+  component: ComponentCreator('/blog/tags/polychain','596'),
   exact: true,
 },
 {
   path: '/blog/tags/sail-fash',
-  component: ComponentCreator('/blog/tags/sail-fash','5cb'),
+  component: ComponentCreator('/blog/tags/sail-fash','a8a'),
+  exact: true,
+},
+{
+  path: '/blog/tags/windows-hello',
+  component: ComponentCreator('/blog/tags/windows-hello','93e'),
+  exact: true,
+},
+{
+  path: '/blog/windows-hello-ic',
+  component: ComponentCreator('/blog/windows-hello-ic','48a'),
   exact: true,
 },
 {
@@ -264,7 +294,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','254'),
+  component: ComponentCreator('/docs','d96'),
   
   routes: [
 {
@@ -365,6 +395,61 @@ export default [
 {
   path: '/docs/quick-start/motoko',
   component: ComponentCreator('/docs/quick-start/motoko','f4e'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-book',
+  component: ComponentCreator('/docs/rust-guide/rust-book','264'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-cargo-config',
+  component: ComponentCreator('/docs/rust-guide/rust-cargo-config','aa6'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-cargo-config-detail',
+  component: ComponentCreator('/docs/rust-guide/rust-cargo-config-detail','433'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-cargo-env',
+  component: ComponentCreator('/docs/rust-guide/rust-cargo-env','725'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-cargo-shell',
+  component: ComponentCreator('/docs/rust-guide/rust-cargo-shell','380'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-command-detail',
+  component: ComponentCreator('/docs/rust-guide/rust-command-detail','de3'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-guide',
+  component: ComponentCreator('/docs/rust-guide/rust-guide','21b'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-intro',
+  component: ComponentCreator('/docs/rust-guide/rust-intro','3af'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-micro',
+  component: ComponentCreator('/docs/rust-guide/rust-micro','9dd'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-programmer',
+  component: ComponentCreator('/docs/rust-guide/rust-programmer','cca'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-unit-test',
+  component: ComponentCreator('/docs/rust-guide/rust-unit-test','c40'),
   exact: true,
 },
 {

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-cargo-config",
+  "id": "rust-guide/rust-cargo-config",
+  "isDocsHomePage": false,
+  "title": "Rust学习--Cargo命令配置",
+  "description": "配置",
+  "source": "@site/docs/rust-guide/rust-cargo-config.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-cargo-config",
+  "permalink": "/docs/rust-guide/rust-cargo-config",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-cargo-config.md",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--设置国内镜像",
+    "permalink": "/docs/rust-guide/rust-micro"
+  },
+  "next": {
+    "title": "Rust学习-- Cargo配置详解",
+    "permalink": "/docs/rust-guide/rust-cargo-config-detail"
+  }
+}

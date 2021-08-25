@@ -25,10 +25,16 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-ebb": {
+  "/blog-ad6": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -45,19 +51,13 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
       },
       {
         "content": "content---blog-40-e-ba6"
-      },
-      {
-        "content": "content---blog-4-f-2-027"
-      },
-      {
-        "content": "content---blog-6-cb-21e"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -66,6 +66,11 @@
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blogd-07-1df",
     "content": "content---blog-2021-06-08-verifying-icp-canisterd-82-691"
+  },
+  "/blog/dfinance-airdrop-icp-5cb": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blogd-07-1df",
+    "content": "content---blog-2021-08-25-dfi-airdrop-8-ed-7f2"
   },
   "/blog/dfinity-Canistore-f4b": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -132,15 +137,15 @@
     "sidebar": "sidebar---blogd-07-1df",
     "content": "content---blog-icp-price-predictions-020-30e"
   },
-  "/blog/icp-price-predictions-nnsdao-1d3": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-07-1df",
-    "content": "content---blog-icp-price-predictions-nnsdaoe-2-b-0f3"
-  },
   "/blog/icp-price-predictions-nnsdao-232": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blogd-07-1df",
     "content": "content---blog-icp-price-predictions-nnsdao-039-c3b"
+  },
+  "/blog/icp-price-predictions-nnsdao-25-fec": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blogd-07-1df",
+    "content": "content---blog-icp-price-predictions-nnsdao-25-e-2-b-963"
   },
   "/blog/icp-stacking-guide-117": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -157,15 +162,21 @@
     "sidebar": "sidebar---blogd-07-1df",
     "content": "content---blog-okex-icp-fund-948-86d"
   },
-  "/blog/page/2-319": {
+  "/blog/page/2-0a4": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
       {
+        "content": "content---blog-4-f-2-027"
+      },
+      {
+        "content": "content---blog-page-26-cb-d9b"
+      },
+      {
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
@@ -174,16 +185,13 @@
         "content": "content---blog-page-299-c-665"
       },
       {
-        "content": "content---blog-page-24-bb-f59"
-      },
-      {
-        "content": "content---blog-page-2-dfd-1f0"
-      },
-      {
         "content": "content---blog-page-280-e-791"
       },
       {
         "content": "content---blog-page-2274-cc7"
+      },
+      {
+        "content": "content---blog-page-24-bb-f59"
       },
       {
         "content": "content---blog-page-2-b-0-b-c51"
@@ -191,10 +199,30 @@
     ],
     "metadata": "metadata---blog-page-28-eb-625"
   },
+  "/blog/page/3-8bc": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blogd-07-1df",
+    "items": [
+      {
+        "content": "content---blog-page-2-dfd-1f0"
+      }
+    ],
+    "metadata": "metadata---blog-page-3929-7ba"
+  },
   "/blog/tags-fc1": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
     "sidebar": "sidebar---blogd-07-1df",
     "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/airdrop-582": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blogd-07-1df",
+    "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      }
+    ],
+    "metadata": "metadata---blog-tags-airdropba-6-71a"
   },
   "/blog/tags/badlands-6a6": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -236,30 +264,48 @@
     ],
     "metadata": "metadata---blog-tags-canistore-813-5f3"
   },
-  "/blog/tags/cycle-e27": {
+  "/blog/tags/cycle-44b": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       }
     ],
     "metadata": "metadata---blog-tags-cycle-6-db-8d3"
   },
-  "/blog/tags/cycles-84a": {
+  "/blog/tags/cycles-5ef": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       }
     ],
     "metadata": "metadata---blog-tags-cycles-53-a-b9f"
   },
-  "/blog/tags/dapp-a66": {
+  "/blog/tags/dapp-b42": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -276,7 +322,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -291,7 +337,7 @@
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
@@ -299,10 +345,26 @@
     ],
     "metadata": "metadata---blog-tags-dapp-982-62f"
   },
-  "/blog/tags/dfinity-432": {
+  "/blog/tags/dfinance-f95": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      }
+    ],
+    "metadata": "metadata---blog-tags-dfinance-142-dbd"
+  },
+  "/blog/tags/dfinity-351": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blogd-07-1df",
+    "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -319,7 +381,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -331,22 +393,16 @@
         "content": "content---blog-4-f-2-027"
       },
       {
-        "content": "content---blog-6-cb-21e"
+        "content": "content---blog-page-26-cb-d9b"
       },
       {
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
-      },
-      {
-        "content": "content---blog-page-24-bb-f59"
-      },
-      {
-        "content": "content---blog-page-2-dfd-1f0"
       },
       {
         "content": "content---blog-page-280-e-791"
@@ -355,15 +411,27 @@
         "content": "content---blog-page-2274-cc7"
       },
       {
+        "content": "content---blog-page-24-bb-f59"
+      },
+      {
         "content": "content---blog-page-2-b-0-b-c51"
+      },
+      {
+        "content": "content---blog-page-2-dfd-1f0"
       }
     ],
     "metadata": "metadata---blog-tags-dfinity-77-a-333"
   },
-  "/blog/tags/dscvr-ecc": {
+  "/blog/tags/dscvr-074": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -380,7 +448,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -395,7 +463,7 @@
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
@@ -403,20 +471,32 @@
     ],
     "metadata": "metadata---blog-tags-dscvr-931-281"
   },
-  "/blog/tags/faucet-674": {
+  "/blog/tags/faucet-5a1": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       }
     ],
     "metadata": "metadata---blog-tags-faucet-03-c-92a"
   },
-  "/blog/tags/grants-5b5": {
+  "/blog/tags/grants-61a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -433,7 +513,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -448,7 +528,7 @@
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
@@ -456,10 +536,16 @@
     ],
     "metadata": "metadata---blog-tags-grants-757-d93"
   },
-  "/blog/tags/icp-0be": {
+  "/blog/tags/icp-f75": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -476,7 +562,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -488,22 +574,16 @@
         "content": "content---blog-4-f-2-027"
       },
       {
-        "content": "content---blog-6-cb-21e"
+        "content": "content---blog-page-26-cb-d9b"
       },
       {
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
-      },
-      {
-        "content": "content---blog-page-24-bb-f59"
-      },
-      {
-        "content": "content---blog-page-2-dfd-1f0"
       },
       {
         "content": "content---blog-page-280-e-791"
@@ -512,15 +592,24 @@
         "content": "content---blog-page-2274-cc7"
       },
       {
+        "content": "content---blog-page-24-bb-f59"
+      },
+      {
         "content": "content---blog-page-2-b-0-b-c51"
+      },
+      {
+        "content": "content---blog-page-2-dfd-1f0"
       }
     ],
     "metadata": "metadata---blog-tags-icp-17-f-334"
   },
-  "/blog/tags/icpdrops-fed": {
+  "/blog/tags/icpdrops-8cb": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
       {
         "content": "content---blog-729-c56"
       },
@@ -548,7 +637,7 @@
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
       {
-        "content": "content---blog-6-cb-21e"
+        "content": "content---blog-page-26-cb-d9b"
       }
     ],
     "metadata": "metadata---blog-tags-icp币-914-a2d"
@@ -586,10 +675,16 @@
     ],
     "metadata": "metadata---blog-tags-nnsade-620"
   },
-  "/blog/tags/nnsdao-fd9": {
+  "/blog/tags/nnsdao-f7a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -606,7 +701,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -618,22 +713,16 @@
         "content": "content---blog-4-f-2-027"
       },
       {
-        "content": "content---blog-6-cb-21e"
+        "content": "content---blog-page-26-cb-d9b"
       },
       {
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
-      },
-      {
-        "content": "content---blog-page-24-bb-f59"
-      },
-      {
-        "content": "content---blog-page-2-dfd-1f0"
       },
       {
         "content": "content---blog-page-280-e-791"
@@ -642,15 +731,27 @@
         "content": "content---blog-page-2274-cc7"
       },
       {
+        "content": "content---blog-page-24-bb-f59"
+      },
+      {
         "content": "content---blog-page-2-b-0-b-c51"
+      },
+      {
+        "content": "content---blog-page-2-dfd-1f0"
       }
     ],
     "metadata": "metadata---blog-tags-nnsdaoa-1-c-a9a"
   },
-  "/blog/tags/polychain-62f": {
+  "/blog/tags/polychain-596": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -667,7 +768,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -682,7 +783,7 @@
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
@@ -690,10 +791,16 @@
     ],
     "metadata": "metadata---blog-tags-polychaind-53-dd2"
   },
-  "/blog/tags/sail-fash-5cb": {
+  "/blog/tags/sail-fash-a8a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blogd-07-1df",
     "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      },
       {
         "content": "content---blog-50-f-2ab"
       },
@@ -710,7 +817,7 @@
         "content": "content---blog-3-b-8-102"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blogfba-f70"
       },
       {
         "content": "content---blog-151-329"
@@ -725,7 +832,7 @@
         "content": "content---blog-page-2083-eb8"
       },
       {
-        "content": "content---blogf-29-0e8"
+        "content": "content---blog-page-2-f-29-953"
       },
       {
         "content": "content---blog-page-2-c-7-b-352"
@@ -734,19 +841,37 @@
         "content": "content---blog-page-24-bb-f59"
       },
       {
-        "content": "content---blog-page-2-dfd-1f0"
+        "content": "content---blog-page-2-b-0-b-c51"
       },
       {
-        "content": "content---blog-page-2-b-0-b-c51"
+        "content": "content---blog-page-2-dfd-1f0"
       }
     ],
     "metadata": "metadata---blog-tags-sail-fashaa-9-97c"
+  },
+  "/blog/tags/windows-hello-93e": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blogd-07-1df",
+    "items": [
+      {
+        "content": "content---blog-7-f-9-15b"
+      },
+      {
+        "content": "content---blog-4-bf-218"
+      }
+    ],
+    "metadata": "metadata---blog-tags-windows-hello-75-b-e67"
+  },
+  "/blog/windows-hello-ic-48a": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blogd-07-1df",
+    "content": "content---blog-windows-hello-ic-07-c-5c4"
   },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-254": {
+  "/docs-d96": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -829,6 +954,50 @@
   "/docs/quick-start/motoko-f4e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quick-start-motoko-9-fe-23d"
+  },
+  "/docs/rust-guide/rust-book-264": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-book-2-c-2-72c"
+  },
+  "/docs/rust-guide/rust-cargo-config-aa6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-cargo-config-519-5e8"
+  },
+  "/docs/rust-guide/rust-cargo-config-detail-433": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-cargo-config-detail-0-ab-043"
+  },
+  "/docs/rust-guide/rust-cargo-env-725": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-cargo-env-746-a4c"
+  },
+  "/docs/rust-guide/rust-cargo-shell-380": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-cargo-shell-924-2f6"
+  },
+  "/docs/rust-guide/rust-command-detail-de3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-command-detail-2-a-4-fe1"
+  },
+  "/docs/rust-guide/rust-guide-21b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-guidebd-5-36f"
+  },
+  "/docs/rust-guide/rust-intro-3af": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-intro-102-900"
+  },
+  "/docs/rust-guide/rust-micro-9dd": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-microd-92-dc4"
+  },
+  "/docs/rust-guide/rust-programmer-cca": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-programmer-699-bb7"
+  },
+  "/docs/rust-guide/rust-unit-test-c40": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-rust-guide-rust-unit-test-39-b-7c4"
   },
   "/docs/sample-apps/apps-868": {
     "component": "component---theme-doc-item-178-a40",

@@ -3,78 +3,106 @@
     "allTagsPath": "/blog/tags",
     "slug": "icp",
     "name": "icp",
-    "count": 18,
+    "count": 20,
     "permalink": "/blog/tags/icp"
   },
   "sail-fash": {
     "allTagsPath": "/blog/tags",
     "slug": "sail-fash",
     "name": "sailfash",
-    "count": 15,
+    "count": 17,
     "permalink": "/blog/tags/sail-fash"
   },
   "dfinity": {
     "allTagsPath": "/blog/tags",
     "slug": "dfinity",
     "name": "dfinity",
-    "count": 18,
+    "count": 20,
     "permalink": "/blog/tags/dfinity"
   },
   "nnsdao": {
     "allTagsPath": "/blog/tags",
     "slug": "nnsdao",
     "name": "nnsdao",
-    "count": 18,
+    "count": 20,
     "permalink": "/blog/tags/nnsdao"
   },
   "grants": {
     "allTagsPath": "/blog/tags",
     "slug": "grants",
     "name": "grants",
-    "count": 12,
+    "count": 14,
     "permalink": "/blog/tags/grants"
   },
   "polychain": {
     "allTagsPath": "/blog/tags",
     "slug": "polychain",
     "name": "polychain",
-    "count": 12,
+    "count": 14,
     "permalink": "/blog/tags/polychain"
   },
   "dapp": {
     "allTagsPath": "/blog/tags",
     "slug": "dapp",
     "name": "dapp",
-    "count": 12,
+    "count": 14,
     "permalink": "/blog/tags/dapp"
   },
   "dscvr": {
     "allTagsPath": "/blog/tags",
     "slug": "dscvr",
     "name": "dscvr",
-    "count": 12,
+    "count": 14,
     "permalink": "/blog/tags/dscvr"
   },
   "faucet": {
     "allTagsPath": "/blog/tags",
     "slug": "faucet",
     "name": "faucet",
-    "count": 1,
+    "count": 3,
     "permalink": "/blog/tags/faucet"
   },
   "cycle": {
     "allTagsPath": "/blog/tags",
     "slug": "cycle",
     "name": "cycle",
-    "count": 1,
+    "count": 3,
     "permalink": "/blog/tags/cycle"
   },
   "cycles": {
     "allTagsPath": "/blog/tags",
     "slug": "cycles",
     "name": "cycles",
-    "count": 1,
+    "count": 3,
     "permalink": "/blog/tags/cycles"
+  },
+  "windows-hello": {
+    "allTagsPath": "/blog/tags",
+    "slug": "windows-hello",
+    "name": "windowshello",
+    "count": 2,
+    "permalink": "/blog/tags/windows-hello"
+  },
+  "dfinance": {
+    "allTagsPath": "/blog/tags",
+    "slug": "dfinance",
+    "name": "dfinance",
+    "count": 1,
+    "permalink": "/blog/tags/dfinance"
+  },
+  "airdrop": {
+    "allTagsPath": "/blog/tags",
+    "slug": "airdrop",
+    "name": "airdrop",
+    "count": 1,
+    "permalink": "/blog/tags/airdrop"
+  },
+  "icpdrops": {
+    "allTagsPath": "/blog/tags",
+    "slug": "icpdrops",
+    "name": "icpdrops",
+    "count": 3,
+    "permalink": "/blog/tags/icpdrops"
   },
   "badlands": {
     "allTagsPath": "/blog/tags",
@@ -96,13 +124,6 @@
     "name": "icpscan",
     "count": 2,
     "permalink": "/blog/tags/icpscan"
-  },
-  "icpdrops": {
-    "allTagsPath": "/blog/tags",
-    "slug": "icpdrops",
-    "name": "icpdrops",
-    "count": 2,
-    "permalink": "/blog/tags/icpdrops"
   },
   "ndt": {
     "allTagsPath": "/blog/tags",

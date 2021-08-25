@@ -1,0 +1,23 @@
+{
+  "unversionedId": "rust-guide/rust-config",
+  "id": "rust-guide/rust-config",
+  "isDocsHomePage": false,
+  "title": "rust-config",
+  "description": "",
+  "source": "@site/docs/rust-guide/rust-config.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-config",
+  "permalink": "/docs/rust-guide/rust-config",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-config.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--设置国内镜像",
+    "permalink": "/docs/rust-guide/rust-micro"
+  },
+  "next": {
+    "title": "[ICP开发]:IC学习心得",
+    "permalink": "/docs/quick-start/ic"
+  }
+}

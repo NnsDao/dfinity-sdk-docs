@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-guide",
+  "id": "rust-guide/rust-guide",
+  "isDocsHomePage": false,
+  "title": "Rust学习--语言学习快速指南",
+  "description": "概述",
+  "source": "@site/docs/rust-guide/rust-guide.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-guide",
+  "permalink": "/docs/rust-guide/rust-guide",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-guide.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--Rust编程规范",
+    "permalink": "/docs/rust-guide/rust-intro"
+  },
+  "next": {
+    "title": "Rust学习--语言语法",
+    "permalink": "/docs/rust-guide/rust-programmer"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-cargo-env",
+  "id": "rust-guide/rust-cargo-env",
+  "isDocsHomePage": false,
+  "title": "Rust学习--Cargo环境变量",
+  "description": "概述",
+  "source": "@site/docs/rust-guide/rust-cargo-env.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-cargo-env",
+  "permalink": "/docs/rust-guide/rust-cargo-env",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-cargo-env.md",
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--Cargo命令详解",
+    "permalink": "/docs/rust-guide/rust-command-detail"
+  },
+  "next": {
+    "title": "Rust学习--Cargo构建脚本",
+    "permalink": "/docs/rust-guide/rust-cargo-shell"
+  }
+}

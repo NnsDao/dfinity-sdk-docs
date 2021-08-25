@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-cargo-config-detail",
+  "id": "rust-guide/rust-cargo-config-detail",
+  "isDocsHomePage": false,
+  "title": "Rust学习-- Cargo配置详解",
+  "description": "概述",
+  "source": "@site/docs/rust-guide/rust-cargo-config-detail.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-cargo-config-detail",
+  "permalink": "/docs/rust-guide/rust-cargo-config-detail",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-cargo-config-detail.md",
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--Cargo命令配置",
+    "permalink": "/docs/rust-guide/rust-cargo-config"
+  },
+  "next": {
+    "title": "Rust学习--Cargo命令详解",
+    "permalink": "/docs/rust-guide/rust-command-detail"
+  }
+}
