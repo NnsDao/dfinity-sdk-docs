@@ -1,0 +1,26 @@
+{
+  "unversionedId": "rust-guide/rust-canister",
+  "id": "rust-guide/rust-canister",
+  "isDocsHomePage": false,
+  "title": "快速入门 Rust与Canister 开发",
+  "description": "概述",
+  "source": "@site/docs/rust-guide/rust-canister.md",
+  "sourceDirName": "rust-guide",
+  "slug": "/rust-guide/rust-canister",
+  "permalink": "/docs/rust-guide/rust-canister",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-canister.md",
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rust学习--Cargo构建脚本",
+    "permalink": "/docs/rust-guide/rust-cargo-shell"
+  },
+  "next": {
+    "title": "Rust学习--推进阅读书籍",
+    "permalink": "/docs/rust-guide/rust-book"
+  }
+}

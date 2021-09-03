@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "排除故障的问题",
-    "permalink": "/docs/tutorial-how/troubleshooting"
+    "title": "WebAssembly是什么",
+    "permalink": "/docs/tutorial-wasms/wasm-intro"
   },
   "next": {
     "title": "awesome-icp",

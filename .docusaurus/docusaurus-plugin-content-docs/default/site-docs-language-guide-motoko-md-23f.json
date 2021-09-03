@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "网络神经系统应用快速启动",
-    "permalink": "/docs/token-holders/nns-app-quickstart"
+    "title": "与互联网计算机总账整合",
+    "permalink": "/docs/Integration/ledger-quick-start"
   },
   "next": {
     "title": "关于本指南",

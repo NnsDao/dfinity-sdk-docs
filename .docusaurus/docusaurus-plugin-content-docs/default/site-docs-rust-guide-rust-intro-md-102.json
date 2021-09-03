@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "WebAssembly是什么",
-    "permalink": "/docs/tutorial-wasms/wasm-intro"
+    "title": "【ICP开发】Candid数据文本表示",
+    "permalink": "/docs/quick-start/dfx-candid"
   },
   "next": {
     "title": "Rust学习--语言学习快速指南",

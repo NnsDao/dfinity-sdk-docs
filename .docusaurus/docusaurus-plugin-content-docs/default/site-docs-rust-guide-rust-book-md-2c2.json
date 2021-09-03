@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Rust学习--Cargo构建脚本",
-    "permalink": "/docs/rust-guide/rust-cargo-shell"
+    "title": "快速入门 Rust与Canister 开发",
+    "permalink": "/docs/rust-guide/rust-canister"
   },
   "next": {
-    "title": "[ICP开发]:IC学习心得",
-    "permalink": "/docs/quick-start/ic"
+    "title": "本地开发",
+    "permalink": "/docs/tutorial-basics/create-a-page"
   }
 }

@@ -96,6 +96,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "quick-start/dfx-candid",
+              "path": "/docs/quick-start/dfx-candid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "quick-start/dfx-guide",
               "path": "/docs/quick-start/dfx-guide",
               "sidebar": "tutorialSidebar"
@@ -113,6 +118,11 @@
             {
               "id": "rust-guide/rust-book",
               "path": "/docs/rust-guide/rust-book",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guide/rust-canister",
+              "path": "/docs/rust-guide/rust-canister",
               "sidebar": "tutorialSidebar"
             },
             {

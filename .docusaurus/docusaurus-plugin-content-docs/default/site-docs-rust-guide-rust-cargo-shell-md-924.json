@@ -20,7 +20,7 @@
     "permalink": "/docs/rust-guide/rust-cargo-env"
   },
   "next": {
-    "title": "Rust学习--推进阅读书籍",
-    "permalink": "/docs/rust-guide/rust-book"
+    "title": "快速入门 Rust与Canister 开发",
+    "permalink": "/docs/rust-guide/rust-canister"
   }
 }

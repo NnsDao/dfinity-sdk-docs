@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ICP文档介绍",
-    "permalink": "/docs/intro"
+    "title": "Rust学习--推进阅读书籍",
+    "permalink": "/docs/rust-guide/rust-book"
   },
   "next": {
     "title": "网络部署",

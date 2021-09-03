@@ -60,5 +60,4 @@ sidebar_position: 3
 
 更多内容请查看：
 
-+ [motoko指南PDF版](https://gateway.pinata.cloud/ipfs/QmPLNamqaXi5czybA8f8YGFfw8vxmXZerbCeanqDeLPkEa)
 + [motoko指南WORD版](https://gateway.pinata.cloud/ipfs/QmReQfHg9x95abt1LHmdJZxVv68hrQWS8BZZKnNJGKPV8Q)

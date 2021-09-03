@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "本地开发",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+    "title": "[ICP开发]:IC学习心得",
+    "permalink": "/docs/quick-start/ic"
   }
 }

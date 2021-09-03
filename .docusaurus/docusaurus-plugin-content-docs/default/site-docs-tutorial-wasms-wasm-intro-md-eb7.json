@@ -20,7 +20,7 @@
     "permalink": "/docs/language-guide/mutable-state"
   },
   "next": {
-    "title": "Rust学习--Rust编程规范",
-    "permalink": "/docs/rust-guide/rust-intro"
+    "title": "示例代码、应用程序和微服务",
+    "permalink": "/docs/sample-apps/apps"
   }
 }

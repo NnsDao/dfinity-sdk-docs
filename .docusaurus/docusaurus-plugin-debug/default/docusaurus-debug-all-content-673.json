@@ -22,6 +22,88 @@
               },
               {
                 "type": "category",
+                "label": "IC最佳实践",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "quick-start/ic"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "quick-start/dfx-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "quick-start/motoko"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "quick-start/dfinity-progarmming-practice"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "quick-start/dfx-candid"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Rust指南",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-programmer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-unit-test"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-micro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-cargo-config"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-cargo-config-detail"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-command-detail"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-cargo-env"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-cargo-shell"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-canister"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rust-guide/rust-book"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
                 "label": "快速开始",
                 "items": [
                   {
@@ -157,21 +239,6 @@
               },
               {
                 "type": "category",
-                "label": "Dapp",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "sample-apps/apps"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "sample-apps/some-dapp"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
                 "label": "一体化",
                 "items": [
                   {
@@ -185,25 +252,6 @@
                   {
                     "type": "doc",
                     "id": "Integration/ledger-quick-start"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
-                "label": "通证持有者",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "token-holders/custody-options-intro"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "token-holders/self-custody-quickstart"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "token-holders/nns-app-quickstart"
                   }
                 ],
                 "collapsed": true
@@ -248,74 +296,34 @@
               },
               {
                 "type": "category",
-                "label": "Rust指南",
+                "label": "Dapp",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "rust-guide/rust-intro"
+                    "id": "sample-apps/apps"
                   },
                   {
                     "type": "doc",
-                    "id": "rust-guide/rust-guide"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-programmer"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-unit-test"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-micro"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-cargo-config"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-cargo-config-detail"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-command-detail"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-cargo-env"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-cargo-shell"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "rust-guide/rust-book"
+                    "id": "sample-apps/some-dapp"
                   }
                 ],
                 "collapsed": true
               },
               {
                 "type": "category",
-                "label": "IC最佳实践",
+                "label": "通证持有者",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "quick-start/ic"
+                    "id": "token-holders/custody-options-intro"
                   },
                   {
                     "type": "doc",
-                    "id": "quick-start/dfx-guide"
+                    "id": "token-holders/self-custody-quickstart"
                   },
                   {
                     "type": "doc",
-                    "id": "quick-start/motoko"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "quick-start/dfinity-progarmming-practice"
+                    "id": "token-holders/nns-app-quickstart"
                   }
                 ],
                 "collapsed": true
@@ -340,10 +348,12 @@
             "/docs/language-guide/motoko-introduction": "tutorialSidebar",
             "/docs/language-guide/mutable-state": "tutorialSidebar",
             "/docs/quick-start/dfinity-progarmming-practice": "tutorialSidebar",
+            "/docs/quick-start/dfx-candid": "tutorialSidebar",
             "/docs/quick-start/dfx-guide": "tutorialSidebar",
             "/docs/quick-start/ic": "tutorialSidebar",
             "/docs/quick-start/motoko": "tutorialSidebar",
             "/docs/rust-guide/rust-book": "tutorialSidebar",
+            "/docs/rust-guide/rust-canister": "tutorialSidebar",
             "/docs/rust-guide/rust-cargo-config": "tutorialSidebar",
             "/docs/rust-guide/rust-cargo-config-detail": "tutorialSidebar",
             "/docs/rust-guide/rust-cargo-env": "tutorialSidebar",
@@ -610,8 +620,8 @@
                 "permalink": "/docs/Integration/auth-how-to-ic"
               },
               "next": {
-                "title": "选择数字资产的自我托管",
-                "permalink": "/docs/token-holders/custody-options-intro"
+                "title": "Motoko 编程语言",
+                "permalink": "/docs/language-guide/motoko"
               }
             },
             {
@@ -632,8 +642,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "awesome-icp",
-                "permalink": "/docs/sample-apps/some-dapp"
+                "title": "排除故障的问题",
+                "permalink": "/docs/tutorial-how/troubleshooting"
               },
               "next": {
                 "title": "如何使用互联网身份",
@@ -658,8 +668,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "本地开发",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "[ICP开发]:IC学习心得",
+                "permalink": "/docs/quick-start/ic"
               }
             },
             {
@@ -732,8 +742,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "网络神经系统应用快速启动",
-                "permalink": "/docs/token-holders/nns-app-quickstart"
+                "title": "与互联网计算机总账整合",
+                "permalink": "/docs/Integration/ledger-quick-start"
               },
               "next": {
                 "title": "关于本指南",
@@ -812,6 +822,36 @@
               "previous": {
                 "title": "Motoko 概述",
                 "permalink": "/docs/quick-start/motoko"
+              },
+              "next": {
+                "title": "【ICP开发】Candid数据文本表示",
+                "permalink": "/docs/quick-start/dfx-candid"
+              }
+            },
+            {
+              "unversionedId": "quick-start/dfx-candid",
+              "id": "quick-start/dfx-candid",
+              "isDocsHomePage": false,
+              "title": "【ICP开发】Candid数据文本表示",
+              "description": "`",
+              "source": "@site/docs/quick-start/dfx-candid.md",
+              "sourceDirName": "quick-start",
+              "slug": "/quick-start/dfx-candid",
+              "permalink": "/docs/quick-start/dfx-candid",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/quick-start/dfx-candid.md",
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+                "permalink": "/docs/quick-start/dfinity-progarmming-practice"
+              },
+              "next": {
+                "title": "Rust学习--Rust编程规范",
+                "permalink": "/docs/rust-guide/rust-intro"
               }
             },
             {
@@ -858,8 +898,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Rust学习--推进阅读书籍",
-                "permalink": "/docs/rust-guide/rust-book"
+                "title": "ICP文档介绍",
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "[ICP开发]:DFX命令最全指南学习心得和实践",
@@ -910,12 +950,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "快速入门 Rust与Canister 开发",
+                "permalink": "/docs/rust-guide/rust-canister"
+              },
+              "next": {
+                "title": "本地开发",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
+              "unversionedId": "rust-guide/rust-canister",
+              "id": "rust-guide/rust-canister",
+              "isDocsHomePage": false,
+              "title": "快速入门 Rust与Canister 开发",
+              "description": "概述",
+              "source": "@site/docs/rust-guide/rust-canister.md",
+              "sourceDirName": "rust-guide",
+              "slug": "/rust-guide/rust-canister",
+              "permalink": "/docs/rust-guide/rust-canister",
+              "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/rust-guide/rust-canister.md",
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "Rust学习--Cargo构建脚本",
                 "permalink": "/docs/rust-guide/rust-cargo-shell"
               },
               "next": {
-                "title": "[ICP开发]:IC学习心得",
-                "permalink": "/docs/quick-start/ic"
+                "title": "Rust学习--推进阅读书籍",
+                "permalink": "/docs/rust-guide/rust-book"
               }
             },
             {
@@ -1018,8 +1084,8 @@
                 "permalink": "/docs/rust-guide/rust-cargo-env"
               },
               "next": {
-                "title": "Rust学习--推进阅读书籍",
-                "permalink": "/docs/rust-guide/rust-book"
+                "title": "快速入门 Rust与Canister 开发",
+                "permalink": "/docs/rust-guide/rust-canister"
               }
             },
             {
@@ -1092,8 +1158,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "WebAssembly是什么",
-                "permalink": "/docs/tutorial-wasms/wasm-intro"
+                "title": "【ICP开发】Candid数据文本表示",
+                "permalink": "/docs/quick-start/dfx-candid"
               },
               "next": {
                 "title": "Rust学习--语言学习快速指南",
@@ -1196,8 +1262,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "排除故障的问题",
-                "permalink": "/docs/tutorial-how/troubleshooting"
+                "title": "WebAssembly是什么",
+                "permalink": "/docs/tutorial-wasms/wasm-intro"
               },
               "next": {
                 "title": "awesome-icp",
@@ -1226,8 +1292,8 @@
                 "permalink": "/docs/sample-apps/apps"
               },
               "next": {
-                "title": "什么是互联网身份？",
-                "permalink": "/docs/Integration/what-is-ic-identity"
+                "title": "选择数字资产的自我托管",
+                "permalink": "/docs/token-holders/custody-options-intro"
               }
             },
             {
@@ -1248,8 +1314,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "与互联网计算机总账整合",
-                "permalink": "/docs/Integration/ledger-quick-start"
+                "title": "awesome-icp",
+                "permalink": "/docs/sample-apps/some-dapp"
               },
               "next": {
                 "title": "自我托管快速启动",
@@ -1276,10 +1342,6 @@
               "previous": {
                 "title": "自我托管快速启动",
                 "permalink": "/docs/token-holders/self-custody-quickstart"
-              },
-              "next": {
-                "title": "Motoko 编程语言",
-                "permalink": "/docs/language-guide/motoko"
               }
             },
             {
@@ -1352,8 +1414,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "ICP文档介绍",
-                "permalink": "/docs/intro"
+                "title": "Rust学习--推进阅读书籍",
+                "permalink": "/docs/rust-guide/rust-book"
               },
               "next": {
                 "title": "网络部署",
@@ -1694,8 +1756,8 @@
                 "permalink": "/docs/tutorial-how/default-wallet"
               },
               "next": {
-                "title": "示例代码、应用程序和微服务",
-                "permalink": "/docs/sample-apps/apps"
+                "title": "什么是互联网身份？",
+                "permalink": "/docs/Integration/what-is-ic-identity"
               }
             },
             {
@@ -1798,8 +1860,8 @@
                 "permalink": "/docs/language-guide/mutable-state"
               },
               "next": {
-                "title": "Rust学习--Rust编程规范",
-                "permalink": "/docs/rust-guide/rust-intro"
+                "title": "示例代码、应用程序和微服务",
+                "permalink": "/docs/sample-apps/apps"
               }
             }
           ]
@@ -2337,62 +2399,6 @@
               "permalink": "/blog/icp-dev-chat-fature"
             },
             "nextItem": {
-              "title": "神经元网络——Dfinity的算法自治之路（下）",
-              "permalink": "/blog/icp-nns-dfinity-next"
-            }
-          }
-        },
-        {
-          "id": "icp-nns-dfinity-next",
-          "metadata": {
-            "permalink": "/blog/icp-nns-dfinity-next",
-            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-19-nns-guide-next.md",
-            "source": "@site/blog/2021-06-19-nns-guide-next.md",
-            "title": "神经元网络——Dfinity的算法自治之路（下）",
-            "description": "神经元网络——Dfinity的算法自治之路（下）",
-            "date": "2021-06-19T00:00:00.000Z",
-            "formattedDate": "June 19, 2021",
-            "tags": [
-              {
-                "label": "icp",
-                "permalink": "/blog/tags/icp"
-              },
-              {
-                "label": "SailFash",
-                "permalink": "/blog/tags/sail-fash"
-              },
-              {
-                "label": "Dfinity",
-                "permalink": "/blog/tags/dfinity"
-              },
-              {
-                "label": "nnsdao",
-                "permalink": "/blog/tags/nnsdao"
-              },
-              {
-                "label": "grants",
-                "permalink": "/blog/tags/grants"
-              },
-              {
-                "label": "Polychain",
-                "permalink": "/blog/tags/polychain"
-              },
-              {
-                "label": "dapp",
-                "permalink": "/blog/tags/dapp"
-              },
-              {
-                "label": "DSCVR",
-                "permalink": "/blog/tags/dscvr"
-              }
-            ],
-            "readingTime": 0.165,
-            "truncated": false,
-            "prevItem": {
-              "title": "ICP价格预测：4年后会到3500美元吗？",
-              "permalink": "/blog/icp-price-predictions-nnsdao-25"
-            },
-            "nextItem": {
               "title": "神经元网络——Dfinity的算法自治之路（上）",
               "permalink": "/blog/icp-nns-dfinity-part"
             }
@@ -2445,8 +2451,64 @@
             "readingTime": 0.275,
             "truncated": false,
             "prevItem": {
+              "title": "ICP价格预测：4年后会到3500美元吗？",
+              "permalink": "/blog/icp-price-predictions-nnsdao-25"
+            },
+            "nextItem": {
               "title": "神经元网络——Dfinity的算法自治之路（下）",
               "permalink": "/blog/icp-nns-dfinity-next"
+            }
+          }
+        },
+        {
+          "id": "icp-nns-dfinity-next",
+          "metadata": {
+            "permalink": "/blog/icp-nns-dfinity-next",
+            "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/master/website/blog/blog/2021-06-19-nns-guide-next.md",
+            "source": "@site/blog/2021-06-19-nns-guide-next.md",
+            "title": "神经元网络——Dfinity的算法自治之路（下）",
+            "description": "神经元网络——Dfinity的算法自治之路（下）",
+            "date": "2021-06-19T00:00:00.000Z",
+            "formattedDate": "June 19, 2021",
+            "tags": [
+              {
+                "label": "icp",
+                "permalink": "/blog/tags/icp"
+              },
+              {
+                "label": "SailFash",
+                "permalink": "/blog/tags/sail-fash"
+              },
+              {
+                "label": "Dfinity",
+                "permalink": "/blog/tags/dfinity"
+              },
+              {
+                "label": "nnsdao",
+                "permalink": "/blog/tags/nnsdao"
+              },
+              {
+                "label": "grants",
+                "permalink": "/blog/tags/grants"
+              },
+              {
+                "label": "Polychain",
+                "permalink": "/blog/tags/polychain"
+              },
+              {
+                "label": "dapp",
+                "permalink": "/blog/tags/dapp"
+              },
+              {
+                "label": "DSCVR",
+                "permalink": "/blog/tags/dscvr"
+              }
+            ],
+            "readingTime": 0.165,
+            "truncated": false,
+            "prevItem": {
+              "title": "神经元网络——Dfinity的算法自治之路（上）",
+              "permalink": "/blog/icp-nns-dfinity-part"
             },
             "nextItem": {
               "title": "DFINITY主网启动以来社区主导网络治理",
@@ -2513,8 +2575,8 @@
             "readingTime": 0.64,
             "truncated": false,
             "prevItem": {
-              "title": "神经元网络——Dfinity的算法自治之路（上）",
-              "permalink": "/blog/icp-nns-dfinity-part"
+              "title": "神经元网络——Dfinity的算法自治之路（下）",
+              "permalink": "/blog/icp-nns-dfinity-next"
             },
             "nextItem": {
               "title": "ICP官方最新数据:网络神经系统质押奖励年化追高28.9%?",
@@ -2968,8 +3030,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
-            "icp-nns-dfinity-part"
+            "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next"
           ]
         },
         {
@@ -3026,8 +3088,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "dfinity-stacking-vote-reward",
             "icp-grants",
@@ -3052,8 +3114,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "icp-grants",
             "icp-price-predictions-nnsdao",
@@ -3075,8 +3137,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "dfinity-stacking-vote-reward",
             "icp-grants",
@@ -3101,8 +3163,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "dfinity-stacking-vote-reward",
             "icp-grants",
@@ -3127,8 +3189,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "icp-grants",
             "icp-price-predictions-nnsdao",
@@ -3147,8 +3209,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "icp-grants",
             "icp-price-predictions-nnsdao",
@@ -3167,8 +3229,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "icp-grants",
             "icp-price-predictions-nnsdao",
@@ -3187,8 +3249,8 @@
             "icp-basic-intro",
             "icp-dev-chat-fature",
             "icp-price-predictions-nnsdao-25",
-            "icp-nns-dfinity-next",
             "icp-nns-dfinity-part",
+            "icp-nns-dfinity-next",
             "icp-token-nns-dfinity",
             "icp-grants",
             "icp-price-predictions-nnsdao",

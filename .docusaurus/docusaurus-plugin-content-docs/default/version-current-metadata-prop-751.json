@@ -12,6 +12,105 @@
       },
       {
         "type": "category",
+        "label": "IC最佳实践",
+        "items": [
+          {
+            "type": "link",
+            "label": "[ICP开发]:IC学习心得",
+            "href": "/docs/quick-start/ic"
+          },
+          {
+            "type": "link",
+            "label": "[ICP开发]:DFX命令最全指南学习心得和实践",
+            "href": "/docs/quick-start/dfx-guide"
+          },
+          {
+            "type": "link",
+            "label": "Motoko 概述",
+            "href": "/docs/quick-start/motoko"
+          },
+          {
+            "type": "link",
+            "label": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+            "href": "/docs/quick-start/dfinity-progarmming-practice"
+          },
+          {
+            "type": "link",
+            "label": "【ICP开发】Candid数据文本表示",
+            "href": "/docs/quick-start/dfx-candid"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Rust指南",
+        "items": [
+          {
+            "type": "link",
+            "label": "Rust学习--Rust编程规范",
+            "href": "/docs/rust-guide/rust-intro"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--语言学习快速指南",
+            "href": "/docs/rust-guide/rust-guide"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--语言语法",
+            "href": "/docs/rust-guide/rust-programmer"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习-- 代码测试",
+            "href": "/docs/rust-guide/rust-unit-test"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--设置国内镜像",
+            "href": "/docs/rust-guide/rust-micro"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo命令配置",
+            "href": "/docs/rust-guide/rust-cargo-config"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习-- Cargo配置详解",
+            "href": "/docs/rust-guide/rust-cargo-config-detail"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo命令详解",
+            "href": "/docs/rust-guide/rust-command-detail"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo环境变量",
+            "href": "/docs/rust-guide/rust-cargo-env"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--Cargo构建脚本",
+            "href": "/docs/rust-guide/rust-cargo-shell"
+          },
+          {
+            "type": "link",
+            "label": "快速入门 Rust与Canister 开发",
+            "href": "/docs/rust-guide/rust-canister"
+          },
+          {
+            "type": "link",
+            "label": "Rust学习--推进阅读书籍",
+            "href": "/docs/rust-guide/rust-book"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
         "label": "快速开始",
         "items": [
           {
@@ -172,23 +271,6 @@
       },
       {
         "type": "category",
-        "label": "Dapp",
-        "items": [
-          {
-            "type": "link",
-            "label": "示例代码、应用程序和微服务",
-            "href": "/docs/sample-apps/apps"
-          },
-          {
-            "type": "link",
-            "label": "awesome-icp",
-            "href": "/docs/sample-apps/some-dapp"
-          }
-        ],
-        "collapsed": true
-      },
-      {
-        "type": "category",
         "label": "一体化",
         "items": [
           {
@@ -205,28 +287,6 @@
             "type": "link",
             "label": "与互联网计算机总账整合",
             "href": "/docs/Integration/ledger-quick-start"
-          }
-        ],
-        "collapsed": true
-      },
-      {
-        "type": "category",
-        "label": "通证持有者",
-        "items": [
-          {
-            "type": "link",
-            "label": "选择数字资产的自我托管",
-            "href": "/docs/token-holders/custody-options-intro"
-          },
-          {
-            "type": "link",
-            "label": "自我托管快速启动",
-            "href": "/docs/token-holders/self-custody-quickstart"
-          },
-          {
-            "type": "link",
-            "label": "网络神经系统应用快速启动",
-            "href": "/docs/token-holders/nns-app-quickstart"
           }
         ],
         "collapsed": true
@@ -277,89 +337,39 @@
       },
       {
         "type": "category",
-        "label": "Rust指南",
+        "label": "Dapp",
         "items": [
           {
             "type": "link",
-            "label": "Rust学习--Rust编程规范",
-            "href": "/docs/rust-guide/rust-intro"
+            "label": "示例代码、应用程序和微服务",
+            "href": "/docs/sample-apps/apps"
           },
           {
             "type": "link",
-            "label": "Rust学习--语言学习快速指南",
-            "href": "/docs/rust-guide/rust-guide"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习--语言语法",
-            "href": "/docs/rust-guide/rust-programmer"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习-- 代码测试",
-            "href": "/docs/rust-guide/rust-unit-test"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习--设置国内镜像",
-            "href": "/docs/rust-guide/rust-micro"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习--Cargo命令配置",
-            "href": "/docs/rust-guide/rust-cargo-config"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习-- Cargo配置详解",
-            "href": "/docs/rust-guide/rust-cargo-config-detail"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习--Cargo命令详解",
-            "href": "/docs/rust-guide/rust-command-detail"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习--Cargo环境变量",
-            "href": "/docs/rust-guide/rust-cargo-env"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习--Cargo构建脚本",
-            "href": "/docs/rust-guide/rust-cargo-shell"
-          },
-          {
-            "type": "link",
-            "label": "Rust学习--推进阅读书籍",
-            "href": "/docs/rust-guide/rust-book"
+            "label": "awesome-icp",
+            "href": "/docs/sample-apps/some-dapp"
           }
         ],
         "collapsed": true
       },
       {
         "type": "category",
-        "label": "IC最佳实践",
+        "label": "通证持有者",
         "items": [
           {
             "type": "link",
-            "label": "[ICP开发]:IC学习心得",
-            "href": "/docs/quick-start/ic"
+            "label": "选择数字资产的自我托管",
+            "href": "/docs/token-holders/custody-options-intro"
           },
           {
             "type": "link",
-            "label": "[ICP开发]:DFX命令最全指南学习心得和实践",
-            "href": "/docs/quick-start/dfx-guide"
+            "label": "自我托管快速启动",
+            "href": "/docs/token-holders/self-custody-quickstart"
           },
           {
             "type": "link",
-            "label": "Motoko 概述",
-            "href": "/docs/quick-start/motoko"
-          },
-          {
-            "type": "link",
-            "label": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
-            "href": "/docs/quick-start/dfinity-progarmming-practice"
+            "label": "网络神经系统应用快速启动",
+            "href": "/docs/token-holders/nns-app-quickstart"
           }
         ],
         "collapsed": true
@@ -384,10 +394,12 @@
     "/docs/language-guide/motoko-introduction": "tutorialSidebar",
     "/docs/language-guide/mutable-state": "tutorialSidebar",
     "/docs/quick-start/dfinity-progarmming-practice": "tutorialSidebar",
+    "/docs/quick-start/dfx-candid": "tutorialSidebar",
     "/docs/quick-start/dfx-guide": "tutorialSidebar",
     "/docs/quick-start/ic": "tutorialSidebar",
     "/docs/quick-start/motoko": "tutorialSidebar",
     "/docs/rust-guide/rust-book": "tutorialSidebar",
+    "/docs/rust-guide/rust-canister": "tutorialSidebar",
     "/docs/rust-guide/rust-cargo-config": "tutorialSidebar",
     "/docs/rust-guide/rust-cargo-config-detail": "tutorialSidebar",
     "/docs/rust-guide/rust-cargo-env": "tutorialSidebar",

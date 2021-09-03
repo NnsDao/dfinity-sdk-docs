@@ -1,0 +1,26 @@
+{
+  "unversionedId": "quick-start/dfx-candid",
+  "id": "quick-start/dfx-candid",
+  "isDocsHomePage": false,
+  "title": "【ICP开发】Candid数据文本表示",
+  "description": "`",
+  "source": "@site/docs/quick-start/dfx-candid.md",
+  "sourceDirName": "quick-start",
+  "slug": "/quick-start/dfx-candid",
+  "permalink": "/docs/quick-start/dfx-candid",
+  "editUrl": "https://github.com/NnsDao/dfinity-sdk-docs/edit/main/docs/quick-start/dfx-candid.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dfinity 开发最佳实践--账户迁移& 如何把传统的前端代码集成到Internet Identity",
+    "permalink": "/docs/quick-start/dfinity-progarmming-practice"
+  },
+  "next": {
+    "title": "Rust学习--Rust编程规范",
+    "permalink": "/docs/rust-guide/rust-intro"
+  }
+}

@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','9c7'),
+  component: ComponentCreator('/blog','ad6'),
   exact: true,
 },
 {
@@ -199,7 +199,7 @@ export default [
 },
 {
   path: '/blog/tags/dapp',
-  component: ComponentCreator('/blog/tags/dapp','8e5'),
+  component: ComponentCreator('/blog/tags/dapp','b42'),
   exact: true,
 },
 {
@@ -209,12 +209,12 @@ export default [
 },
 {
   path: '/blog/tags/dfinity',
-  component: ComponentCreator('/blog/tags/dfinity','e61'),
+  component: ComponentCreator('/blog/tags/dfinity','87b'),
   exact: true,
 },
 {
   path: '/blog/tags/dscvr',
-  component: ComponentCreator('/blog/tags/dscvr','631'),
+  component: ComponentCreator('/blog/tags/dscvr','074'),
   exact: true,
 },
 {
@@ -224,12 +224,12 @@ export default [
 },
 {
   path: '/blog/tags/grants',
-  component: ComponentCreator('/blog/tags/grants','d87'),
+  component: ComponentCreator('/blog/tags/grants','61a'),
   exact: true,
 },
 {
   path: '/blog/tags/icp',
-  component: ComponentCreator('/blog/tags/icp','11f'),
+  component: ComponentCreator('/blog/tags/icp','734'),
   exact: true,
 },
 {
@@ -264,17 +264,17 @@ export default [
 },
 {
   path: '/blog/tags/nnsdao',
-  component: ComponentCreator('/blog/tags/nnsdao','f20'),
+  component: ComponentCreator('/blog/tags/nnsdao','c4e'),
   exact: true,
 },
 {
   path: '/blog/tags/polychain',
-  component: ComponentCreator('/blog/tags/polychain','1b1'),
+  component: ComponentCreator('/blog/tags/polychain','596'),
   exact: true,
 },
 {
   path: '/blog/tags/sail-fash',
-  component: ComponentCreator('/blog/tags/sail-fash','8bb'),
+  component: ComponentCreator('/blog/tags/sail-fash','6cf'),
   exact: true,
 },
 {
@@ -294,7 +294,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','d96'),
+  component: ComponentCreator('/docs','34d'),
   
   routes: [
 {
@@ -383,6 +383,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/quick-start/dfx-candid',
+  component: ComponentCreator('/docs/quick-start/dfx-candid','9c9'),
+  exact: true,
+},
+{
   path: '/docs/quick-start/dfx-guide',
   component: ComponentCreator('/docs/quick-start/dfx-guide','6ac'),
   exact: true,
@@ -400,6 +405,11 @@ export default [
 {
   path: '/docs/rust-guide/rust-book',
   component: ComponentCreator('/docs/rust-guide/rust-book','264'),
+  exact: true,
+},
+{
+  path: '/docs/rust-guide/rust-canister',
+  component: ComponentCreator('/docs/rust-guide/rust-canister','97b'),
   exact: true,
 },
 {

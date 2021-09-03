@@ -18,9 +18,5 @@
   "previous": {
     "title": "自我托管快速启动",
     "permalink": "/docs/token-holders/self-custody-quickstart"
-  },
-  "next": {
-    "title": "Motoko 编程语言",
-    "permalink": "/docs/language-guide/motoko"
   }
 }

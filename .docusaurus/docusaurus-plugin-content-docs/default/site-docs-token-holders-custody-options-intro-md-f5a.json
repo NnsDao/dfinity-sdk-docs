@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "与互联网计算机总账整合",
-    "permalink": "/docs/Integration/ledger-quick-start"
+    "title": "awesome-icp",
+    "permalink": "/docs/sample-apps/some-dapp"
   },
   "next": {
     "title": "自我托管快速启动",

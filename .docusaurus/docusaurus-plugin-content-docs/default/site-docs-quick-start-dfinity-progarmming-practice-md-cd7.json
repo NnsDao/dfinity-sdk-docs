@@ -18,5 +18,9 @@
   "previous": {
     "title": "Motoko 概述",
     "permalink": "/docs/quick-start/motoko"
+  },
+  "next": {
+    "title": "【ICP开发】Candid数据文本表示",
+    "permalink": "/docs/quick-start/dfx-candid"
   }
 }

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Rust学习--推进阅读书籍",
-    "permalink": "/docs/rust-guide/rust-book"
+    "title": "ICP文档介绍",
+    "permalink": "/docs/intro"
   },
   "next": {
     "title": "[ICP开发]:DFX命令最全指南学习心得和实践",
